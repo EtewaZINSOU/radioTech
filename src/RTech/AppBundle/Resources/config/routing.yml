@@ -1,0 +1,3 @@
+r_tech_app_homepage:
+    path:     /
+    defaults: { _controller: RTechAppBundle:Default:index }
