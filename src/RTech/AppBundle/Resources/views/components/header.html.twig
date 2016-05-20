@@ -1,0 +1,55 @@
+<div class="header-middle"><!--header-middle-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="logo pull-left pylos-logo">
+                    <a href="{{ path('pylos_store_homepage') }}">
+                        {#{% image '@PylosStoreBundle/Resources/public/images/home/logo.png'%}#}
+                            {#<img src="{{ asset_url }}" alt="Example" class="girl img-responsive"/>#}
+                        {#{% endimage %}#}
+                        <span>E</span>-PYLOS
+                    </a>
+                </div>
+                <div class="btn-group pull-right">
+                    <div class="btn-group">
+                        {% include 'PylosStoreBundle:compoments:language.html.twig' %}
+                    </div>
+
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                            EURO
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Dollar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="shop-menu pull-right">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                                <li><a href="#" ></a>{{ 'form.welcome'|trans({'%username%': app.user.username}, 'FOSUserBundle') }}</li>
+                                <li><a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a></li>
+                                <li><a href="{{ path('fos_user_profile_show') }}" title=""><i class="fa fa-user"></i>Account</a></li>
+                            {% else %}
+                                <li><a href="{{ path('fos_user_registration_register') }}">{{ 'layout.register'|trans({}, 'FOSUserBundle') }}</a></li>
+                                <li><a href="{{ path('fos_user_security_login') }}"><i class="fa fa-lock"></i>{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a></li>
+                            {% endif %}
+                            {{ render(controller('PylosStoreBundle:Cart:menu')) }}
+                        </li>
+                        <li><a href="{{ path('pylos_user_contact') }}">Contact</a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div><!--/header-middle-->
+
+
+
