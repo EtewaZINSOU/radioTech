@@ -1,0 +1,13 @@
+{% extends "RTechAppBundle::layout.html.twig" %}
+
+{% block body %}
+    <div class="container">
+        {% block rtech_user_content %}
+
+        {% endblock rtech_user_content %}
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}
