@@ -1,5 +1,8 @@
+@import 'variables';
+@import 'reset';
+
 #platypus{
-    margin:0;
+    margin:$margin;
     a{
         width:0;
     }

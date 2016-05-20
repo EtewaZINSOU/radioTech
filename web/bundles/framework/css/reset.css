@@ -45,12 +45,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-/* line 4, ../sass/style.scss */
-#platypus {
-  margin: 50px;
-}
-/* line 6, ../sass/style.scss */
-#platypus a {
-  width: 0;
-}
