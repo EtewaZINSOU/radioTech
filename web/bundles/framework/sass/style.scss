@@ -1,9 +1,14 @@
 @import 'variables';
 @import 'reset';
+@import 'solene';
+@import 'thibault';
 
 #platypus{
     margin:$margin;
     a{
         width:0;
+    }
+    b{
+        font-weight:bold;
     }
 }

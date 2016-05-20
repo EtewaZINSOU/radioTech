@@ -46,11 +46,25 @@ table {
   border-spacing: 0;
 }
 
-/* line 4, ../sass/style.scss */
+/* line 1, ../sass/solene.scss */
+a {
+  color: saddlebrown;
+}
+
+/* line 1, ../sass/thibault.scss */
+a {
+  color: hotpink;
+}
+
+/* line 6, ../sass/style.scss */
 #platypus {
   margin: 50px;
 }
-/* line 6, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
 #platypus a {
   width: 0;
+}
+/* line 11, ../sass/style.scss */
+#platypus b {
+  font-weight: bold;
 }
