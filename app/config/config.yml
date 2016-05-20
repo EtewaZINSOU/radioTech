@@ -2,15 +2,16 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
+    - { resource: "@RTechUserBundle/Resources/config/services.yml" }
 
 # Put parameters here that don't need to change on each machine where the app is deployed
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
-    locale: en
+    locale: fr
 
 framework:
     #esi:             ~
-    #translator:      { fallbacks: ["%locale%"] }
+    translator:      { fallbacks: ["%locale%"] }
     secret:          "%secret%"
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
@@ -66,3 +67,20 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+
+
+# FOS User Bundle
+fos_user:
+    db_driver: orm   # Le type de BDD à utiliser , nous utilisons l'ORM Doctrine
+    firewall_name: main   # Le nom de firewall derriere lequel on utilisera ces utilisateurs
+    # Permet de renseigner la nouvelle entity utilisateur
+    user_class: RTech\UserBundle\Entity\User     # La classe de l'entité User que nous utilisons
+    service:
+            mailer: fos_user.mailer.twig_swift
+
+    registration:
+        form:
+            type: RTech\UserBundle\Form\Type\RegistrationFormType
+
+

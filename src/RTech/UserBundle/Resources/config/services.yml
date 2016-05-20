@@ -1,0 +1,8 @@
+services:
+#    r_tech_user.example:
+#        class: RTech\UserBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+    app.form.registration:
+        class: RTech\UserBundle\Form\Type\RegistrationFormType
+        tags:
+            - { name: form.type, alias: app_user_registration }
