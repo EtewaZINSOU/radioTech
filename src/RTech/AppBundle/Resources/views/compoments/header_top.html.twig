@@ -1,21 +1,49 @@
 <div class="header_top"><!--header_top-->
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                <div class="contactinfo">
-                    <ul class="nav nav-pills">
-                        <li><a href="#"><i class="fa fa-phone"></i> +33 95 01 88 821</a></li>
-                        <li><a href="#"><i class="fa fa-envelope"></i> contact@radioTech.com</a></li>
-                    </ul>
+            <div class="col-sm-3" id="menuPrincipal">
+                <div id="menuBurger">
+                    <nav class="principal">
+                        <ul>
+                            <li><a href="/">Accueil</a></li>
+                            <li><a href="/">Toutes les catégories</a></li>
+                            <li><a href="/">E-sport</a></li>
+                            <li><a href="/">Informatique</a></li>
+                            <li><a href="/">Jeux</a></li>
+                            <li><a href="/">Robotique</a></li>
+                            <li><a href="/">Science</a></li>
+                            <li><a href="/">Art</a></li>
+                            <li>
+                                <div class="search_box pull-right">
+                                    <input type="text" placeholder="Search" /><span style="margin-right: 6px;margin-top: -20px;margin-left: -22px; position: relative;z-index: 9" class="fa fa-search"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="logo pull-left pylos-logo">
+                    <a href="#">
+                        <span>E</span>-WebRadio
+                    </a>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-9">
                 <div class="social-icons pull-right">
                     <ul class="nav navbar-nav">
+                        <li>{% include 'RTechAppBundle:compoments:language.html.twig' %}</li>
                         <li><a target="_blank" href="https://fr-fr.facebook.com/"><i class="icon-facebook"></i></a></li>
                         <li><a target="_blank" href="https://twitter.com/?lang=fr"><i class="icon-twitter"></i></a></li>
                         <li><a target="_blank" href="https://fr.linkedin.com/"><i class="icon-linkedin"></i></a></li>
-                        <li><a target="_blank" href="https://dribbble.com/"><i class="icon-dribbble"></i></a></li>
+                        <li>
+                            {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                        <li><a href="#" ></a>{{ 'form.welcome'|trans({'%username%': app.user.username}, 'FOSUserBundle') }}</li>
+                        <li><a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a></li>
+                        <li><a href="{{ path('fos_user_profile_show') }}" title=""><i class="material-icons">account_circle</i></a></li>
+                        {% else %}
+                            <li><a href="{{ path('fos_user_registration_register') }}">{{ 'layout.register'|trans({}, 'FOSUserBundle') }}</a></li>
+                            <li><a href="{{ path('fos_user_security_login') }}"><i class="material-icons">account_circle</i></a></li>
+                        {% endif %}
+                        </li>
                     </ul>
                 </div>
             </div>
