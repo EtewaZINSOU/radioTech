@@ -5,3 +5,8 @@ r_tech_app_homepage:
 r_tech_media:
     path: /add-media
     defaults: { _controller: RTechAppBundle:Media:addMedia }
+
+
+r_tech_category:
+    path: /category
+    defaults: { _controller: RTechAppBundle:Category:index }
