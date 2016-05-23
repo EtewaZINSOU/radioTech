@@ -30,12 +30,18 @@ class User extends BaseUser
     protected $birthday;
 
     /**
-     * @var int
+     * @var string
      *
-     * @ORM\Column(name="id_type", type="integer", unique=true)
+     * @ORM\Column(name="lastname", type="string", length=255)
      */
-    protected $idType;
+    protected $lastname;
 
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="firstname", type="string", length=255)
+     */
+    protected $firstname;
 
     /**
      * Get id
@@ -107,5 +113,52 @@ class User extends BaseUser
     }
     
 
-}
 
+    /**
+     * Set lastname
+     *
+     * @param string $lastname
+     *
+     * @return User
+     */
+    public function setLastname($lastname)
+    {
+        $this->lastname = $lastname;
+
+        return $this;
+    }
+
+    /**
+     * Get lastname
+     *
+     * @return string
+     */
+    public function getLastname()
+    {
+        return $this->lastname;
+    }
+
+    /**
+     * Set firstname
+     *
+     * @param string $firstname
+     *
+     * @return User
+     */
+    public function setFirstname($firstname)
+    {
+        $this->firstname = $firstname;
+
+        return $this;
+    }
+
+    /**
+     * Get firstname
+     *
+     * @return string
+     */
+    public function getFirstname()
+    {
+        return $this->firstname;
+    }
+}
