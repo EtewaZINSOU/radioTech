@@ -1,6 +1,7 @@
 <?php
 
 namespace RTech\AppBundle\Entity;
+use Symfony\Component\Validator\Constraints as Assert;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -24,16 +25,16 @@ class Media
     /**
      * @var string
      *
-     * @ORM\Column(name="soundTitle", type="string", length=255)
+     * @ORM\Column(name="title", type="string", length=255)
      */
-    private $soundTitle;
+    private $Title;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="basePath", type="string", length=255)
+     * @ORM\Column(name="lien", type="string", length=255)
      */
-    private $basePath;
+    private $Emplacement;
 
     /**
      * @var string
@@ -41,14 +42,7 @@ class Media
      * @ORM\Column(name="descrption", type="string", length=255)
      */
     private $descrption;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="extension", type="string", length=255, nullable=true, unique=true)
-     */
-    private $extension;
-
+    
 
     /**
      * Get id
@@ -156,4 +150,3 @@ class Media
         return $this->extension;
     }
 }
-

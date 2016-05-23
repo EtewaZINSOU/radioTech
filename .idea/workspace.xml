@@ -2,7 +2,349 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5106c5ce-5cf1-4ce7-b569-08bf58b208f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/about/dialogs/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/flash/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/forms/images/hiddenfield.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/iframe/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/image/images/noimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/link/images/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/link/images/hidpi/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/magicline/images/hidpi/icon-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/magicline/images/hidpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/magicline/images/icon-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/magicline/images/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/pagebreak/images/pagebreak.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/showblocks/images/block_address.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/showblocks/images/block_blockquote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/showblocks/images/block_div.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/showblocks/images/block_h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/showblocks/images/block_h2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/showblocks/images/block_h3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/showblocks/images/block_h4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/showblocks/images/block_h5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/showblocks/images/block_h6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/showblocks/images/block_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/showblocks/images/block_pre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/angel_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/angel_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/angry_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/angry_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/broken_heart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/broken_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/confused_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/confused_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/cry_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/cry_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/devil_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/devil_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/embaressed_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/embarrassed_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/embarrassed_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/envelope.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/envelope.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/heart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/kiss.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/kiss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/lightbulb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/lightbulb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/omg_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/omg_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/regular_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/regular_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/sad_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/sad_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/shades_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/shades_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/teeth_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/teeth_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/thumbs_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/thumbs_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/thumbs_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/thumbs_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/tongue_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/tongue_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/tounge_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/wink_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/images/wink_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/templates/templates/images/template1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/templates/templates/images/template2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/templates/templates/images/template3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/images/hidpi/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/images/hidpi/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/images/hidpi/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/images/hidpi/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/images/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/images/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/images/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/adapters/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/build-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/ckeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/contents.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/bn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/sr-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/tt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/tt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/about/dialogs/about.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/clipboard/dialogs/paste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/colordialog/dialogs/colordialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/dialog/dialogDefinition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/div/dialogs/div.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/find/dialogs/find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/flash/dialogs/flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/forms/dialogs/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/forms/dialogs/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/forms/dialogs/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/forms/dialogs/hiddenfield.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/forms/dialogs/radio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/forms/dialogs/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/forms/dialogs/textarea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/forms/dialogs/textfield.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/iframe/dialogs/iframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/image/dialogs/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/link/dialogs/anchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/link/dialogs/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/liststyle/dialogs/liststyle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/pastefromword/filter/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/preview/preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/scayt/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/scayt/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/scayt/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/scayt/dialogs/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/scayt/dialogs/toolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/smiley/dialogs/smiley.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/tt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/specialchar/dialogs/specialchar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/table/dialogs/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/tabletools/dialogs/tableCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/templates/dialogs/templates.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/templates/dialogs/templates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/templates/templates/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/wsc/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/wsc/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/wsc/dialogs/wsc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/plugins/wsc/dialogs/wsc_ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/dialog_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/dialog_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/dialog_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/dialog_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/editor_gecko.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/editor_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/editor_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/editor_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/editor_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/skins/moono/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/ivoryckeditor/styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/radioTech.iml" afterPath="$PROJECT_DIR$/.idea/radioTech.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Form/MediaType.php" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Form/MediaType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/UserBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/RTech/UserBundle/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register.html.twig" afterPath="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register.html.twig" />
     </list>
     <ignored path="radioTech.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,22 +378,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="addMedia.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="68">
+              <caret line="4" column="79" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file leaf-file-name="MediaController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="-21">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+              <folding>
+                <element signature="e#46#81#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Media.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1568">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding>
+                <element signature="e#41#95#0#PHP" expanded="true" />
+                <element signature="e#256#2066#0#PHP" expanded="true" />
+                <element signature="e#889#950#0#PHP" expanded="true" />
+                <element signature="e#1442#1540#0#PHP" expanded="true" />
+                <element signature="e#1608#1675#0#PHP" expanded="true" />
+                <element signature="e#1789#1911#0#PHP" expanded="true" />
+                <element signature="e#1985#2064#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,61 +422,17 @@
         <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Media.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding>
-                <element signature="e#256#2603#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediaController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-              <folding>
-                <element signature="e#46#81#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addMedia.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="243">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,25 +441,34 @@
       <file leaf-file-name="MediaType.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Form/MediaType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="229">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="30" />
               <folding>
-                <element signature="e#40#80#0#PHP" expanded="true" />
-                <element signature="e#432#733#0#PHP" expanded="true" />
-                <element signature="e#799#979#0#PHP" expanded="true" />
+                <element signature="e#40#88#0#PHP" expanded="true" />
+                <element signature="e#885#1065#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/DefaultController.php">
+      <file leaf-file-name="CKEditorType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/egeloen/ckeditor-bundle/Form/Type/CKEditorType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="-2482">
+              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
               <folding>
-                <element signature="e#154#267#0#PHP" expanded="true" />
+                <element signature="e#957#18368#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,10 +485,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="s doctrine:generate:form User" />
-      <command text="s doctrine:generate:form RTechUserBundle:Rtech/User" />
-      <command text="s doctrine:generate:form RTechUserBundle:User" />
-      <command text="s cache:clear" />
       <command text="s doctrine:schema:create" />
       <command text="s generate:bundle" />
       <command text="s cache:clear" />
@@ -183,6 +506,10 @@
       <command text="c install " />
       <command text="s doctrine:schema:update --force " />
       <command text="s cache:clear" />
+      <command text="c require egeloen/ckeditor-bundle" />
+      <command text="s assets:install " />
+      <command text="s doctrine:generate:entities RTechAppBundle:Media" />
+      <command text="s doctrine:schema:update --force " />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -201,19 +528,15 @@
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Form/Type/RegistrationType.php" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/config/services.yml" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/layout.html.twig.html" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/.layout.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/web/bundles/framework/css/style.css" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Form/Type/UserType.php" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Controller/RegistrationController.php" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Form/Type/RegistrationFormType.php" />
-        <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register_content.html.twig" />
-        <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/navbar.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/public/css/style.css" />
@@ -228,15 +551,19 @@
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/filariane.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Post.php" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register.html.twig" />
+        <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register_content.html.twig" />
+        <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Form/MediaType.php" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -284,11 +611,13 @@
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
       <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/egeloen/ckeditor-bundle" />
+      <path value="$PROJECT_DIR$/vendor/egeloen/json-builder" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="101" />
+    <option name="x" value="-4" />
+    <option name="y" value="5" />
     <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
@@ -364,7 +693,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,7 +711,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundles" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -541,6 +878,10 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -595,6 +936,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="radioTech" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="radioTech" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTech" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -934,23 +1301,23 @@
       <workItem from="1463512032162" duration="10305000" />
       <workItem from="1463576484823" duration="4921000" />
       <workItem from="1463680772479" duration="20997000" />
-      <workItem from="1463732455573" duration="60989000" />
+      <workItem from="1463732455573" duration="69897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97212000" />
+    <option name="totallyTimeSpent" value="106120000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="101" width="1378" height="744" extended-state="0" />
+    <frame x="-4" y="5" width="1378" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27162367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3505311" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19639935" sideWeight="0.41679275" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.006807867" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15384616" sideWeight="0.58320725" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31423897" sideWeight="0.58320725" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1002,61 +1369,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="79" column="46" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/RTechUserBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#128#199#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Form/Type/UserType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#46#86#0#PHP" expanded="false" />
-            <element signature="e#966#1146#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Controller/RegistrationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-          <folding>
-            <element signature="e#47#80#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/public/css/mdb.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/bundles/public/js/mdb.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8398">
@@ -1122,14 +1434,6 @@
             <element signature="e#2358#2472#0#PHP" expanded="false" />
             <element signature="e#2544#2619#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,16 +1549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1303,26 +1597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="106" selection-start-line="16" selection-start-column="106" selection-end-line="16" selection-end-column="106" />
           <folding />
         </state>
       </provider>
@@ -1351,14 +1629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1367,35 +1637,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="e#256#2603#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
-            <element signature="e#154#267#0#PHP" expanded="true" />
+            <element signature="e#154#267#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Form/MediaType.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding>
-            <element signature="e#40#80#0#PHP" expanded="true" />
-            <element signature="e#432#733#0#PHP" expanded="true" />
-            <element signature="e#799#979#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,36 +1663,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+        <state relative-caret-position="272">
+          <caret line="16" column="106" selection-start-line="16" selection-start-column="106" selection-end-line="16" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Controller/RegistrationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="85" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/File/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="105" column="23" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
+          <folding>
+            <element signature="e#3049#3678#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/File/UploadedFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="274" column="37" selection-start-line="274" selection-start-column="37" selection-end-line="274" selection-end-column="37" />
+          <folding>
+            <element signature="e#6400#7087#0#PHP" expanded="true" />
+            <element signature="e#7259#7914#0#PHP" expanded="true" />
+            <element signature="e#8070#9120#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/egeloen/ckeditor-bundle/Form/Type/CKEditorType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2482">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding>
+            <element signature="e#957#18368#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        <state relative-caret-position="-21">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding>
             <element signature="e#46#81#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="-1568">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#41#95#0#PHP" expanded="true" />
+            <element signature="e#256#2066#0#PHP" expanded="true" />
+            <element signature="e#889#950#0#PHP" expanded="true" />
+            <element signature="e#1442#1540#0#PHP" expanded="true" />
+            <element signature="e#1608#1675#0#PHP" expanded="true" />
+            <element signature="e#1789#1911#0#PHP" expanded="true" />
+            <element signature="e#1985#2064#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Form/MediaType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#40#88#0#PHP" expanded="true" />
+            <element signature="e#885#1065#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="79" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>

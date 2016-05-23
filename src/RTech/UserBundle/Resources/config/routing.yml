@@ -14,7 +14,7 @@ fos_user_security_logout:
 
 
 # REGISTRATION
-rtech_user_registration_register:
+fos_user_registration_register:
     path: /register
     defaults: { _controller: RTechUserBundle:Registration:register }
 
