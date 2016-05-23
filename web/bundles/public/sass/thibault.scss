@@ -69,8 +69,45 @@
           float:none !important;
           margin:0;
           padding:0;
+          position:relative;
           &.search_box{
             background:transparent;
+          }
+          .fullBackground{
+            width:0;
+            height:100%;
+            display:block;
+            position:absolute;
+            left:0;
+            top:0;
+            transition:all .4s linear;
+            z-index:1;
+            &.gris{
+              background:#303235;
+            }
+            &.art{
+              background:$art;
+            }
+            &.science{
+              background:$science;
+            }
+            &.robotique{
+              background:$robotique;
+            }
+            &.e-sport{
+              background:$esport;
+            }
+            &.jeux{
+              background:$jeux;
+            }
+            &.informatique{
+              background:$informatique;
+            }
+          }
+          &:hover{
+            .fullBackground{
+              width:100%;
+            }
           }
           a, >div input{
             height:100%;
@@ -86,6 +123,8 @@
             color:#fff;
             background:transparent;
             float:none;
+            position:relative;
+            z-index: 2;
           }
         }
       }
@@ -114,5 +153,13 @@ nav.principal{
   img{
     max-width:100%;
     max-height:40px;
+  }
+}
+
+ul.navbar-nav{
+  height:100%;
+  li, a{
+    box-sizing: border-box;
+    height:56px;
   }
 }
