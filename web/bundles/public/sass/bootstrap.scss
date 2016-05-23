@@ -1,6 +1,6 @@
-/* line 1, ../sass/bootstrap.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   /*====================================
 =            glyphicon ANIMATION       =
 =======================================*/
@@ -12,14 +12,11 @@ body {
   }
   */
 }
-
-/* line 15, ../sass/bootstrap.scss */
 body .glyphicon-refresh-animate {
   -moz-animation: spin-moz 0.7s infinite linear;
   -webkit-animation: spin-webkit 0.7s infinite linear;
   animation: spin .7s infinite linear;
 }
-
 @-moz-keyframes spin-moz {
   from {
     -moz-transform: rotate(0deg);
@@ -44,7 +41,6 @@ body .glyphicon-refresh-animate {
     transform: scale(1) rotate(360deg);
   }
 }
-/* line 44, ../sass/bootstrap.scss */
 body .pylos-logo a {
   color: #b4b1ab;
   font-family: abel;
@@ -53,32 +49,22 @@ body .pylos-logo a {
   top: 10px;
   font-weight: bold;
 }
-
-/* line 52, ../sass/bootstrap.scss */
 body .pylos-logo a span {
   color: #fe980f;
 }
-
-/* line 55, ../sass/bootstrap.scss */
 body .breadcrumb a {
   color: #f49a17;
 }
-
-/* line 58, ../sass/bootstrap.scss */
 body .product-price {
   text-align: right;
   font-weight: 400;
   line-height: 25px;
 }
-
-/* line 63, ../sass/bootstrap.scss */
 body .regular-price {
   margin-bottom: 20px;
   margin-left: 4px;
   color: #f49a17;
 }
-
-/* line 68, ../sass/bootstrap.scss */
 body .name {
   margin-top: 0;
   color: #696763;
@@ -87,18 +73,12 @@ body .name {
   text-transform: uppercase;
   margin-bottom: 17px;
 }
-
-/* line 76, ../sass/bootstrap.scss */
 body .social-networks.social-icons.nav.navbar-nav > ul > li {
   margin-right: 0;
 }
-
-/* line 79, ../sass/bootstrap.scss */
 body .product-image-wrapper {
   border: 3px solid #f7f7f0;
 }
-
-/* line 82, ../sass/bootstrap.scss */
 body .item-cart a img,
 body .media-left a img {
   -webkit-transition: all 1s ease;
@@ -112,8 +92,6 @@ body .media-left a img {
   transition: all 1s ease;
   max-width: 100%;
 }
-
-/* line 95, ../sass/bootstrap.scss */
 body .item-cart a:hover img,
 body .media-left a:hover img {
   -webkit-transform: scale(1.13);

@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'reset';
+@import 'bootstrap';
+
+body,html{
+    height:100%;
+    margin:0;
+    font-size:14px;
+}
+*{
+    box-sizing:inherit;
+    font-family:'Oswald', sans-serif;
+    font-size:1rem;
+}
+img{
+    height:auto;
+    max-width:100%;
+}
+h1{
+    font-size:(20/14) rem;
+}
+
+.container{
+    max-width:1900px;
+    width:100%;
+    box-sizing:border-box;
+}
+
+@import 'solene';
+@import 'thibault';
