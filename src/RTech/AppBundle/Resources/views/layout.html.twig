@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="{{ asset('bundles/public/font-awesome/css/font-awesome.min.css') }}">
         <link rel="stylesheet" href="{{ asset('bundles/public/css/main.css') }}">
         <link rel="stylesheet" href="{{ asset('bundles/public/css/style.css') }}">
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     {% endblock %}
 </head>
 <body>
@@ -25,11 +27,6 @@
     {# header top #}
     {% block header_top %}
         {% include 'RTechAppBundle:compoments:header_top.html.twig' %}
-    {% endblock %}
-
-    {# header middle#}
-    {% block header_middle %}
-        {% include 'RTechAppBundle:compoments:header_middle.html.twig' %}
     {% endblock %}
 
     {# header bottom#}
@@ -58,7 +55,6 @@
 {{ include("RTechAppBundle:Compoments:footer.html.twig") }}
 {% block javascripts %}
         {# Ajoutez ces lignes JavaScript si vous comptez vous servir des fonctionnalités du bootstrap Twitter #}
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="{{ asset('bundles/public/js/bootstrap.min.js') }}"></script>
 {% endblock %}
 </body>
