@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
 /* line 5, ../sass/reset.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -176,36 +177,139 @@ body .media-left a:hover img {
   opacity: 0.6;
 }
 
-/* line 5, ../sass/style.scss */
+/* line 6, ../sass/style.scss */
 body, html {
   height: 100%;
   margin: 0;
   font-size: 14px;
+  background-color: #111113;
+  color: #fff;
 }
 
-/* line 10, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 * {
   box-sizing: inherit;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
   font-size: 1rem;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 18, ../sass/style.scss */
 img {
   height: auto;
   max-width: 100%;
 }
 
-/* line 19, ../sass/style.scss */
-h1 {
+/* line 22, ../sass/style.scss */
+h1, .h1 {
   font-size: 1.42857 rem;
+  text-transform: uppercase;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
+.h1 {
+  margin: 10px 0;
+  padding: 8px 0;
+  border-bottom: 3px solid #FFF;
+  width: 100%;
+  display: block;
+}
+
+/* line 35, ../sass/style.scss */
 .container {
   max-width: 1900px;
   width: 100%;
   box-sizing: border-box;
+}
+
+/* line 41, ../sass/style.scss */
+.row {
+  margin: 0 !important;
+}
+
+/* line 45, ../sass/style.scss */
+.col-md-1, .col-md-10, .col-md-11, .col-md-12,
+.col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1, ../sass/solene.scss */
+.category {
+  padding: 15px;
+}
+/* line 4, ../sass/solene.scss */
+.category .fixed {
+  position: fixed;
+}
+/* line 8, ../sass/solene.scss */
+.category .col-md-3 {
+  padding-right: 38px;
+}
+/* line 12, ../sass/solene.scss */
+.category input.searchBox {
+  background-color: #111113;
+  border: medium none;
+  color: #FFF;
+  font-weight: 300;
+  height: 35px;
+  width: 100%;
+  margin-top: 25px;
+  padding: 0 15px;
+  outline: medium none;
+  border: 3px solid #FFF;
+  color: #FFF;
+}
+/* line 25, ../sass/solene.scss */
+.category input.searchBox::-webkit-input-placeholder {
+  color: #FFF;
+}
+/* line 28, ../sass/solene.scss */
+.category input.searchBox:-moz-placeholder {
+  /* Firefox 18- */
+  color: #FFF;
+}
+/* line 31, ../sass/solene.scss */
+.category input.searchBox::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #FFF;
+}
+/* line 34, ../sass/solene.scss */
+.category input.searchBox:-ms-input-placeholder {
+  color: #FFF;
+}
+/* line 39, ../sass/solene.scss */
+.category select {
+  margin: 5px 0;
+}
+/* line 43, ../sass/solene.scss */
+.category .contentCat {
+  background-color: #303235;
+  height: 100%;
+  padding: 5px;
+}
+/* line 48, ../sass/solene.scss */
+.category .contentCat .encartPub {
+  background-color: #8959A8;
+  width: 90%;
+  margin: 20px auto;
+  display: block;
+  height: 150px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 3px #090D13;
+  line-height: 150px;
+}
+
+/* line 62, ../sass/solene.scss */
+#footerRights {
+  background-color: #111113;
+  color: white;
+  border-top: 5px  solid #FFF;
+}
+/* line 66, ../sass/solene.scss */
+#footerRights ul li {
+  display: inline-block;
 }
 
 /*************************************************************/

@@ -1,0 +1,76 @@
+/* line 1, ../sass/solene.scss */
+.category {
+  padding: 15px;
+}
+/* line 4, ../sass/solene.scss */
+.category .fixed {
+  position: fixed;
+}
+/* line 8, ../sass/solene.scss */
+.category .col-md-3 {
+  padding-right: 38px;
+}
+/* line 12, ../sass/solene.scss */
+.category input.searchBox {
+  background-color: #111113;
+  border: medium none;
+  color: #FFF;
+  font-weight: 300;
+  height: 35px;
+  width: 100%;
+  margin-top: 25px;
+  padding: 0 15px;
+  outline: medium none;
+  border: 3px solid #FFF;
+  color: #FFF;
+}
+/* line 25, ../sass/solene.scss */
+.category input.searchBox::-webkit-input-placeholder {
+  color: #FFF;
+}
+/* line 28, ../sass/solene.scss */
+.category input.searchBox:-moz-placeholder {
+  /* Firefox 18- */
+  color: #FFF;
+}
+/* line 31, ../sass/solene.scss */
+.category input.searchBox::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #FFF;
+}
+/* line 34, ../sass/solene.scss */
+.category input.searchBox:-ms-input-placeholder {
+  color: #FFF;
+}
+/* line 39, ../sass/solene.scss */
+.category select {
+  margin: 5px 0;
+}
+/* line 43, ../sass/solene.scss */
+.category .contentCat {
+  background-color: #303235;
+  height: 100%;
+  padding: 5px;
+}
+/* line 48, ../sass/solene.scss */
+.category .contentCat .encartPub {
+  background-color: #8959A8;
+  width: 90%;
+  margin: 20px auto;
+  display: block;
+  height: 150px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 3px #090D13;
+  line-height: 150px;
+}
+
+/* line 62, ../sass/solene.scss */
+#footerRights {
+  background-color: #111113;
+  color: white;
+  border-top: 5px  solid #FFF;
+}
+/* line 66, ../sass/solene.scss */
+#footerRights ul li {
+  display: inline-block;
+}

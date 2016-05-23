@@ -1,0 +1,322 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*====================================
+=            glyphicon ANIMATION       =
+=======================================*/
+  /* just apply some height and width to the wrapper.
+  .productinfo {
+    width:400px;
+    height:400px;
+    overflow: auto;
+  }
+  */ }
+
+body .glyphicon-refresh-animate {
+  -moz-animation: spin-moz 0.7s infinite linear;
+  -webkit-animation: spin-webkit 0.7s infinite linear;
+  animation: spin .7s infinite linear; }
+
+@-moz-keyframes spin-moz {
+  from {
+    -moz-transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin-webkit {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+@keyframes spin {
+  from {
+    transform: scale(1) rotate(0deg); }
+  to {
+    transform: scale(1) rotate(360deg); } }
+body .pylos-logo a {
+  color: #b4b1ab;
+  font-family: abel;
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  font-weight: bold; }
+
+body .pylos-logo a span {
+  color: #fe980f; }
+
+body .breadcrumb a {
+  color: #f49a17; }
+
+body .product-price {
+  text-align: right;
+  font-weight: 400;
+  line-height: 25px; }
+
+body .regular-price {
+  margin-bottom: 20px;
+  margin-left: 4px;
+  color: #f49a17; }
+
+body .name {
+  margin-top: 0;
+  color: #696763;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 17px; }
+
+body .social-networks.social-icons.nav.navbar-nav > ul > li {
+  margin-right: 0; }
+
+body .product-image-wrapper {
+  border: 3px solid #f7f7f0; }
+
+body .item-cart a img,
+body .media-left a img {
+  -webkit-transition: all 1s ease;
+  /* Safari and Chrome */
+  -moz-transition: all 1s ease;
+  /* Firefox */
+  -o-transition: all 1s ease;
+  /* IE 9 */
+  -ms-transition: all 1s ease;
+  /* Opera */
+  transition: all 1s ease;
+  max-width: 100%; }
+
+body .item-cart a:hover img,
+body .media-left a:hover img {
+  -webkit-transform: scale(1.13);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.13);
+  /* Firefox */
+  -ms-transform: scale(1.13);
+  /* IE 9 */
+  -o-transform: scale(1.13);
+  /* Opera */
+  transform: scale(1.13);
+  opacity: 0.6; }
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+  background-color: #111113;
+  color: #fff; }
+
+* {
+  box-sizing: inherit;
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 1rem; }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+h1, .h1 {
+  font-size: 1.42857 rem;
+  text-transform: uppercase; }
+
+.h1 {
+  margin: 10px 0;
+  padding: 8px 0;
+  border-bottom: 3px solid #FFF;
+  width: 100%;
+  display: block; }
+
+.container {
+  max-width: 1900px;
+  width: 100%;
+  box-sizing: border-box; }
+
+.row {
+  margin: 0 !important; }
+
+.col-md-1, .col-md-10, .col-md-11, .col-md-12,
+.col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.category {
+  padding: 15px; }
+  .category .fixed {
+    position: fixed; }
+  .category .col-md-3 {
+    padding-right: 38px; }
+  .category input.searchBox {
+    background-color: #111113;
+    border: medium none;
+    color: #FFF;
+    font-weight: 300;
+    height: 35px;
+    width: 100%;
+    margin-top: 25px;
+    padding: 0 15px;
+    outline: medium none;
+    border: 3px solid #FFF;
+    color: #FFF; }
+    .category input.searchBox::-webkit-input-placeholder {
+      color: #FFF; }
+    .category input.searchBox:-moz-placeholder {
+      /* Firefox 18- */
+      color: #FFF; }
+    .category input.searchBox::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #FFF; }
+    .category input.searchBox:-ms-input-placeholder {
+      color: #FFF; }
+  .category select {
+    margin: 5px 0; }
+  .category .contentCat {
+    background-color: #303235;
+    height: 100%;
+    padding: 5px; }
+    .category .contentCat .encartPub {
+      background-color: #8959A8;
+      width: 90%;
+      margin: 20px auto;
+      display: block;
+      height: 150px;
+      box-sizing: border-box;
+      box-shadow: 0 0 10px 3px #090D13;
+      line-height: 150px; }
+
+#footerRights {
+  background-color: #111113;
+  color: white;
+  border-top: 5px  solid #FFF; }
+  #footerRights ul li {
+    display: inline-block; }
+
+/*************************************************************/
+/************************** MENU ***************************/
+/*************************************************************/
+#menuBurger {
+  float: left; }
+
+.header_top {
+  background: #111113;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  z-index: 10; }
+  .header_top .blocBarres {
+    width: 50px;
+    position: relative;
+    z-index: 50;
+    text-align: center;
+    height: 35px;
+    margin-top: 5px;
+    padding-top: 2px;
+    padding-right: 10px;
+    border-right: 1px solid #fff;
+    box-sizing: content-box; }
+    .header_top .blocBarres:hover {
+      cursor: pointer; }
+      .header_top .blocBarres:hover .blocCharge.blocChargemiddle {
+        width: 80%; }
+    .header_top .blocBarres .blocCharge {
+      width: 80%;
+      display: block;
+      height: 5px;
+      background: #fff;
+      transition: all .2s linear;
+      margin: 5px 10%;
+      opacity: 1; }
+      .header_top .blocBarres .blocCharge:first-child {
+        margin-top: 5px; }
+      .header_top .blocBarres .blocCharge.blocChargemiddle {
+        width: 60%; }
+    .header_top .blocBarres.menuOuvert .blocCharge {
+      opacity: 0;
+      width: 80%; }
+      .header_top .blocBarres.menuOuvert .blocCharge:first-child {
+        opacity: 1;
+        transform: rotate(45deg);
+        transform-origin: bottom left;
+        margin: -1px 0 0; }
+      .header_top .blocBarres.menuOuvert .blocCharge:last-child {
+        opacity: 1;
+        transform: rotate(-45deg);
+        transform-origin: top left;
+        margin: 15px 0 0; }
+    .header_top .blocBarres.menuOuvert + nav.principal {
+      opacity: 1;
+      display: block; }
+      .header_top .blocBarres.menuOuvert + nav.principal ul li, .header_top .blocBarres.menuOuvert + nav.principal ul li > div {
+        height: 11.1111111111111111111111111111111111111111111111111111111111111vh;
+        background-color: rgba(0, 0, 0, 0.9);
+        float: none !important;
+        margin: 0;
+        padding: 0; }
+        .header_top .blocBarres.menuOuvert + nav.principal ul li.search_box, .header_top .blocBarres.menuOuvert + nav.principal ul li > div.search_box {
+          background: transparent; }
+        .header_top .blocBarres.menuOuvert + nav.principal ul li a, .header_top .blocBarres.menuOuvert + nav.principal ul li > div input, .header_top .blocBarres.menuOuvert + nav.principal ul li > div a, .header_top .blocBarres.menuOuvert + nav.principal ul li > div > div input {
+          height: 100%;
+          width: 100%;
+          padding: 0;
+          margin: 0;
+          text-align: center;
+          line-height: 11.1111111111111111111111111111111111111111111111111111111111111vh;
+          font-size: 5vh;
+          text-transform: uppercase;
+          display: block;
+          font-weight: bold;
+          color: #fff;
+          background: transparent;
+          float: none; }
+
+nav.principal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  opacity: 0;
+  display: none;
+  transition: all .2s linear; }
+
+.logo {
+  width: calc(100% - 61px);
+  padding-left: 15px; }
+  .logo a {
+    top: 5px !important; }
+  .logo img {
+    max-width: 100%;
+    max-height: 40px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,9 +1,43 @@
 {% extends "RTechAppBundle::layout.html.twig" %}
 
 {% block body %}
+    <div class="category">
+        <div class="col-md-3 fixed">
+            <input type="text" class="searchBox" placeholder="Rechercher" />
+            <span class="h1">Trier par</span>
+            <select>
+                <option value="" disabled selected>Categorie</option>
+                <option>xx</option>
+                <option>xx</option>
+                <option>xx</option>
+                <option>xx</option>
+                <option>xx</option>
+                <option>xx</option>
+                <option>xx</option>
+            </select>
+            <select>
+                <option value="" disabled selected>Date</option>
+                <option value="dateRecent">Récent</option>
+                <option value="dateAncien">Ancien</option>
+            </select>
+            <select>
+                <option value="" disabled selected>Vue</option>
+                <option value="vuePlus">Plus de vue</option>
+                <option value="vueMoins">Moins de vue</option>
+            </select>
+            <select>
+                <option value="" disabled selected>Like</option>
+                <option value="likePlus">Plus de like</option>
+                <option value="likeMoins">Moins de like</option>
+            </select>
+        </div>
 
-<div class="container">
-    test
-</div>
+        <div class="col-md-9 col-md-offset-3 contentCat">
+            <div class="encartPub">
+                Votre pub ici !
+            </div>
+
+        </div>
+    </div>
 
 {% endblock %}
