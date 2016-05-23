@@ -1,3 +1,7 @@
 r_tech_app_homepage:
-    path:     /
+    path: /
     defaults: { _controller: RTechAppBundle:Default:index }
+
+r_tech_media:
+    path: /media
+    defaults: { _controller: RTechAppBundle:Media:index }
