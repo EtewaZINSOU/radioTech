@@ -1,5 +1,5 @@
 r_tech_app_homepage:
-    path: /
+    path: /index
     defaults: { _controller: RTechAppBundle:Default:index }
 
 r_tech_media:
