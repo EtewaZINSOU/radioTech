@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5106c5ce-5cf1-4ce7-b569-08bf58b208f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/radioTech.iml" afterPath="$PROJECT_DIR$/.idea/radioTech.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/framework/css/solene.css" afterPath="$PROJECT_DIR$/web/bundles/framework/css/solene.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/framework/css/style.css" afterPath="$PROJECT_DIR$/web/bundles/framework/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/framework/css/thibault.css" afterPath="$PROJECT_DIR$/web/bundles/framework/css/thibault.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/framework/sass/style.scss" afterPath="$PROJECT_DIR$/web/bundles/framework/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/framework/sass/thibault.scss" afterPath="$PROJECT_DIR$/web/bundles/framework/sass/thibault.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/framework/sass/solene.scss" afterPath="$PROJECT_DIR$/web/bundles/framework/sass/solene.scss" />
     </list>
     <ignored path="radioTech.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,17 +52,27 @@
         <entry file="file://$PROJECT_DIR$/web/bundles/framework/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="1.6896552">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/bundles/framework/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51660514">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state vertical-scroll-proportion="-6.2222223">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solene.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/bundles/framework/sass/solene.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,6 +140,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web/bundles/framework/sass/thibault.scss" />
         <option value="$PROJECT_DIR$/web/bundles/framework/sass/style.scss" />
+        <option value="$PROJECT_DIR$/web/bundles/framework/sass/solene.scss" />
       </list>
     </option>
   </component>
@@ -434,7 +443,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/RTechUserBundle.php" />
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -638,7 +646,7 @@
     <entry file="file://$PROJECT_DIR$/web/bundles/framework/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.6896552">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -653,8 +661,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bundles/framework/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51660514">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state vertical-scroll-proportion="-6.2222223">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/framework/sass/solene.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
