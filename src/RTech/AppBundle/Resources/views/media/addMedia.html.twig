@@ -1,1 +1,15 @@
-{{ dump(form) }}
+{{ form_start(form, {'method': 'post', 'action': path('r_tech_media')}) }}
+
+        {{ form_row(form.Title, {'attr': {'placeholder': 'Nom du son'} }) }}
+        {{ form_row(form.descrption, {'attr': {'placeholder': 'Description'} }) }}
+        {{ form_row(form.Emplacement, {'attr': {'placeholder': 'Fichier'} }) }}
+
+        {{ form_row(form._token) }}
+
+    <div class="row">
+        <div class="text-center">
+            <button type="submit" value="Ajouter un son" class="btn btn-success">Ajouter</button>
+        </div>
+    </div>
+
+{{ form_end(form,{'render_rest': false}) }}

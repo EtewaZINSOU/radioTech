@@ -2,6 +2,7 @@
 
 namespace RTech\AppBundle\Form;
 
+use Ivory\CKEditorBundle\Form\Type\CKEditorType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -17,10 +18,11 @@ class MediaType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('soundTitle',TextType::class)
-            ->add('basePath', FileType::class)
-            ->add('descrption',TextType::class)
-            ->add('extension',TextType::class)
+            ->add('Title',TextType::class)
+            ->add('Emplacement', FileType::class)
+            ->add('descrption', CKEditorType::class,array(
+                'config' => array('toolbar' => 'full'),
+                ))
         ;
     }
     
