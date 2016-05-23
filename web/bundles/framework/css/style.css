@@ -46,25 +46,32 @@ table {
   border-spacing: 0;
 }
 
+/* line 4, ../sass/style.scss */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* line 9, ../sass/style.scss */
+* {
+  box-sizing: inherit;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+}
+
+/* line 14, ../sass/style.scss */
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* line 18, ../sass/style.scss */
+h1 {
+  font-size: 1.42857 rem;
+}
+
 /* line 1, ../sass/solene.scss */
 a {
   color: saddlebrown;
-}
-
-/* line 1, ../sass/thibault.scss */
-a {
-  color: hotpink;
-}
-
-/* line 6, ../sass/style.scss */
-#platypus {
-  margin: 50px;
-}
-/* line 8, ../sass/style.scss */
-#platypus a {
-  width: 0;
-}
-/* line 11, ../sass/style.scss */
-#platypus b {
-  font-weight: bold;
 }
