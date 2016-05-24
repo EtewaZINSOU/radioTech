@@ -25,7 +25,6 @@ class UserType extends AbstractType
                 'input'  => 'timestamp',
                 'widget' => 'choice',
             ))
-            ->add('idType', IntegerType::class)
 
         ;
     }

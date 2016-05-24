@@ -3,6 +3,7 @@
 namespace RTech\AppBundle\Form;
 
 use Ivory\CKEditorBundle\Form\Type\CKEditorType;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -23,6 +24,10 @@ class MediaType extends AbstractType
             ->add('descrption', CKEditorType::class,array(
                 'config' => array('toolbar' => 'full'),
                 ))
+            ->add('category', EntityType::class, array(
+                'class' => 'RTechAppBundle:Category',
+                'choice_label' => 'categoryName'
+            ));
         ;
     }
     

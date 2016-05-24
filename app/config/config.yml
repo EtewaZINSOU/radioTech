@@ -82,5 +82,6 @@ fos_user:
     registration:
         form:
             type: RTech\UserBundle\Form\Type\RegistrationFormType
-
-
+    profile:
+        form:
+            type: RTech\UserBundle\Form\Type\ProfileFormType

@@ -94,31 +94,7 @@ class User extends BaseUser
     {
         return $this->birthday;
     }
-
-    /**
-     * Set idType
-     *
-     * @param integer $idType
-     *
-     * @return User
-     */
-    public function setIdType($idType)
-    {
-        $this->idType = $idType;
-
-        return $this;
-    }
-
-    /**
-     * Get idType
-     *
-     * @return int
-     */
-    public function getIdType()
-    {
-        return $this->idType;
-    }
-
+    
 
     /**
      * @param string $email

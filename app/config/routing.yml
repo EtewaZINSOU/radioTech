@@ -5,6 +5,3 @@ r_tech_app:
 r_tech_user:
     resource: "@RTechUserBundle/Resources/config/routing.yml"
     prefix:   /user
-
-fos_user:
-    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

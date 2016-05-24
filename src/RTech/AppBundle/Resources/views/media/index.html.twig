@@ -1,0 +1,26 @@
+
+<div class="panel panel-info profile_info">
+      <div class="panel-heading">LISTES DES MEDIAS UPLODER PAR LE USER  {{ app.user.firstname }}</div>
+      <div class="panel-body">
+            <ul class="row">
+                  <div class="col-md-12">
+                        {% for media in medias %}
+                              Title:   {{ media.Title }} <br>
+                              Chemin:   {{ media.Emplacement }} <br>
+                              Description:   {{ media.descrption }} <br>
+                              Nom:   {{ media.user.lastname }} <br>
+                              Prenom : {{ media.user.firstname }} <br>
+                              Type de categorie:  {{ media.category.getCategoryName }} <br>
+
+                              <p><i class="fa fa-lock fa-lg"></i><a href="{{ asset('/uploads/media/'~ media.Emplacement )  }}"
+                                                                    class="btn btn-link">{{ media.Title }}</a></p>
+
+                              <audio controls>
+                                    <source src="{{ asset('/uploads/media/'~ media.Emplacement ) }}" type="audio/ogg">
+                                    Your browser does not support the audio element.
+                              </audio><hr>
+                        {% endfor %}
+                  </div>
+            </ul>
+      </div>
+</div>

@@ -1,15 +1,15 @@
 <?php
-namespace Pylos\UserBundle\Controller;
+namespace RTech\UserBundle\Controller;
 use FOS\UserBundle\Controller\ProfileController as BaseController;
 use FOS\UserBundle\FOSUserEvents;
 use FOS\UserBundle\Event\FormEvent;
 use FOS\UserBundle\Event\FilterUserResponseEvent;
 use FOS\UserBundle\Event\GetResponseUserEvent;
 use FOS\UserBundle\Model\UserInterface;
-use Pylos\UserBundle\Form\Type\ProfileFormType;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\Security\Core\Exception\AccessDeniedException;
+
 
 /**
  * Controller managing the user profile
@@ -18,6 +18,21 @@ use Symfony\Component\Security\Core\Exception\AccessDeniedException;
  */
 class ProfileController extends BaseController
 {
+    /**
+     * Show the user
+     */
+    public function showAction()
+    {
+        $user = $this->getUser();
+        if (!is_object($user) || !$user instanceof UserInterface) {
+            throw new AccessDeniedException('This user does not have access to this section.');
+        }
+        
+        return $this->render('RTechUserBundle:Profile:show.html.twig', array(
+            'user' => $user
+        ));
+    }
+
     /**
      * Edit the user
      * @param Request $request
@@ -40,13 +55,13 @@ class ProfileController extends BaseController
         if (null !== $event->getResponse()) {
             return $event->getResponse();
         }
-
+       
         /** @var $formFactory \FOS\UserBundle\Form\Factory\FactoryInterface */
-       //$formFactory = $this->get('fos_user.profile.form.factory');
+       $formFactory = $this->get('fos_user.profile.form.factory');
 
-        $form = $this->createForm('pylos_fos_user_profile', $user);
+        //$form = $this->createForm('app_user_profile', $user);
 
-       // $form = $formFactory->createForm();
+        $form = $formFactory->createForm();
 
         $form->setData($user);
 
@@ -54,13 +69,10 @@ class ProfileController extends BaseController
         $form->handleRequest($request);
 
         if ($form->isValid()) {
-            $mainAddress = $user->getMainAddress();
-            //var_dump($mainAddress);
-            //dump($mainAddress);die;
-            $mainAddress
-                ->setGender($user->getGender())
+            $user
                 ->setFirstname($user->getFirstname())
                 ->setLastname($user->getLastname())
+                
             ;
             /** @var $userManager \FOS\UserBundle\Model\UserManagerInterface */
             $userManager = $this->get('fos_user.user_manager');
@@ -80,7 +92,7 @@ class ProfileController extends BaseController
             return $response;
         }
 
-        return $this->render('PylosUserBundle:Profile:edit.html.twig', array(
+        return $this->render('RTechUserBundle:Profile:edit.html.twig', array(
             'form' => $form->createView()
         ));
     }

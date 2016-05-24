@@ -11,6 +11,18 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class MediaController extends Controller
 {
+	public function indexAction()
+	{
+		$em = $this->getDoctrine()->getManager();
+		$media = $em->getRepository('RTechAppBundle:Media');
+
+		$medias = $media->findBy(['user' => $this->getUser()]);
+
+
+		return $this->render('RTechAppBundle:media:index.html.twig', [
+			'medias' => $medias,
+		]);
+	}
 
 	public function addMediaAction(Request $request)
 	{

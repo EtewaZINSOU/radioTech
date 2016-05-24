@@ -1,6 +1,7 @@
 <?php
 
 namespace RTech\AppBundle\Entity;
+use RTech\AppBundle\Entity\Category;
 use RTech\UserBundle\Entity\User;
 use Symfony\Component\Validator\Constraints as Assert;
 
@@ -50,6 +51,12 @@ class Media
      * @ORM\JoinColumn(nullable=false, onDelete="CASCADE")
      */
     protected $user;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="RTech\AppBundle\Entity\Category", cascade={"persist"}, inversedBy="medias")
+     * @ORM\JoinColumn(nullable=false, onDelete="CASCADE")
+     */
+    protected $category;
 
 
 
@@ -158,5 +165,29 @@ class Media
         $this->user = $user;
 
         return $this;
+    }
+
+    /**
+     * Set category
+     *
+     * @param Category $category
+     *
+     * @return Media
+     */
+    public function setCategory(Category $category)
+    {
+        $this->category = $category;
+
+        return $this;
+    }
+
+    /**
+     * Get category
+     *
+     * @return Category
+     */
+    public function getCategory()
+    {
+        return $this->category;
     }
 }
