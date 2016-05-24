@@ -42,13 +42,16 @@
 
 
 <div class="row">
-    <div style="height: 800px">
+    <div style="min-height: 800px">
         {% block body %}
 
         {% endblock %}
     </div>
-
 </div>
+
+{% block lecteur %}
+    {% include "RTechAppBundle:Compoments:lecteur.html.twig" %}
+{% endblock  %}
 
 {{ include("RTechAppBundle:Compoments:footer.html.twig") }}
 {% block javascripts %}

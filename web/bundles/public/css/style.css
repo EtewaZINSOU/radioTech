@@ -719,13 +719,20 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: bold;
+  position: relative;
 }
 /* line 351, ../sass/thibault.scss */
+.radioDirect .enDirect .bouton {
+  position: absolute;
+  right: 0;
+  bottom: 24px;
+}
+/* line 357, ../sass/thibault.scss */
 .radioDirect p {
   width: 50%;
 }
 
-/* line 355, ../sass/thibault.scss */
+/* line 361, ../sass/thibault.scss */
 .chaines {
   width: 100%;
   height: 20vh;
@@ -733,8 +740,9 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   margin: 0;
   box-sizing: border-box;
   text-align: center;
+  margin-bottom: 30px;
 }
-/* line 362, ../sass/thibault.scss */
+/* line 369, ../sass/thibault.scss */
 .chaines a {
   position: relative;
   width: 100%;
@@ -744,67 +752,67 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* line 371, ../sass/thibault.scss */
+/* line 378, ../sass/thibault.scss */
 .chaines a.art {
   background-image: url("../images/art.jpg");
 }
-/* line 373, ../sass/thibault.scss */
+/* line 380, ../sass/thibault.scss */
 .chaines a.art .mask {
   background: #c12aad;
 }
-/* line 377, ../sass/thibault.scss */
+/* line 384, ../sass/thibault.scss */
 .chaines a.robotique {
   background-image: url("../images/robotique.jpg");
 }
-/* line 379, ../sass/thibault.scss */
+/* line 386, ../sass/thibault.scss */
 .chaines a.robotique .mask {
   background: #6f30bf;
 }
-/* line 383, ../sass/thibault.scss */
+/* line 390, ../sass/thibault.scss */
 .chaines a.esport {
   background-image: url("../images/esport.jpg");
 }
-/* line 385, ../sass/thibault.scss */
+/* line 392, ../sass/thibault.scss */
 .chaines a.esport .mask {
   background: #2e3192;
 }
-/* line 389, ../sass/thibault.scss */
+/* line 396, ../sass/thibault.scss */
 .chaines a.jeux {
   background-image: url("../images/jeux.jpg");
 }
-/* line 391, ../sass/thibault.scss */
+/* line 398, ../sass/thibault.scss */
 .chaines a.jeux .mask {
   background: #c53605;
 }
-/* line 395, ../sass/thibault.scss */
+/* line 402, ../sass/thibault.scss */
 .chaines a.science {
   background-image: url("../images/science.jpg");
 }
-/* line 397, ../sass/thibault.scss */
+/* line 404, ../sass/thibault.scss */
 .chaines a.science .mask {
   background: #039313;
 }
-/* line 401, ../sass/thibault.scss */
+/* line 408, ../sass/thibault.scss */
 .chaines a.informatique {
   background-image: url("../images/informatique.jpg");
 }
-/* line 403, ../sass/thibault.scss */
+/* line 410, ../sass/thibault.scss */
 .chaines a.informatique .mask {
   background: #fc7e14;
 }
-/* line 407, ../sass/thibault.scss */
+/* line 414, ../sass/thibault.scss */
 .chaines a:hover .titreC {
   border-width: 1px;
   line-height: 6vh;
 }
-/* line 412, ../sass/thibault.scss */
+/* line 419, ../sass/thibault.scss */
 .chaines .mask {
   width: 100%;
   height: 100%;
   position: absolute;
   opacity: .3;
 }
-/* line 418, ../sass/thibault.scss */
+/* line 425, ../sass/thibault.scss */
 .chaines .titreC {
   display: inline-block;
   height: 6vh;
@@ -822,7 +830,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   z-index: 3;
   transition: all .2s linear;
 }
-/* line 437, ../sass/thibault.scss */
+/* line 444, ../sass/thibault.scss */
 .chaines .owl-prev, .chaines .owl-next {
   position: absolute;
   overflow: hidden;
@@ -831,7 +839,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   width: 50px;
   top: 0;
 }
-/* line 444, ../sass/thibault.scss */
+/* line 451, ../sass/thibault.scss */
 .chaines .owl-prev::before, .chaines .owl-next::before {
   content: '';
   line-height: 20vh;
@@ -842,19 +850,361 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   display: block;
   color: #111113;
 }
-/* line 455, ../sass/thibault.scss */
+/* line 462, ../sass/thibault.scss */
 .chaines .owl-prev {
   left: 0;
 }
-/* line 457, ../sass/thibault.scss */
+/* line 464, ../sass/thibault.scss */
 .chaines .owl-prev::before {
   content: '<';
 }
-/* line 461, ../sass/thibault.scss */
+/* line 468, ../sass/thibault.scss */
 .chaines .owl-next {
   right: 0;
 }
-/* line 463, ../sass/thibault.scss */
+/* line 470, ../sass/thibault.scss */
 .chaines .owl-next::before {
   content: '>';
+}
+
+/* line 476, ../sass/thibault.scss */
+.bouton {
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #fff;
+  font-weight: 300;
+  display: inline-block;
+  color: #000;
+}
+
+/* line 487, ../sass/thibault.scss */
+.goupeDecouverte {
+  position: relative;
+}
+/* line 489, ../sass/thibault.scss */
+.goupeDecouverte .user {
+  width: 100%;
+}
+/* line 492, ../sass/thibault.scss */
+.goupeDecouverte .imageUser {
+  padding: 0;
+  border: 2px solid #FFF;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+/* line 499, ../sass/thibault.scss */
+.goupeDecouverte .h1 {
+  Z-index: 3;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 80%;
+  background: #111113;
+  color: #FFF;
+  border: none;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+/* line 513, ../sass/thibault.scss */
+.goupeDecouverte h2 {
+  text-decoration: underline;
+  position: relative;
+  margin-bottom: 20px;
+  display: inline-block;
+  color: #111113;
+}
+/* line 520, ../sass/thibault.scss */
+.goupeDecouverte p {
+  color: #111113;
+}
+/* line 523, ../sass/thibault.scss */
+.goupeDecouverte .description {
+  padding: 120px 10px 20px;
+  margin-top: -100px;
+  background: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+/* line 533, ../sass/thibault.scss */
+.groupeSonUser .personnes {
+  position: relative;
+  z-index: 2;
+}
+/* line 536, ../sass/thibault.scss */
+.groupeSonUser .personnes .blocUser {
+  width: 33.3333333%;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  margin-left: -3px;
+}
+/* line 546, ../sass/thibault.scss */
+.groupeSonUser .personnes .blocUser:first-child {
+  margin-left: 0;
+}
+/* line 549, ../sass/thibault.scss */
+.groupeSonUser .personnes .blocUser > img {
+  width: 100%;
+}
+/* line 553, ../sass/thibault.scss */
+.groupeSonUser .personnes .blocUser:hover .over {
+  display: table;
+}
+/* line 555, ../sass/thibault.scss */
+.groupeSonUser .personnes .blocUser:hover .over .infos {
+  opacity: 1;
+}
+/* line 561, ../sass/thibault.scss */
+.groupeSonUser .personnes .blocUser .over {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+/* line 567, ../sass/thibault.scss */
+.groupeSonUser .personnes .blocUser .over .infos {
+  transition: all .3s linear;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+/* line 574, ../sass/thibault.scss */
+.groupeSonUser .personnes .blocUser .over .infos .h2 {
+  text-decoration: underline;
+}
+/* line 581, ../sass/thibault.scss */
+.groupeSonUser .description {
+  padding: 100px 10px 20px;
+  margin-top: -100px;
+  background: #303235;
+  position: relative;
+  z-index: 1;
+}
+/* line 587, ../sass/thibault.scss */
+.groupeSonUser .description .h1 {
+  clear: left;
+  display: inline-block;
+  width: auto;
+  padding: 10px;
+  border: 0;
+  margin-left: -15%;
+  font-weight: bold;
+}
+
+/* line 599, ../sass/thibault.scss */
+.newsletter {
+  clear: both;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+/* line 604, ../sass/thibault.scss */
+.newsletter .blocNL {
+  position: absolute;
+  width: 75%;
+  padding: 40px 10px;
+  box-sizing: border-box;
+  font-size: 5vh;
+  font-weight: bold;
+  border: 5px solid #fff;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  left: 12.5%;
+}
+/* line 616, ../sass/thibault.scss */
+.newsletter .blocNL h1 {
+  margin: 15px 0;
+}
+/* line 619, ../sass/thibault.scss */
+.newsletter .blocNL .inputMail {
+  color: #111113;
+}
+
+/*************************************************************/
+/*************************** AUDIO ***************************/
+/*************************************************************/
+/* line 631, ../sass/thibault.scss */
+.lecteur {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  z-index: 20;
+  bottom: 0;
+  left: 0;
+  background: #303235;
+  box-sizing: border-box;
+  display: none;
+}
+/* line 641, ../sass/thibault.scss */
+.lecteur .fermer {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  top: -12px;
+  right: 30px;
+  background: #fff;
+  color: #111113;
+}
+/* line 653, ../sass/thibault.scss */
+.lecteur .pp, .lecteur .volume {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 658, ../sass/thibault.scss */
+.lecteur #play {
+  background-image: url("../images/lecture.png");
+}
+/* line 661, ../sass/thibault.scss */
+.lecteur #pause {
+  background-image: url("../images/pause.png");
+}
+/* line 664, ../sass/thibault.scss */
+.lecteur .pp, .lecteur .audioDebut, .lecteur .audioFin, .lecteur .coeur, .lecteur .volume {
+  width: 10%;
+  float: left;
+  height: 70px;
+  line-height: 70px;
+  display: block;
+}
+/* line 670, ../sass/thibault.scss */
+.lecteur .pp img, .lecteur .audioDebut img, .lecteur .audioFin img, .lecteur .coeur img, .lecteur .volume img {
+  max-width: 40px;
+  width: 100%;
+  display: inline;
+}
+/* line 676, ../sass/thibault.scss */
+.lecteur .pp, .lecteur .volume, .lecteur .coeur {
+  max-width: 30px;
+  width: 4%;
+}
+/* line 680, ../sass/thibault.scss */
+.lecteur .audioDebut, .lecteur .audioFin {
+  max-width: 60px;
+  width: 7%;
+}
+/* line 684, ../sass/thibault.scss */
+.lecteur .volume {
+  background-size: 20px auto;
+  position: relative;
+  background-image: url("../images/volume.png");
+}
+/* line 689, ../sass/thibault.scss */
+.lecteur .volume:hover #seek {
+  display: block;
+}
+/* line 694, ../sass/thibault.scss */
+.lecteur .audioDebut {
+  text-align: right;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
+/* line 699, ../sass/thibault.scss */
+.lecteur .audioFin {
+  text-align: left;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+/* line 704, ../sass/thibault.scss */
+.lecteur .coeur {
+  padding-right: 5px;
+  line-height: 80px;
+}
+/* line 708, ../sass/thibault.scss */
+.lecteur #seek {
+  display: none;
+  position: absolute;
+  right: -30%;
+  top: -15px;
+  width: 50px;
+  transform: rotate(-90deg);
+}
+/* line 716, ../sass/thibault.scss */
+.lecteur #ecoulement {
+  width: 70%;
+  margin-top: 33px;
+  float: left;
+  height: 5px;
+  background-color: #111113;
+  transition: all .1s linear;
+}
+/* line 723, ../sass/thibault.scss */
+.lecteur #ecoulement:hover {
+  margin-top: 30px;
+  height: 9px;
+}
+/* line 728, ../sass/thibault.scss */
+.lecteur .progress {
+  background: #fff;
+  width: 0;
+  height: 100%;
+  border-radius: 0;
+}
+/* line 737, ../sass/thibault.scss */
+.lecteur.art .progress, .lecteur.art .infos {
+  background: #c12aad;
+}
+/* line 742, ../sass/thibault.scss */
+.lecteur.esport .progress, .lecteur.esport .infos {
+  background: #2e3192;
+}
+/* line 747, ../sass/thibault.scss */
+.lecteur.jeux .progress, .lecteur.jeux .infos {
+  background: #c53605;
+}
+/* line 752, ../sass/thibault.scss */
+.lecteur.science .progress, .lecteur.science .infos {
+  background: #039313;
+}
+/* line 757, ../sass/thibault.scss */
+.lecteur.robotique .progress, .lecteur.robotique .infos {
+  background: #6f30bf;
+}
+/* line 762, ../sass/thibault.scss */
+.lecteur.informatique .progress, .lecteur.informatique .infos {
+  background: #fc7e14;
+}
+
+/* line 768, ../sass/thibault.scss */
+.right {
+  float: right;
+}
+
+/* line 772, ../sass/thibault.scss */
+h2, .h2 {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+/* line 779, ../sass/thibault.scss */
+img.medaille {
+  position: absolute;
+  top: 1px;
+  right: -20px;
+  width: 15px;
+  height: 15px;
+}
+
+/* line 787, ../sass/thibault.scss */
+#footerRights {
+  position: relative;
 }
