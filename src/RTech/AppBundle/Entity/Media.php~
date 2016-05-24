@@ -1,6 +1,7 @@
 <?php
 
 namespace RTech\AppBundle\Entity;
+use RTech\UserBundle\Entity\User;
 use Symfony\Component\Validator\Constraints as Assert;
 
 use Doctrine\ORM\Mapping as ORM;
@@ -20,29 +21,37 @@ class Media
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string
      *
      * @ORM\Column(name="title", type="string", length=255)
      */
-    private $Title;
+    protected $Title;
 
     /**
      * @var string
      *
      * @ORM\Column(name="lien", type="string", length=255)
      */
-    private $Emplacement;
+    protected $Emplacement;
 
     /**
      * @var string
      *
      * @ORM\Column(name="descrption", type="string", length=255)
      */
-    private $descrption;
-    
+    protected $descrption;
+
+
+    /**
+     * @ORM\ManyToOne(targetEntity="RTech\AppBundle\Entity\Media", cascade={"persist"}, inversedBy="medias")
+     * @ORM\JoinColumn(nullable=false, onDelete="CASCADE")
+     */
+    protected $user;
+
+
 
     /**
      * Get id
@@ -54,54 +63,7 @@ class Media
         return $this->id;
     }
 
-    /**
-     * Set soundTitle
-     *
-     * @param string $soundTitle
-     *
-     * @return Media
-     */
-    public function setSoundTitle($soundTitle)
-    {
-        $this->soundTitle = $soundTitle;
-
-        return $this;
-    }
-
-    /**
-     * Get soundTitle
-     *
-     * @return string
-     */
-    public function getSoundTitle()
-    {
-        return $this->soundTitle;
-    }
-
-    /**
-     * Set basePath
-     *
-     * @param string $basePath
-     *
-     * @return Media
-     */
-    public function setBasePath($basePath)
-    {
-        $this->basePath = $basePath;
-
-        return $this;
-    }
-
-    /**
-     * Get basePath
-     *
-     * @return string
-     */
-    public function getBasePath()
-    {
-        return $this->basePath;
-    }
-
+    
     /**
      * Set descrption
      *
@@ -126,27 +88,75 @@ class Media
         return $this->descrption;
     }
 
+    
     /**
-     * Set extension
+     * Set title
      *
-     * @param string $extension
+     * @param string $title
      *
      * @return Media
      */
-    public function setExtension($extension)
+    public function setTitle($title)
     {
-        $this->extension = $extension;
+        $this->Title = $title;
 
         return $this;
     }
 
     /**
-     * Get extension
+     * Get title
      *
      * @return string
      */
-    public function getExtension()
+    public function getTitle()
     {
-        return $this->extension;
+        return $this->Title;
+    }
+
+    /**
+     * Set emplacement
+     *
+     * @param string $emplacement
+     *
+     * @return Media
+     */
+    public function setEmplacement($emplacement)
+    {
+        $this->Emplacement = $emplacement;
+
+        return $this;
+    }
+
+    /**
+     * Get emplacement
+     *
+     * @return string
+     */
+    public function getEmplacement()
+    {
+        return $this->Emplacement;
+    }
+
+    
+
+    /**
+     * Get user
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getUser()
+    {
+        return $this->user;
+    }
+
+    /**
+     * @param User $user
+     * @return $this
+     */
+    public function setUser(User $user)
+    {
+        $this->user = $user;
+
+        return $this;
     }
 }

@@ -2,8 +2,10 @@
 
 namespace RTech\UserBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use FOS\UserBundle\Model\User as BaseUser;
+use RTech\AppBundle\Entity\Media;
 
 /**
  * User
@@ -13,6 +15,9 @@ use FOS\UserBundle\Model\User as BaseUser;
  */
 class User extends BaseUser
 {
+    const ROLE_SUPER_ADMIN = 'ROLE_SUPER_ADMIN';
+    const ROLE_ADMIN = 'ROLE_ADMIN';
+    const ROLE_USER = 'ROLE_USER';
     /**
      * @var int
      *
@@ -42,7 +47,20 @@ class User extends BaseUser
      * @ORM\Column(name="firstname", type="string", length=255)
      */
     protected $firstname;
+    
+    /**
+     * @var ArrayCollection $user
+     *
+     * @ORM\OneToMany(targetEntity="RTech\AppBundle\Entity\Media", mappedBy="user")
+     */
+    protected $medias;
 
+    
+    public function  __construct()
+    {
+        parent::__construct();
+        $this->medias = new ArrayCollection();
+    }
     /**
      * Get id
      *
@@ -160,5 +178,41 @@ class User extends BaseUser
     public function getFirstname()
     {
         return $this->firstname;
+    }
+
+    
+
+    /**
+     * Add media
+     *
+     * @param Media $media
+     *
+     * @return User
+     */
+    public function addMedia(Media $media)
+    {
+        $this->medias[] = $media;
+
+        return $this;
+    }
+
+    /**
+     * Remove media
+     *
+     * @param Media $media
+     */
+    public function removeMedia(Media $media)
+    {
+        $this->medias->removeElement($media);
+    }
+
+    /**
+     * Get medias
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getMedias()
+    {
+        return $this->medias;
     }
 }

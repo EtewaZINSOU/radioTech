@@ -21,18 +21,23 @@ class MediaController extends Controller
 
 			// $file stores the uploaded PDF file
 			/** @var UploadedFile $file */
-			$file = $media->getBasePath();
-			
+			$file = $media->getEmplacement();
+
+
 			// Generate a unique name for the file before saving it
 			$fileName = md5(uniqid()).'.'.$file->guessExtension();
 
 			// Move the file to the directory where brochures are stored
 			$brochuresDir = $this->container->getParameter('kernel.root_dir').'/../web/uploads/media';
+
 			$file->move($brochuresDir, $fileName);
 
 			// Update the 'brochure' property to store the PDF file name
 			// instead of its contents
-			$media->setBasePath($fileName);
+			$media->setEmplacement($fileName);
+			
+			$media->setUser($this->getUser());
+
 			$em = $this->getDoctrine()->getManager();
 			$em->persist($media);
 			$em->flush();

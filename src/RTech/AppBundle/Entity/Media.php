@@ -1,6 +1,7 @@
 <?php
 
 namespace RTech\AppBundle\Entity;
+use RTech\UserBundle\Entity\User;
 use Symfony\Component\Validator\Constraints as Assert;
 
 use Doctrine\ORM\Mapping as ORM;
@@ -42,7 +43,15 @@ class Media
      * @ORM\Column(name="descrption", type="string", length=255)
      */
     protected $descrption;
-    
+
+
+    /**
+     * @ORM\ManyToOne(targetEntity="RTech\UserBundle\Entity\User", cascade={"persist"}, inversedBy="medias")
+     * @ORM\JoinColumn(nullable=false, onDelete="CASCADE")
+     */
+    protected $user;
+
+
 
     /**
      * Get id
@@ -126,5 +135,28 @@ class Media
     public function getEmplacement()
     {
         return $this->Emplacement;
+    }
+
+    
+
+    /**
+     * Get user
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getUser()
+    {
+        return $this->user;
+    }
+
+    /**
+     * @param User $user
+     * @return $this
+     */
+    public function setUser(User $user)
+    {
+        $this->user = $user;
+
+        return $this;
     }
 }
