@@ -35,19 +35,26 @@
             <div class="col-sm-9">
                 <div class="social-icons pull-right">
                     <ul class="nav navbar-nav">
-                        <li>{% include 'RTechAppBundle:compoments:language.html.twig' %}</li>
-                        <li><a target="_blank" href="https://fr-fr.facebook.com/"><i class="icon-facebook"></i></a></li>
-                        <li><a target="_blank" href="https://twitter.com/?lang=fr"><i class="icon-twitter"></i></a></li>
-                        <li><a target="_blank" href="https://fr.linkedin.com/"><i class="icon-linkedin"></i></a></li>
-                        <li>
+                        {% include 'RTechAppBundle:compoments:language.html.twig' %}
+                        <li class="fb"><a target="_blank" href="https://fr-fr.facebook.com/"></a></li>
+                        <li class="twitter"><a target="_blank" href="https://twitter.com/?lang=fr"></a></li>
+                        <li class="linkedin"><a target="_blank" href="https://fr.linkedin.com/"></a></li>
+                        <li class="connexion">
+                            <a href=""></a>
+                            <div class="blocConnect">
                             {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
-                        <li><a href="#" ></a>{{ 'form.welcome'|trans({'%username%': app.user.username}, 'FOSUserBundle') }}</li>
-                        <li><a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a></li>
-                        <li><a href="{{ path('fos_user_profile_show') }}" title=""><i class="material-icons">account_circle</i></a></li>
-                        {% else %}
-                            <li><a href="{{ path('fos_user_registration_register') }}">{{ 'layout.register'|trans({}, 'FOSUserBundle') }}</a></li>
-                            <li><a href="{{ path('fos_user_security_login') }}"><i class="material-icons">account_circle</i></a></li>
-                        {% endif %}
+                                <a href="#" >{{ 'form.welcome'|trans({'%username%': app.user.username}, 'FOSUserBundle') }}</a>
+                                <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a>
+                                <a href="{{ path('fos_user_profile_show') }}" title=""><i class="material-icons">account_circle</a>
+                            {% else %}
+                                <form>
+                                    <input type="text" placeholder="pseudo"/>
+                                    <input type="password" placeholder="Mot de passe"/>
+                                    <input type="button" value="Se connecter" />
+                                </form>
+                                <a href="{{ path('fos_user_registration_register') }}">{{ 'layout.register'|trans({}, 'FOSUserBundle') }}</a>
+                            {% endif %}
+                            </div>
                         </li>
                     </ul>
                 </div>

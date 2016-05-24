@@ -4,7 +4,6 @@ namespace RTech\AppBundle\Controller;
 
 use RTech\AppBundle\Form\MediaType;
 use RTech\AppBundle\Entity\Media;
-use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -19,20 +18,6 @@ class MediaController extends Controller
 
 		if ($form->handleRequest($request)->isValid()) {
 
-			// $file stores the uploaded PDF file
-			/** @var UploadedFile $file */
-			$file = $media->getBasePath();
-			
-			// Generate a unique name for the file before saving it
-			$fileName = md5(uniqid()).'.'.$file->guessExtension();
-
-			// Move the file to the directory where brochures are stored
-			$brochuresDir = $this->container->getParameter('kernel.root_dir').'/../web/uploads/media';
-			$file->move($brochuresDir, $fileName);
-
-			// Update the 'brochure' property to store the PDF file name
-			// instead of its contents
-			$media->setBasePath($fileName);
 			$em = $this->getDoctrine()->getManager();
 			$em->persist($media);
 			$em->flush();

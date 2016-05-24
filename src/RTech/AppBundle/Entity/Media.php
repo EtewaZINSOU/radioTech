@@ -20,29 +20,36 @@ class Media
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    protected $id;
+    private $id;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="title", type="string", length=255)
+     * @ORM\Column(name="soundTitle", type="string", length=255)
      */
-    protected $Title;
+    private $soundTitle;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="lien", type="string", length=255)
+     * @ORM\Column(name="basePath", type="string", length=255)
      */
-    protected $Emplacement;
+    private $basePath;
 
     /**
      * @var string
      *
      * @ORM\Column(name="descrption", type="string", length=255)
      */
-    protected $descrption;
-    
+    private $descrption;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="extension", type="string", length=255, nullable=true, unique=true)
+     */
+    private $extension;
+
 
     /**
      * Get id
@@ -54,7 +61,54 @@ class Media
         return $this->id;
     }
 
-    
+    /**
+     * Set soundTitle
+     *
+     * @param string $soundTitle
+     *
+     * @return Media
+     */
+    public function setSoundTitle($soundTitle)
+    {
+        $this->soundTitle = $soundTitle;
+
+        return $this;
+    }
+
+    /**
+     * Get soundTitle
+     *
+     * @return string
+     */
+    public function getSoundTitle()
+    {
+        return $this->soundTitle;
+    }
+
+    /**
+     * Set basePath
+     *
+     * @param string $basePath
+     *
+     * @return Media
+     */
+    public function setBasePath($basePath)
+    {
+        $this->basePath = $basePath;
+
+        return $this;
+    }
+
+    /**
+     * Get basePath
+     *
+     * @return string
+     */
+    public function getBasePath()
+    {
+        return $this->basePath;
+    }
+
     /**
      * Set descrption
      *
@@ -79,52 +133,27 @@ class Media
         return $this->descrption;
     }
 
-    
     /**
-     * Set title
+     * Set extension
      *
-     * @param string $title
+     * @param string $extension
      *
      * @return Media
      */
-    public function setTitle($title)
+    public function setExtension($extension)
     {
-        $this->Title = $title;
+        $this->extension = $extension;
 
         return $this;
     }
 
     /**
-     * Get title
+     * Get extension
      *
      * @return string
      */
-    public function getTitle()
+    public function getExtension()
     {
-        return $this->Title;
-    }
-
-    /**
-     * Set emplacement
-     *
-     * @param string $emplacement
-     *
-     * @return Media
-     */
-    public function setEmplacement($emplacement)
-    {
-        $this->Emplacement = $emplacement;
-
-        return $this;
-    }
-
-    /**
-     * Get emplacement
-     *
-     * @return string
-     */
-    public function getEmplacement()
-    {
-        return $this->Emplacement;
+        return $this->extension;
     }
 }
