@@ -65,9 +65,11 @@
         var duration=1;
         var tempsEcoule=0;
         var interval;
-        var son;
+        var son=new Audio;
 
         $('.audioSon').click(function(e){
+            son.pause();
+
             var elemP = $(this).closest('.blocSon');
             $('.lecteur').attr('class','lecteur '+elemP.attr('class'));
             $('.lecteur').find('.infos img').attr('src', elemP.find('img').attr('src'));
