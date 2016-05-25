@@ -52,6 +52,7 @@ class MediaController extends Controller
 			$media->setEmplacement($fileName);
 			
 			$media->setUser($this->getUser());
+			$media->setPublishedDate(new \DateTime());
 
 			$em = $this->getDoctrine()->getManager();
 			$em->persist($media);

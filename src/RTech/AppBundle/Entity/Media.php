@@ -51,7 +51,41 @@ class Media
      */
     protected $category;
 
+    /**
+     * @ORM\Column(name="publishedDate", type="datetime")
+     */
+    protected $publishedDate;
+    
 
+    public function __construct()
+    {
+        $this->publishedDate = new \Datetime();
+    }
+
+
+    /**
+     * Set publishedDate
+     *
+     * @param \DateTime $publishedDate
+     *
+     * @return Media
+     */
+    public function setPublishedDate($publishedDate)
+    {
+        $this->publishedDate = $publishedDate;
+
+        return $this;
+    }
+
+    /**
+     * Get publishedDate
+     *
+     * @return \DateTime
+     */
+    public function getPublishedDate()
+    {
+        return $this->publishedDate;
+    }
 
     /**
      * Get id
@@ -158,4 +192,6 @@ class Media
     {
         return $this->category;
     }
+
+    
 }

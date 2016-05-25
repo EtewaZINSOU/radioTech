@@ -22,15 +22,27 @@ class CategoryController extends Controller
         ));
     }
 
+    public function showAction($slug)
+    {
+        $em = $this->getDoctrine()->getManager();
+
+        $category = $em->getRepository('RTechAppBundle:Category')->byCategorie($slug);
+
+        if(!$category){
+            throw $this->createNotFoundException('Impossible d\'afficher les media de la catégories démandées');
+        }
+
+        return $this->render('RTechAppBundle:Category:show.html.twig', array(
+            'category'=>$category,
+        ));
+    }
+
 
     public function getAllMediaAction()
     {
         $em = $this->getDoctrine()->getManager();
-        $mediaAll = $em->getRepository('RTechAppBundle:Media');
-
-        $mediasAll = $mediaAll->findAll();
-
-
+        $mediasAll = $em->getRepository('RTechAppBundle:Media')->findAll();
+        
         return $this->render('RTechAppBundle:Category:category.html.twig', [
             'mediasAll' => $mediasAll,
         ]);

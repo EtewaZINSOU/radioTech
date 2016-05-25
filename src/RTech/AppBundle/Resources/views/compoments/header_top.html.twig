@@ -12,13 +12,8 @@
                         <ul>
                             <li><div class="gris fullBackground"></div><a href="{{ path('r_tech_app_homepage') }}">Accueil</a></li>
                             <li><div class="gris fullBackground"></div><a href="{{ path('r_tech_category') }}">Toutes les catégories</a></li>
-                            <li><div class="e-sport fullBackground"></div><a href="{{ path('r_tech_category') }}">E-sport</a></li>
-                            <li><div class="informatique fullBackground"></div><a href="{{ path('r_tech_category') }}">Informatique</a></li>
-                            <li><div class="jeux fullBackground"></div><a href="{{ path('r_tech_category') }}">Jeux</a></li>
-                            <li><div class="robotique fullBackground"></div><a href="{{ path('r_tech_category') }}">Robotique</a></li>
-                            <li><div class="science  fullBackground"></div><a href="{{ path('r_tech_category') }}">Science</a></li>
-                            <li><div class="art fullBackground"></div><a href="{{ path('r_tech_category') }}">Art</a></li>
-                            <li>
+
+                                    {{ render(controller('RTechAppBundle:Category:list')) }}
                                 <div class="search_box pull-right">
                                     <input type="text" placeholder="Search" /><span style="margin-right: 6px;margin-top: -20px;margin-left: -22px; position: relative;z-index: 9" class="fa fa-search"></span>
                                 </div>

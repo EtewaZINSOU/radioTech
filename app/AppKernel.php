@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             new RTech\UserBundle\RTechUserBundle(),
             new RTech\AppBundle\RTechAppBundle(),
             new JavierEguiluz\Bundle\EasyAdminBundle\EasyAdminBundle(),
+            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

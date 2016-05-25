@@ -87,6 +87,13 @@ fos_user:
             type: RTech\UserBundle\Form\Type\ProfileFormType
 
 
+# Stof\DoctrineExtensionsBundle configuration
+stof_doctrine_extensions:
+    orm:
+        default:
+            sluggable: true
+
+
 easy_admin:
     site_name: 'WebRadio<em style="font-size: 80%; color: yellow">::ADMIN</em>'
     design:
@@ -98,6 +105,13 @@ easy_admin:
     entities:
         Category:
             class: RTech\AppBundle\Entity\Category
+            list:
+                fields: ['id', 'categoryName', 'medias', 'slug']
+            edit:
+                fields: ['categoryName', 'medias', 'slug']
+            new:
+                fields: ['categoryName', 'medias', 'slug']
+
 
         Media:
             class: RTech\AppBundle\Entity\Media

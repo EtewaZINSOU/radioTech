@@ -37,8 +37,14 @@
                               Prénoms: {{ user.firstname }}
                               Date naissance: {{ user.birthday|date("m/d/Y", "Europe/Paris") }}
 
+
+                              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalInfo">
+                                    Modifier mes informations personnelles
+                              </button>
+
+
                               <div class="col-md-4">
-                                    <p><i class="fa fa-pencil fa-lg"></i><a href="{{ path('rtech_user_profile_edit') }}" class="btn btn-link">Modifier mes informations personnelles</a></p>
+                                    {#<p><i class="fa fa-pencil fa-lg"></i><a href="{{ path('rtech_user_profile_edit') }}" class="btn btn-link">Modifier mes informations personnelles</a></p>#}
                               </div>
                         </div>
                         <div id="headColCat">
@@ -82,3 +88,24 @@
             </div>
       {% endblock rtech_user_content %}
 {#{% endblock %}#}
+
+<!-- Modal -->
+<div class="modal fade mediaModal-lg" id="myModalInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                  <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                        <div class="container">
+                              <div class="modifierInfo">
+                                    {{ render(controller('RTechUserBundle:Profile:edit')) }}
+                              </div>
+
+                        </div>
+                  </div>
+
+            </div>
+      </div>
+</div>

@@ -6,13 +6,19 @@ r_tech_media:
     path: /addMedia
     defaults: { _controller: RTechAppBundle:Media:addMedia }
 
+
+# CATEGORY
+rtechByCategory:
+    path:  /category/{slug}
+    defaults: { _controller: RTechAppBundle:Category:show }
+
 r_tech_category:
     path: /category
     defaults: { _controller: RTechAppBundle:Category:getAllMedia }
+
 
 
 # CONTACT
 r_tech_contact:
     path: /contact
     defaults: { _controller: RTechAppBundle:Contact:index }
-
