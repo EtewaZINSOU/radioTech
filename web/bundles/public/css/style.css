@@ -854,13 +854,12 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   position: absolute;
   top: 100%;
   right: 0;
-  width: 335px;
-  padding: 10px;
+  padding: 3px;
   background: #fff;
   color: #111113;
   display: none;
 }
-/* line 258, ../sass/thibault.scss */
+/* line 257, ../sass/thibault.scss */
 .blocConnect::before {
   content: '';
   display: block;
@@ -872,17 +871,17 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   right: 15px;
   transform: rotate(45deg);
 }
-/* line 269, ../sass/thibault.scss */
+/* line 268, ../sass/thibault.scss */
 .blocConnect form {
   margin: 10px 0;
 }
-/* line 271, ../sass/thibault.scss */
+/* line 270, ../sass/thibault.scss */
 .blocConnect form::after {
   content: '';
   display: block;
   clear: both;
 }
-/* line 277, ../sass/thibault.scss */
+/* line 276, ../sass/thibault.scss */
 .blocConnect input[type="text"], .blocConnect input[type="password"] {
   background: #FFF;
   border: 1px solid #111113;
@@ -892,11 +891,11 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   box-sizing: border-box;
   width: 155px;
 }
-/* line 286, ../sass/thibault.scss */
+/* line 285, ../sass/thibault.scss */
 .blocConnect input[type="password"] {
   margin-left: 1px;
 }
-/* line 289, ../sass/thibault.scss */
+/* line 288, ../sass/thibault.scss */
 .blocConnect input[type="button"] {
   float: right;
   margin: 10px 0;
@@ -906,11 +905,25 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   text-transform: uppercase;
   padding: 5px;
 }
+/* line 297, ../sass/thibault.scss */
+.blocConnect a {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  text-transform: uppercase;
+  font-weight: 300;
+  width: 100px !important;
+  height: auto !important;
+  border: 1px solid #000 !important;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
 
 /*************************************************************/
 /************************** ACCUEIL **************************/
 /*************************************************************/
-/* line 305, ../sass/thibault.scss */
+/* line 317, ../sass/thibault.scss */
 #sons, #titrePrincipal {
   width: 100%;
   height: 100vh;
@@ -920,13 +933,13 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   z-index: 0;
 }
 
-/* line 313, ../sass/thibault.scss */
+/* line 325, ../sass/thibault.scss */
 #titrePrincipal {
   position: relative;
   height: calc(100vh - 50px);
   z-index: 1;
 }
-/* line 317, ../sass/thibault.scss */
+/* line 329, ../sass/thibault.scss */
 #titrePrincipal .titre {
   position: absolute;
   width: 50%;
@@ -941,13 +954,13 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   left: 25%;
 }
 
-/* line 331, ../sass/thibault.scss */
+/* line 343, ../sass/thibault.scss */
 .contenu {
   position: relative;
   z-index: 1;
 }
 
-/* line 335, ../sass/thibault.scss */
+/* line 347, ../sass/thibault.scss */
 .radioDirect {
   width: 100%;
   height: 40vh;
@@ -958,7 +971,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 344, ../sass/thibault.scss */
+/* line 356, ../sass/thibault.scss */
 .radioDirect .enDirect {
   font-size: 7vh;
   padding-bottom: 20px;
@@ -969,18 +982,18 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   font-weight: bold;
   position: relative;
 }
-/* line 353, ../sass/thibault.scss */
+/* line 365, ../sass/thibault.scss */
 .radioDirect .enDirect .bouton {
   position: absolute;
   right: 0;
   bottom: 24px;
 }
-/* line 359, ../sass/thibault.scss */
+/* line 371, ../sass/thibault.scss */
 .radioDirect p {
   width: 50%;
 }
 
-/* line 363, ../sass/thibault.scss */
+/* line 375, ../sass/thibault.scss */
 .chaines {
   width: 100%;
   height: 20vh;
@@ -990,7 +1003,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   text-align: center;
   margin-bottom: 30px;
 }
-/* line 371, ../sass/thibault.scss */
+/* line 383, ../sass/thibault.scss */
 .chaines a {
   position: relative;
   width: 100%;
@@ -1000,67 +1013,67 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* line 380, ../sass/thibault.scss */
+/* line 392, ../sass/thibault.scss */
 .chaines a.art {
   background-image: url("../images/art.jpg");
 }
-/* line 382, ../sass/thibault.scss */
+/* line 394, ../sass/thibault.scss */
 .chaines a.art .mask {
   background: #c12aad;
 }
-/* line 386, ../sass/thibault.scss */
+/* line 398, ../sass/thibault.scss */
 .chaines a.robotique {
   background-image: url("../images/robotique.jpg");
 }
-/* line 388, ../sass/thibault.scss */
+/* line 400, ../sass/thibault.scss */
 .chaines a.robotique .mask {
   background: #6f30bf;
 }
-/* line 392, ../sass/thibault.scss */
+/* line 404, ../sass/thibault.scss */
 .chaines a.esport {
   background-image: url("../images/esport.jpg");
 }
-/* line 394, ../sass/thibault.scss */
+/* line 406, ../sass/thibault.scss */
 .chaines a.esport .mask {
   background: #2e3192;
 }
-/* line 398, ../sass/thibault.scss */
+/* line 410, ../sass/thibault.scss */
 .chaines a.jeux {
   background-image: url("../images/jeux.jpg");
 }
-/* line 400, ../sass/thibault.scss */
+/* line 412, ../sass/thibault.scss */
 .chaines a.jeux .mask {
   background: #c53605;
 }
-/* line 404, ../sass/thibault.scss */
+/* line 416, ../sass/thibault.scss */
 .chaines a.science {
   background-image: url("../images/science.jpg");
 }
-/* line 406, ../sass/thibault.scss */
+/* line 418, ../sass/thibault.scss */
 .chaines a.science .mask {
   background: #039313;
 }
-/* line 410, ../sass/thibault.scss */
+/* line 422, ../sass/thibault.scss */
 .chaines a.informatique {
   background-image: url("../images/informatique.jpg");
 }
-/* line 412, ../sass/thibault.scss */
+/* line 424, ../sass/thibault.scss */
 .chaines a.informatique .mask {
   background: #fc7e14;
 }
-/* line 416, ../sass/thibault.scss */
+/* line 428, ../sass/thibault.scss */
 .chaines a:hover .titreC {
   border-width: 1px;
   line-height: 6vh;
 }
-/* line 421, ../sass/thibault.scss */
+/* line 433, ../sass/thibault.scss */
 .chaines .mask {
   width: 100%;
   height: 100%;
   position: absolute;
   opacity: .3;
 }
-/* line 427, ../sass/thibault.scss */
+/* line 439, ../sass/thibault.scss */
 .chaines .titreC {
   display: inline-block;
   height: 6vh;
@@ -1078,7 +1091,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   z-index: 3;
   transition: all .2s linear;
 }
-/* line 446, ../sass/thibault.scss */
+/* line 458, ../sass/thibault.scss */
 .chaines .owl-prev, .chaines .owl-next {
   position: absolute;
   overflow: hidden;
@@ -1087,7 +1100,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   width: 50px;
   top: 0;
 }
-/* line 453, ../sass/thibault.scss */
+/* line 465, ../sass/thibault.scss */
 .chaines .owl-prev::before, .chaines .owl-next::before {
   content: '';
   line-height: 20vh;
@@ -1098,24 +1111,24 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   display: block;
   color: #111113;
 }
-/* line 464, ../sass/thibault.scss */
+/* line 476, ../sass/thibault.scss */
 .chaines .owl-prev {
   left: 0;
 }
-/* line 466, ../sass/thibault.scss */
+/* line 478, ../sass/thibault.scss */
 .chaines .owl-prev::before {
   content: '<';
 }
-/* line 470, ../sass/thibault.scss */
+/* line 482, ../sass/thibault.scss */
 .chaines .owl-next {
   right: 0;
 }
-/* line 472, ../sass/thibault.scss */
+/* line 484, ../sass/thibault.scss */
 .chaines .owl-next::before {
   content: '>';
 }
 
-/* line 478, ../sass/thibault.scss */
+/* line 490, ../sass/thibault.scss */
 .bouton {
   font-size: 14px;
   text-transform: uppercase;
@@ -1127,16 +1140,16 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   color: #000;
 }
 
-/* line 489, ../sass/thibault.scss */
+/* line 501, ../sass/thibault.scss */
 .goupeDecouverte {
   box-sizing: border-box;
   position: relative;
 }
-/* line 492, ../sass/thibault.scss */
+/* line 504, ../sass/thibault.scss */
 .goupeDecouverte .user {
   width: 100%;
 }
-/* line 495, ../sass/thibault.scss */
+/* line 507, ../sass/thibault.scss */
 .goupeDecouverte .imageUser {
   padding: 0;
   border: 2px solid #FFF;
@@ -1144,7 +1157,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   position: relative;
   z-index: 2;
 }
-/* line 502, ../sass/thibault.scss */
+/* line 514, ../sass/thibault.scss */
 .goupeDecouverte .h1 {
   Z-index: 3;
   position: absolute;
@@ -1159,7 +1172,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   box-sizing: border-box;
   font-weight: bold;
 }
-/* line 516, ../sass/thibault.scss */
+/* line 528, ../sass/thibault.scss */
 .goupeDecouverte h2 {
   text-decoration: underline;
   position: relative;
@@ -1167,11 +1180,11 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   display: inline-block;
   color: #111113;
 }
-/* line 523, ../sass/thibault.scss */
+/* line 535, ../sass/thibault.scss */
 .goupeDecouverte p {
   color: #111113;
 }
-/* line 526, ../sass/thibault.scss */
+/* line 538, ../sass/thibault.scss */
 .goupeDecouverte .description {
   padding: 120px 10px 20px;
   margin-top: -100px;
@@ -1180,16 +1193,16 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   position: relative;
 }
 
-/* line 535, ../sass/thibault.scss */
+/* line 547, ../sass/thibault.scss */
 .groupeSonUser {
   box-sizing: border-box;
 }
-/* line 537, ../sass/thibault.scss */
+/* line 549, ../sass/thibault.scss */
 .groupeSonUser .personnes {
   position: relative;
   z-index: 2;
 }
-/* line 540, ../sass/thibault.scss */
+/* line 552, ../sass/thibault.scss */
 .groupeSonUser .personnes .blocUser {
   width: 33.3333333%;
   float: left;
@@ -1201,23 +1214,23 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   border-right: 3px solid #fff;
   margin-left: -3px;
 }
-/* line 550, ../sass/thibault.scss */
+/* line 562, ../sass/thibault.scss */
 .groupeSonUser .personnes .blocUser:first-child {
   margin-left: 0;
 }
-/* line 553, ../sass/thibault.scss */
+/* line 565, ../sass/thibault.scss */
 .groupeSonUser .personnes .blocUser > img {
   width: 100%;
 }
-/* line 557, ../sass/thibault.scss */
+/* line 569, ../sass/thibault.scss */
 .groupeSonUser .personnes .blocUser:hover .over {
   display: table;
 }
-/* line 559, ../sass/thibault.scss */
+/* line 571, ../sass/thibault.scss */
 .groupeSonUser .personnes .blocUser:hover .over .infos {
   opacity: 1;
 }
-/* line 565, ../sass/thibault.scss */
+/* line 577, ../sass/thibault.scss */
 .groupeSonUser .personnes .blocUser .over {
   display: none;
   position: absolute;
@@ -1225,7 +1238,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   top: 0;
   width: 100%;
 }
-/* line 571, ../sass/thibault.scss */
+/* line 583, ../sass/thibault.scss */
 .groupeSonUser .personnes .blocUser .over .infos {
   transition: all .3s linear;
   display: table-cell;
@@ -1234,11 +1247,11 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   background: rgba(0, 0, 0, 0.8);
   text-align: center;
 }
-/* line 578, ../sass/thibault.scss */
+/* line 590, ../sass/thibault.scss */
 .groupeSonUser .personnes .blocUser .over .infos .h2 {
   text-decoration: underline;
 }
-/* line 585, ../sass/thibault.scss */
+/* line 597, ../sass/thibault.scss */
 .groupeSonUser .description {
   padding: 100px 10px 20px;
   margin-top: -100px;
@@ -1246,7 +1259,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   position: relative;
   z-index: 1;
 }
-/* line 591, ../sass/thibault.scss */
+/* line 603, ../sass/thibault.scss */
 .groupeSonUser .description .h1 {
   clear: left;
   display: inline-block;
@@ -1257,20 +1270,20 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   margin-left: -15%;
   font-weight: bold;
 }
-/* line 603, ../sass/thibault.scss */
+/* line 615, ../sass/thibault.scss */
 .groupeSonUser .blocContent::after {
   content: '';
   clear: both;
   display: block;
 }
-/* line 608, ../sass/thibault.scss */
+/* line 620, ../sass/thibault.scss */
 .groupeSonUser .blocContentSon {
   float: none;
   width: 100%;
   clear: both;
   margin: 20px 0;
 }
-/* line 613, ../sass/thibault.scss */
+/* line 625, ../sass/thibault.scss */
 .groupeSonUser .blocContentSon #category {
   padding: 0;
   position: relative;
@@ -1278,14 +1291,14 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   background: #fff;
   padding: 1px 3px;
 }
-/* line 620, ../sass/thibault.scss */
+/* line 632, ../sass/thibault.scss */
 .groupeSonUser .blocContentSon .blocSon {
   width: 100%;
   padding-right: 5px;
   box-sizing: border-box;
   margin: 2px 0 2px !important;
 }
-/* line 627, ../sass/thibault.scss */
+/* line 639, ../sass/thibault.scss */
 .groupeSonUser .blocContentSon .uploadSon .h1 {
   width: 100%;
   display: block;
@@ -1293,14 +1306,14 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   margin-left: 15%;
 }
 
-/* line 637, ../sass/thibault.scss */
+/* line 649, ../sass/thibault.scss */
 .newsletter {
   clear: both;
   position: relative;
   width: 100%;
   height: calc(100vh - 60px);
 }
-/* line 642, ../sass/thibault.scss */
+/* line 654, ../sass/thibault.scss */
 .newsletter .blocNL {
   position: absolute;
   width: 75%;
@@ -1314,11 +1327,11 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   text-transform: uppercase;
   left: 12.5%;
 }
-/* line 654, ../sass/thibault.scss */
+/* line 666, ../sass/thibault.scss */
 .newsletter .blocNL h1 {
   margin: 15px 0;
 }
-/* line 657, ../sass/thibault.scss */
+/* line 669, ../sass/thibault.scss */
 .newsletter .blocNL .inputMail {
   color: #111113;
   max-width: 100%;
@@ -1328,7 +1341,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
 /*************************************************************/
 /*************************** AUDIO ***************************/
 /*************************************************************/
-/* line 671, ../sass/thibault.scss */
+/* line 683, ../sass/thibault.scss */
 .lecteur {
   width: 100%;
   height: 70px;
@@ -1340,7 +1353,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   box-sizing: border-box;
   display: none;
 }
-/* line 681, ../sass/thibault.scss */
+/* line 693, ../sass/thibault.scss */
 .lecteur .fermer {
   width: 25px;
   height: 25px;
@@ -1353,21 +1366,21 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   background: #fff;
   color: #111113;
 }
-/* line 693, ../sass/thibault.scss */
+/* line 705, ../sass/thibault.scss */
 .lecteur .pp, .lecteur .volume {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 698, ../sass/thibault.scss */
+/* line 710, ../sass/thibault.scss */
 .lecteur #play {
   background-image: url("../images/lecture.png");
 }
-/* line 701, ../sass/thibault.scss */
+/* line 713, ../sass/thibault.scss */
 .lecteur #pause {
   background-image: url("../images/pause.png");
 }
-/* line 704, ../sass/thibault.scss */
+/* line 716, ../sass/thibault.scss */
 .lecteur .pp, .lecteur .audioDebut, .lecteur .audioFin, .lecteur .coeur, .lecteur .volume {
   width: 10%;
   float: left;
@@ -1375,50 +1388,50 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   line-height: 70px;
   display: block;
 }
-/* line 710, ../sass/thibault.scss */
+/* line 722, ../sass/thibault.scss */
 .lecteur .pp img, .lecteur .audioDebut img, .lecteur .audioFin img, .lecteur .coeur img, .lecteur .volume img {
   max-width: 40px;
   width: 100%;
   display: inline;
 }
-/* line 716, ../sass/thibault.scss */
+/* line 728, ../sass/thibault.scss */
 .lecteur .pp, .lecteur .volume, .lecteur .coeur {
   max-width: 30px;
   width: 4%;
 }
-/* line 720, ../sass/thibault.scss */
+/* line 732, ../sass/thibault.scss */
 .lecteur .audioDebut, .lecteur .audioFin {
   max-width: 60px;
   width: 7%;
 }
-/* line 724, ../sass/thibault.scss */
+/* line 736, ../sass/thibault.scss */
 .lecteur .volume {
   background-size: 20px auto;
   position: relative;
   background-image: url("../images/volume.png");
 }
-/* line 729, ../sass/thibault.scss */
+/* line 741, ../sass/thibault.scss */
 .lecteur .volume:hover #seek {
   display: block;
 }
-/* line 734, ../sass/thibault.scss */
+/* line 746, ../sass/thibault.scss */
 .lecteur .audioDebut {
   text-align: right;
   padding-right: 5px;
   box-sizing: border-box;
 }
-/* line 739, ../sass/thibault.scss */
+/* line 751, ../sass/thibault.scss */
 .lecteur .audioFin {
   text-align: left;
   padding-left: 5px;
   box-sizing: border-box;
 }
-/* line 744, ../sass/thibault.scss */
+/* line 756, ../sass/thibault.scss */
 .lecteur .coeur {
   padding-right: 5px;
   line-height: 80px;
 }
-/* line 748, ../sass/thibault.scss */
+/* line 760, ../sass/thibault.scss */
 .lecteur #seek {
   display: none;
   position: absolute;
@@ -1427,7 +1440,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   width: 50px;
   transform: rotate(-90deg);
 }
-/* line 756, ../sass/thibault.scss */
+/* line 768, ../sass/thibault.scss */
 .lecteur #ecoulement {
   width: 70%;
   margin-top: 33px;
@@ -1436,76 +1449,76 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   background-color: #111113;
   transition: all .1s linear;
 }
-/* line 763, ../sass/thibault.scss */
+/* line 775, ../sass/thibault.scss */
 .lecteur #ecoulement:hover {
   margin-top: 30px;
   height: 9px;
 }
-/* line 768, ../sass/thibault.scss */
+/* line 780, ../sass/thibault.scss */
 .lecteur .progress {
   background: #fff;
   width: 0;
   height: 100%;
   border-radius: 0;
 }
-/* line 774, ../sass/thibault.scss */
+/* line 786, ../sass/thibault.scss */
 .lecteur .infos {
   display: table;
   table-layout: fixed;
   height: 70px;
 }
-/* line 778, ../sass/thibault.scss */
+/* line 790, ../sass/thibault.scss */
 .lecteur .infos .blocIMG {
   width: 65px;
   height: 65px;
   display: table-cell;
   vertical-align: middle;
 }
-/* line 784, ../sass/thibault.scss */
+/* line 796, ../sass/thibault.scss */
 .lecteur .infos img {
   width: 65px;
   height: 65px;
   margin-top: 2px;
   display: inline-block;
 }
-/* line 790, ../sass/thibault.scss */
+/* line 802, ../sass/thibault.scss */
 .lecteur .infos .titreNom {
   padding-left: 10px;
   box-sizing: border-box;
   display: table-cell;
   vertical-align: middle;
 }
-/* line 801, ../sass/thibault.scss */
+/* line 813, ../sass/thibault.scss */
 .lecteur.art .progress, .lecteur.art .infos {
   background: #c12aad;
 }
-/* line 806, ../sass/thibault.scss */
+/* line 818, ../sass/thibault.scss */
 .lecteur.esport .progress, .lecteur.esport .infos {
   background: #2e3192;
 }
-/* line 811, ../sass/thibault.scss */
+/* line 823, ../sass/thibault.scss */
 .lecteur.jeux .progress, .lecteur.jeux .infos {
   background: #c53605;
 }
-/* line 816, ../sass/thibault.scss */
+/* line 828, ../sass/thibault.scss */
 .lecteur.science .progress, .lecteur.science .infos {
   background: #039313;
 }
-/* line 821, ../sass/thibault.scss */
+/* line 833, ../sass/thibault.scss */
 .lecteur.robotique .progress, .lecteur.robotique .infos {
   background: #6f30bf;
 }
-/* line 826, ../sass/thibault.scss */
+/* line 838, ../sass/thibault.scss */
 .lecteur.informatique .progress, .lecteur.informatique .infos {
   background: #fc7e14;
 }
 
-/* line 832, ../sass/thibault.scss */
+/* line 844, ../sass/thibault.scss */
 .right {
   float: right;
 }
 
-/* line 836, ../sass/thibault.scss */
+/* line 848, ../sass/thibault.scss */
 h2, .h2 {
   font-size: 25px;
   font-weight: bold;
@@ -1513,7 +1526,7 @@ h2, .h2 {
   display: inline-block;
 }
 
-/* line 843, ../sass/thibault.scss */
+/* line 855, ../sass/thibault.scss */
 img.medaille {
   position: absolute;
   top: 1px;
@@ -1522,51 +1535,51 @@ img.medaille {
   height: 15px;
 }
 
-/* line 851, ../sass/thibault.scss */
+/* line 863, ../sass/thibault.scss */
 #footerRights {
   position: relative;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 856, ../sass/thibault.scss */
+  /* line 868, ../sass/thibault.scss */
   .goupeDecouverte, .groupeSonUser {
     clear: both;
     float: none;
     margin: 15px 0;
   }
-  /* line 860, ../sass/thibault.scss */
+  /* line 872, ../sass/thibault.scss */
   .goupeDecouverte::before, .goupeDecouverte::after, .groupeSonUser::before, .groupeSonUser::after {
     content: '';
     clear: both;
     display: block;
   }
 
-  /* line 866, ../sass/thibault.scss */
+  /* line 878, ../sass/thibault.scss */
   .social-icons ul.navbar-nav {
     margin: 0;
   }
-  /* line 868, ../sass/thibault.scss */
+  /* line 880, ../sass/thibault.scss */
   .social-icons ul.navbar-nav li {
     float: left;
   }
 
-  /* line 872, ../sass/thibault.scss */
+  /* line 884, ../sass/thibault.scss */
   .radioDirect .enDirect, .radioDirect p {
     width: 100%;
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 877, ../sass/thibault.scss */
+  /* line 889, ../sass/thibault.scss */
   .header_top {
     height: auto;
   }
 
-  /* line 880, ../sass/thibault.scss */
+  /* line 892, ../sass/thibault.scss */
   .social-icons {
     float: right !important;
   }
 
-  /* line 883, ../sass/thibault.scss */
+  /* line 895, ../sass/thibault.scss */
   .header_top .row > div {
     float: none;
     width: 100%;
