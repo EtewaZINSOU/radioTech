@@ -45,7 +45,7 @@
                             {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
                                 <a href="#" >{{ 'form.welcome'|trans({'%username%': app.user.username}, 'FOSUserBundle') }}</a>
                                 <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a>
-                                <a href="{{ path('fos_user_profile_show') }}" title=""><i class="material-icons">account_circle</a>
+                                <a href="{{ path('fos_user_profile_show') }}" title="">account_circle</a>
                             {% else %}
                                 <form>
                                     <input type="text" placeholder="pseudo"/>
