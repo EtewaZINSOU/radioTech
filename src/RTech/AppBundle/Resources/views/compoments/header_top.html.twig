@@ -56,13 +56,8 @@
                                 <!-- Modal -->
 
                             {% else %}
-                                <form>
-                                    <a href="{{ path('fos_user_security_login') }}">Connexion</a>
-                                    <a href="{{ path('rtech_user_registration_register') }}">{{'layout.register'|trans({}, 'FOSUserBundle') }}</a>
-                                </form>
-                                {#{{ render(controller('RTechUserBundle:Security:login')) }}#}
-                                {#{% include 'RTechUserBundle:Security:login.html.twig' %}#}
-                                {#{{ include("RTechUserBundle:Security:login.html.twig") }}#}
+                                <a class="button" href="{{ path("fos_user_security_login") }}">Connexion</a>
+                                <a class="button" href="{{ path('rtech_user_registration_register') }}">{{ 'layout.register'|trans({}, 'FOSUserBundle') }}</a>
                             {% endif %}
                             </div>
                         </li>

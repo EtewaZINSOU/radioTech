@@ -90,8 +90,9 @@ fos_user:
 easy_admin:
     site_name: 'WebRadio<em style="font-size: 80%; color: yellow">::ADMIN</em>'
     design:
-        color_scheme: 'dark'
-        brand_color: 'rgba(254,152,15,0.85)'
+        brand_color: 'red'
+        brand_color: 'rgba(26, 188, 156, 0.85)'
+        brand_color: 'hsl(0, 100%, 50%);'
     list:
         actions: ['show']
     entities:
