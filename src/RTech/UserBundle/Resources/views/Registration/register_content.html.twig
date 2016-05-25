@@ -1,6 +1,6 @@
 {% trans_default_domain 'FOSUserBundle' %}
 
-{{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
+{{ form_start(form, {'method': 'post', 'action': path('rtech_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
     <div class="col-md-6 col-sx-6">
         {{ form_row(form.lastname, {'attr': {'placeholder': 'Nom'} }) }}
         {{ form_row(form.firstname, {'attr': {'placeholder': 'Prénom'} }) }}

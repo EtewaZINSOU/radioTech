@@ -5,30 +5,33 @@
             <div class="col-md-3 fixed">
                 <input type="text" class="searchBox" placeholder="Rechercher" />
                 <span class="h1">Trier par</span>
-                <select>
-                    <option value="" disabled selected>Categorie</option>
-                    <option>E-sport</option>
-                    <option>Informatique</option>
-                    <option>Jeux</option>
-                    <option>Robotique</option>
-                    <option>Science</option>
-                    <option>Art</option>
-                </select>
-                <select>
-                    <option value="" disabled selected>Date</option>
-                    <option value="dateRecent">Récent</option>
-                    <option value="dateAncien">Ancien</option>
-                </select>
-                <select>
-                    <option value="" disabled selected>Vue</option>
-                    <option value="vuePlus">Plus de vue</option>
-                    <option value="vueMoins">Moins de vue</option>
-                </select>
-                <select>
-                    <option value="" disabled selected>Like</option>
-                    <option value="likePlus">Plus de like</option>
-                    <option value="likeMoins">Moins de like</option>
-                </select>
+                <form>
+                    <select>
+                        <option value="" disabled selected>Categorie</option>
+                        <option>E-sport</option>
+                        <option>Informatique</option>
+                        <option>Jeux</option>
+                        <option>Robotique</option>
+                        <option>Science</option>
+                        <option>Art</option>
+                    </select>
+                    <select>
+                        <option value="" disabled selected>Date</option>
+                        <option value="dateRecent">Récent</option>
+                        <option value="dateAncien">Ancien</option>
+                    </select>
+                    <select>
+                        <option value="" disabled selected>Vue</option>
+                        <option value="vuePlus">Plus de vue</option>
+                        <option value="vueMoins">Moins de vue</option>
+                    </select>
+                    <select>
+                        <option value="" disabled selected>Like</option>
+                        <option value="likePlus">Plus de like</option>
+                        <option value="likeMoins">Moins de like</option>
+                    </select>
+                    <input type="button" class="bouton" value="envoyer"/>
+                </form>
             </div>
 
             <div class="col-md-9 col-md-offset-3" id="contentCat">
