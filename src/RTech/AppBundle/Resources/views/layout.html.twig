@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Plateforme d'Annonce{% endblock %}</title>
+    <meta charset="utf-8">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('bundles/public/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('bundles/public/font-awesome/css/font-awesome.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('bundles/public/css/main.css') }}">
+        <link rel="stylesheet" href="{{ asset('bundles/public/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('bundles/public/css/owl.carousel.css') }}">
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="{{ asset('bundles/public/js/owl.carousel.min.js') }}"></script>
+    {% endblock %}
+</head>
+<body>
+
+{#
+    le bloc header qui sépare le header en trois partie.Cela laisse la possibilité au cours d'un extends
+    d'inclure la partie qu'on veut
+#}
+{% block pylos_store_header %}
+    {# header top #}
+    {% block header_top %}
+        {% include 'RTechAppBundle:compoments:header_top.html.twig' %}
+    {% endblock %}  
+
+    {# header bottom#}
+    {% block navbar %}
+        {% include "RTechAppBundle:Compoments:navbar.html.twig" %}
+    {% endblock %}
+{% endblock %}
+
+{% block pylos_store_carousel %}
+{% endblock %}
+
+
+<div class="row">
+    <div style="min-height: 800px">
+        {% block body %}
+
+        {% endblock %}
+    </div>
+</div>
+
+{% block lecteur %}
+    {% include "RTechAppBundle:Compoments:lecteur.html.twig" %}
+{% endblock  %}
+
+{{ include("RTechAppBundle:Compoments:footer.html.twig") }}
+{% block javascripts %}
+        {# Ajoutez ces lignes JavaScript si vous comptez vous servir des fonctionnalités du bootstrap Twitter #}
+    <script src="{{ asset('bundles/public/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('bundles/public/js/points.js') }}"></script>
+    <script src="{{ asset('bundles/public/js/jsperso.js') }}"></script>
+{% endblock %}
+</body>
+</html>

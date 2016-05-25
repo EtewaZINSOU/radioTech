@@ -158,8 +158,670 @@ nav.principal{
 
 ul.navbar-nav{
   height:100%;
-  li, a{
+  li.btn-group.none{
+    height:50px;
+    border-bottom:1px solid #fff;
+    width:75px;
+    margin-right:15px;
+  }
+  li.btn-group.none button{
+    background:#111113;
+    color:#FFF;
+    border:none;
+    width:75px;
+    margin-top:15px;
+    position:relative;
+    &:focus{
+      background:#111113 !important;
+    }
+    a{
+      color:#fff;
+      font-size:15px;
+      span{
+        display:inline-block;
+        &:first-child{
+          margin-right:15px;
+        }
+      }
+    }
+    +.dropdown-menu{
+      width:75px;
+      min-width:75px;
+      li, a{
+        display:block;
+        width:100%;
+        text-align:center;
+        height:30px;
+        line-height: 30px;
+      }
+      a{
+        line-height:19px;
+        &:hover{
+          background-color:#111113;
+        }
+      }
+    }
+  }
+  li:not(.none){
+    a{
+      height:50px;
+      width:40px;
+      box-sizing: border-box;
+    }
     box-sizing: border-box;
-    height:56px;
+    height:50px;
+    width:40px;
+    background-position:center top;
+    background-repeat:no-repeat;
+    transition:all .2s linear;
+  }
+  li:hover{
+    background-position:center bottom;
+  }
+  li{
+    &.fb{
+      background-image:url('../images/fb_vignette.png');
+    }
+    &.twitter{
+      background-image:url('../images/twitter_vignette.png');
+    }
+    &.linkedin{
+      background-image:url('../images/linkedin_vignette.png');
+    }
+    &.connexion{
+      background-image:url('../images/utilisateur_vignette.png');
+      &:hover{
+        .blocConnect{
+          display:block;
+        }
+      }
+      >a.menuOuvert + .blocConnect{
+        display:block;
+      }
+    }
+  }
+}
+.nav > li > a:focus, .nav > li > a:hover{
+  background:transparent;
+}
+.blocConnect{
+  position:absolute;
+  top:100%;
+  right:0;
+  width:335px;
+  padding:10px;
+  background:#fff;
+  color:#111113;
+  display:none;
+  &::before{
+    content:'';
+    display: block;
+    position:absolute;
+    width:10px;
+    height:10px;
+    background:#fff;
+    top:-5px;
+    right:15px;
+    transform: rotate(45deg);
+  }
+  form{
+    margin:10px 0;
+    &::after{
+      content:'';
+      display: block;
+      clear: both;
+    }
+  }
+  input[type="text"], input[type="password"]{
+    background:#FFF;
+    border:1px solid #111113;
+    font-size:14px;
+    text-transform:uppercase;
+    padding:5px;
+    box-sizing:border-box;
+    width:155px;
+  }
+  input[type="password"]{
+    margin-left:1px;
+  }
+  input[type="button"]{
+    float:right;
+    margin:10px 0;
+    background:#FFF;
+    border:1px solid #111113;
+    font-size:14px;
+    text-transform:uppercase;
+    padding:5px;
+  }
+}
+
+
+/*************************************************************/
+/************************** ACCUEIL **************************/
+/*************************************************************/
+
+#sons,#titrePrincipal{
+  width:100%;
+  height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:0;
+}
+#titrePrincipal{
+  position:relative;
+  height:calc(100vh - 50px);
+  z-index:1;
+  .titre{
+    position:absolute;
+    width:50%;
+    padding:40px;
+    box-sizing:border-box;
+    font-size:5vh;
+    font-weight:bold;
+    border:5px solid #fff;
+    text-align:center;
+    margin:0 auto;
+    text-transform: uppercase;
+    left:25%;
+  }
+}
+.contenu{
+  position:relative;
+  z-index:1;
+}
+.radioDirect{
+  width:100%;
+  height:40vh;
+  padding:50px;
+  box-sizing:border-box;
+  background-image:url(../images/principal.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+  .enDirect{
+    font-size:7vh;
+    padding-bottom:20px;
+    width:50%;
+    border-bottom:5px solid #fff;
+    margin-bottom:20px;
+    text-transform:uppercase;
+    font-weight:bold;
+    position:relative;
+    .bouton{
+      position:absolute;
+      right:0;
+      bottom:24px;
+    }
+  }
+  p{
+    width:50%;
+  }
+}
+.chaines{
+  width:100%;
+  height:20vh;
+  padding:0 50px;
+  margin:0;
+  box-sizing:border-box;
+  text-align:center;
+  margin-bottom:30px;
+  a{
+    position:relative;
+    width:100%;
+    float:left;
+    height:20vh;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+
+    &.art{
+      background-image:url('../images/art.jpg');
+      .mask{
+        background:$art;
+      }
+    }
+    &.robotique{
+      background-image:url('../images/robotique.jpg');
+      .mask{
+        background:$robotique;
+      }
+    }
+    &.esport{
+      background-image:url('../images/esport.jpg');
+      .mask{
+        background:$esport;
+      }
+    }
+    &.jeux{
+      background-image:url('../images/jeux.jpg');
+      .mask{
+        background:$jeux;
+      }
+    }
+    &.science{
+      background-image:url('../images/science.jpg');
+      .mask{
+        background:$science;
+      }
+    }
+    &.informatique{
+      background-image:url('../images/informatique.jpg');
+      .mask{
+        background:$informatique;
+      }
+    }
+    &:hover .titreC{
+      border-width:1px;
+      line-height:6vh;
+    }
+  }
+  .mask{
+    width:100%;
+    height:100%;
+    position:absolute;
+    opacity:.3;
+  }
+  .titreC{
+    display:inline-block;
+    height:6vh;
+    width:75%;
+    line-height:5vh;
+    box-sizing:border-box;
+    border:5px solid #fff;
+    margin-top:7vh;
+    font-size:3vh;
+    text-transform: uppercase;
+    font-weight:bold;
+    color:#fff;
+    background-color:rgba(0,0,0,.4);
+    position:relative;
+    z-index:3;
+    transition:all .2s linear;
+  }
+
+  //Navigation
+  .owl-prev, .owl-next{
+    position:absolute;
+    overflow:hidden;
+    height:20vh;
+    background-color:#fff;
+    width:50px;
+    top:0;
+    &::before{
+      content:'';
+      line-height:20vh;
+      text-align: center;
+      text-indent:0;
+      font-size:5vh;
+      width:50px;
+      display:block;
+      color:#111113;
+    }
+  }
+  .owl-prev{
+    left:0;
+    &::before {
+      content: '<';
+    }
+  }
+  .owl-next {
+    right:0;
+    &::before {
+      content: '>';
+    }
+  }
+}
+
+.bouton{
+  font-size:14px;
+  text-transform:uppercase;
+  background:#fff;
+  padding:10px;
+  border:1px solid #fff;
+  font-weight:300;
+  display: inline-block;
+  color:#000;
+}
+
+.goupeDecouverte{
+  box-sizing: border-box;
+  position:relative;
+  .user{
+    width:100%;
+  }
+  .imageUser{
+    padding:0;
+    border:2px solid #FFF;
+    box-sizing: border-box;
+    position:relative;
+    z-index:2;
+  }
+  .h1{
+    Z-index:3;
+    position:absolute;
+    top:30px;
+    right:0;
+    width:80%;
+    background:#111113;
+    color:#FFF;
+    border:none;
+    text-align:center;
+    padding:5px;
+    box-sizing:border-box;
+    font-weight:bold;
+  }
+  h2{
+    text-decoration:underline;
+    position:relative;
+    margin-bottom:20px;
+    display:inline-block;
+    color:#111113;
+  }
+  p{
+    color:#111113;
+  }
+  .description{
+    padding:120px 10px 20px;
+    margin-top:-100px;
+    background:#fff;
+    z-index:1;
+    position:relative;
+  }
+}
+
+.groupeSonUser{
+  box-sizing: border-box;
+  .personnes{
+    position:relative;
+    z-index:2;
+    .blocUser{
+      width:33.3333333%;
+      float:left;
+      position:relative;
+      box-sizing:border-box;
+      border-top:3px solid #fff;
+      border-left:3px solid #fff;
+      border-bottom:3px solid #fff;
+      border-right:3px solid #fff;
+      margin-left:-3px;
+      &:first-child{
+        margin-left:0;
+      }
+      > img{
+        width:100%;
+      }
+      &:hover{
+        .over{
+          display:table;
+          .infos{
+            opacity:1;
+          }
+        }
+
+      }
+      .over{
+        display:none;
+        position:absolute;
+        left:0;
+        top:0;
+        width:100%;
+        .infos{
+          transition:all .3s linear;
+          display:table-cell;
+          vertical-align:middle;
+          opacity:0;
+          background:rgba(0,0,0,.8);
+          text-align:center;
+          .h2{
+            text-decoration:underline;
+          }
+        }
+      }
+    }
+  }
+  .description{
+    padding:100px 10px 20px;
+    margin-top:-100px;
+    background:#303235;
+    position:relative;
+    z-index:1;
+    .h1{
+      clear:left;
+      display:inline-block;
+      width:auto;
+      padding:10px;
+      border:0;
+      margin-left:-15%;
+      font-weight:bold;
+    }
+  }
+}
+
+.newsletter{
+  clear:both;
+  position:relative;
+  width:100%;
+  height:calc(100vh - 60px);
+  .blocNL{
+    position: absolute;
+    width: 75%;
+    padding: 40px 10px;
+    box-sizing: border-box;
+    font-size: 5vh;
+    font-weight: bold;
+    border: 5px solid #fff;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    left: 12.5%;
+    h1{
+      margin:15px 0;
+    }
+    .inputMail{
+      color:#111113;
+      max-width: 100%;
+    }
+  }
+}
+
+
+
+/*************************************************************/
+/*************************** AUDIO ***************************/
+/*************************************************************/
+
+.lecteur{
+  width:100%;
+  height:70px;
+  position:fixed;
+  z-index:20;
+  bottom:0;
+  left:0;
+  background:#303235;
+  box-sizing:border-box;
+  display:none;
+  .fermer{
+    width:25px;
+    height:25px;
+    position:absolute;
+    text-align:center;
+    line-height:25px;
+    font-size:20px;
+    top:-12px;
+    right:30px;
+    background:#fff;
+    color:#111113;
+  }
+  .pp, .volume{
+    background-size:100% auto;
+    background-repeat:no-repeat;
+    background-position:center center;
+  }
+  #play{
+    background-image:url('../images/lecture.png');
+  }
+  #pause{
+    background-image:url('../images/pause.png');
+  }
+  .pp, .audioDebut, .audioFin, .coeur, .volume{
+    width:10%;
+    float:left;
+    height:70px;
+    line-height:70px;
+    display: block;
+    img{
+      max-width:40px;
+      width:100%;
+      display: inline;
+    }
+  }
+  .pp, .volume, .coeur{
+    max-width:30px;
+    width:4%;
+  }
+  .audioDebut, .audioFin{
+    max-width:60px;
+    width:7%;
+  }
+  .volume{
+    background-size:20px auto;
+    position:relative;
+    background-image:url('../images/volume.png');
+    &:hover{
+      #seek{
+        display:block;
+      }
+    }
+  }
+  .audioDebut{
+    text-align:right;
+    padding-right:5px;
+    box-sizing: border-box;
+  }
+  .audioFin{
+    text-align:left;
+    padding-left:5px;
+    box-sizing: border-box;
+  }
+  .coeur{
+    padding-right:5px;
+    line-height:80px;
+  }
+  #seek{
+    display:none;
+    position:absolute;
+    right:-30%;
+    top:-15px;
+    width:50px;
+    transform:rotate(-90deg);
+  }
+  #ecoulement{
+    width:70%;
+    margin-top:33px;
+    float:left;
+    height:5px;
+    background-color:#111113;
+    transition:all .1s linear;
+    &:hover{
+      margin-top:30px;
+      height:9px;
+    }
+  }
+  .progress{
+    background:#fff;
+    width:0;
+    height:100%;
+    border-radius:0;
+  }
+
+  //Couleurs
+  &.art{
+    .progress,.infos{
+      background:$art;
+    }
+  }
+  &.esport{
+    .progress,.infos{
+      background:$esport;
+    }
+  }
+  &.jeux{
+    .progress,.infos{
+      background:$jeux;
+    }
+  }
+  &.science{
+    .progress,.infos{
+      background:$science;
+    }
+  }
+  &.robotique{
+    .progress,.infos{
+      background:$robotique;
+    }
+  }
+  &.informatique{
+    .progress,.infos{
+      background:$informatique;
+    }
+  }
+}
+
+.right{
+  float:right;
+}
+
+h2,.h2{
+  font-size:25px;
+  font-weight:bold;
+  position:relative;
+  display: inline-block;
+}
+
+img.medaille{
+  position:absolute;
+  top: 1px;
+  right: -20px;
+  width: 15px;
+  height: 15px;
+}
+
+#footerRights{
+  position:relative;
+}
+
+@media screen and (max-width:768px){
+  .goupeDecouverte, .groupeSonUser{
+    clear:both;
+    float:none;
+    margin:15px 0;
+    &::before, &::after{
+      content:'';
+      clear:both;
+      display:block;
+    }
+  }
+  .social-icons ul.navbar-nav{
+    margin:0;
+    li{
+      float:left;
+    }
+  }
+  .radioDirect .enDirect, .radioDirect p{
+    width:100%;
+  }
+}
+@media screen and (max-width:550px){
+  .header_top{
+    height:auto;
+  }
+  .social-icons{
+    float:right !important;
+  }
+  .header_top .row > div{
+    float:none;
+    width:100%;
+    clear:both;
   }
 }

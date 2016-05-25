@@ -76,7 +76,7 @@
       overflow: hidden;
 
       &.blocSon{
-        .uploader,.duree{
+        .uploaderSon,.dureeSon{
           line-height: 65px;
         }
         .fondCouleur{
@@ -86,7 +86,7 @@
           transition:all .4s linear;
           height: 100%;
         }
-        .titre{
+        .titreSon{
           display: inline-block;
           height: 100%;
           line-height: 60px;
@@ -170,7 +170,7 @@
       > div {
         &.blocSon {
           .fondCouleur {display: none;}
-          .titre {
+          .titreSon {
             width: 100%;
 
             .col-md-4.col-sx-4 {
