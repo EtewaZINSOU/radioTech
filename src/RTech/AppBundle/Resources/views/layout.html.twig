@@ -29,11 +29,6 @@
     {# header top #}
     {% block header_top %}
         {% include 'RTechAppBundle:compoments:header_top.html.twig' %}
-    {% endblock %}  
-
-    {# header bottom#}
-    {% block navbar %}
-        {% include "RTechAppBundle:Compoments:navbar.html.twig" %}
     {% endblock %}
 {% endblock %}
 
@@ -42,7 +37,7 @@
 
 
 <div class="row">
-    <div style="min-height: 800px; margin-top:50px;">
+    <div id="content">
         {% block body %}
 
         {% endblock %}

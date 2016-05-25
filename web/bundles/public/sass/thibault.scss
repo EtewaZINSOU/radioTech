@@ -11,6 +11,8 @@
   height:50px;
   width:100%;
   z-index: 10;
+  top:0;
+  left:0;
   .blocBarres{
     width:50px;
     position:relative;
@@ -591,9 +593,43 @@ ul.navbar-nav{
       display:inline-block;
       width:auto;
       padding:10px;
+      padding:0;
       border:0;
       margin-left:-15%;
       font-weight:bold;
+    }
+  }
+
+  .blocContent::after{
+    content:'';
+    clear:both;
+    display:block;
+  }
+  .blocContentSon{
+    float:none;
+    width:100%;
+    clear:both;
+    margin:20px 0;
+    #category{
+      padding:0;
+      position:relative;
+      z-index: 2;
+      background:#fff;
+      padding:1px 3px;
+    }
+    .blocSon{
+      width:100%;
+      padding-right:5px;
+      box-sizing:border-box;
+      margin:2px 0 2px !important;
+    }
+    .uploadSon{
+      .h1{
+        width:100%;
+        display:block;
+        text-align:right;
+        margin-left:15%;
+      }
     }
   }
 }
@@ -735,6 +771,30 @@ ul.navbar-nav{
     height:100%;
     border-radius:0;
   }
+  .infos{
+    display:table;
+    table-layout: fixed;
+    height:70px;
+    .blocIMG{
+      width:65px;
+      height:65px;
+      display: table-cell;
+      vertical-align: middle;
+    }
+    img{
+      width:65px;
+      height:65px;
+      margin-top:2px;
+      display: inline-block;
+    }
+    .titreNom{
+      //width:calc(100% - 65px);
+      padding-left:10px;
+      box-sizing:border-box;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
 
   //Couleurs
   &.art{
@@ -825,4 +885,9 @@ img.medaille{
     width:100%;
     clear:both;
   }
+}
+
+#content{
+  min-width:calc(100vh - 120px);
+  margin-top:50px;
 }
