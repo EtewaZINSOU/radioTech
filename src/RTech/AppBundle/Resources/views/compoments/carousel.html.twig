@@ -1,0 +1,187 @@
+<div class="container slider">
+    <div id="my_carousel" class="carousel slide" data-ride="carousel">
+        <!-- Bulles -->
+        <ol class="carousel-indicators">
+            <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#my_carousel" data-slide-to="1"></li>
+            <li data-target="#my_carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Slides -->
+        <div class="carousel-inner">
+            <!-- Page 1 -->
+            <div class="item active">
+                <div class="carousel-page">
+                    <div class="col-sm-6">
+                        <h1><span>E</span>-PYLOS</h1>
+                        <h2>Welcome to Pylos Shop</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </p>
+                        <button type="button" class="btn btn-default get">Get it now</button>
+                    </div>
+                    <!-- <images src="/images/bootstrap.png" class="images-responsive" style="margin:0px auto;" /> -->
+
+                    <div class="col-sm-6">
+                        {% image '@PylosStoreBundle/Resources/public/images/home/girl1.jpg'%}
+                            <img src="{{ asset_url }}" alt="Example" class="girl img-responsive"/>
+                        {% endimage %}
+
+                        {% image '@PylosStoreBundle/Resources/public/images/home/pricing.png' %}
+                        <img src="{{ asset_url }}" alt="Example" class="pricing"/>
+
+                        {% endimage %}
+                    </div>
+
+                </div>
+            </div>
+            <!-- Page 2 -->
+            <div class="item">
+                <div class="carousel-page">
+                    <div class="col-sm-6">
+                        <h1><span>E</span>-PYLOS</h1>
+                        <h2>Welcome to Pylos</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </p>
+                        <button type="button" class="btn btn-default get">Get it now</button>
+                    </div>
+                    <!-- <images src="/images/twitter-bootstrap.jpg" class="images-responsive images-rounded" style="margin:0px auto;"  /> -->
+                    <div class="col-sm-6">
+                        {% image '@PylosStoreBundle/Resources/public/images/home/girl2.jpg'%}
+                        <img src="{{ asset_url }}" alt="Example" class="girl img-responsive"/>
+                        {% endimage %}
+
+                        {% image '@PylosStoreBundle/Resources/public/images/home/pricing.png' %}
+                        <img src="{{ asset_url }}" alt="Example" class="pricing"/>
+
+                        {% endimage %}
+                    </div>
+
+                </div>
+            </div>
+            <!-- Page 3 -->
+            <div class="item">
+                <div class="carousel-page">
+                    <!-- <images src="/images/tablette.png" class="images-responsive images-rounded" style="margin:0px auto;max-height:100%;"  /> -->
+                    <div class="col-sm-6">
+                        <h1><span>E</span>-PYLOS</h1>
+                        <h2>Welcome to Pylos</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </p>
+                        <button type="button" class="btn btn-default get">Get it now</button>
+                    </div>
+                    <div class="col-sm-6">
+                        {% image '@PylosStoreBundle/Resources/public/images/home/girl3.jpg'%}
+                        <img src="{{ asset_url }}" alt="Example" class="girl img-responsive"/>
+                        {% endimage %}
+
+                        {% image '@PylosStoreBundle/Resources/public/images/home/pricing.png' %}
+                        <img src="{{ asset_url }}" alt="Example" class="pricing"/>
+
+                        {% endimage %}
+                    </div>
+
+
+                </div>
+                <div class="carousel-caption">Page 2 de présentation</div>
+            </div>
+        </div>
+        <!-- Contrôles -->
+        <a class="left control-carousel hidden-xs" href="#my_carousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="right control-carousel hidden-xs" href="#my_carousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+        </a>
+
+
+    </div>
+</div>
+
+
+
+{#
+
+
+<section id="slider"><!--slider-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider-carousel" data-slide-to="1"></li>
+                        <li data-target="#slider-carousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Slides -->
+                    <div class="carousel-inner">
+                        <!-- Page 1 -->
+                        <div class="item active">
+                            <div class="col-sm-6">
+                                <h1><span>E</span>-SHOPPER</h1>
+                                <h2>Free E-Commerce Template</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <button type="button" class="btn btn-default get">Get it now</button>
+                            </div>
+                            <div class="col-sm-6">
+                                {% image
+                                    '@PylosStoreBundle/Resources/public/images/home/girl1.jpg'
+                                    '@PylosStoreBundle/Resources/public/images/home/pricing.png'
+                                %}
+                                <img src="{{ asset_url }}" alt="Example" class="img-responsive" />
+
+                                {% endimage %}
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-sm-6">
+                                <h1><span>E</span>-SHOPPER</h1>
+                                <h2>100% Responsive Design</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <button type="button" class="btn btn-default get">Get it now</button>
+                            </div>
+                            <div class="col-sm-6">
+                                {% image
+                                '@PylosStoreBundle/Resources/public/images/home/girl1.jpg'
+                                '@PylosStoreBundle/Resources/public/images/home/pricing.png'
+                                %}
+                                <img src="{{ asset_url }}" alt="Example" class="img-responsive" />
+
+                                {% endimage %}
+
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-sm-6">
+                                <h1><span>E</span>-SHOPPER</h1>
+                                <h2>Free Ecommerce Template</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <button type="button" class="btn btn-default get">Get it now</button>
+                            </div>
+                            <div class="col-sm-6">
+                                {% image
+                                '@PylosStoreBundle/Resources/public/images/home/girl1.jpg'
+                                '@PylosStoreBundle/Resources/public/images/home/pricing.png'
+                                %}
+                                <img src="{{ asset_url }}" alt="Example" class="img-responsive" />
+
+                                {% endimage %}
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section><!--/slider-->
+#}

@@ -1,0 +1,23 @@
+<li class="btn-group dropdown none">
+   <button type="button" class="dropdown-toggle btn btn-default usa" style="text-decoration: none" data-toggle="dropdown" role="button" aria-expanded="true">
+       <a  href="{{ path(app.request.attributes.get('_route'), app.request.attributes.get('_route_params')|merge({'_locale': 'fr'})) }}">
+           <span>{{ app.request.locale|upper }}</span><span class="caret"></span>
+       </a>
+
+   </button>
+    <ul class="dropdown-menu">
+        <li>
+            <a href="{{ path(app.request.attributes.get('_route'), app.request.attributes.get('_route_params')|merge({'_locale': 'fr'})) }}">
+                FR
+            </a>
+        </li>
+
+        <li>
+            <a href="{{ path(app.request.attributes.get('_route'), app.request.attributes.get('_route_params')|merge({'_locale': 'es'})) }}">
+                ES
+            </a>
+        </li>
+    </ul>
+</li>
+
+

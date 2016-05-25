@@ -1,0 +1,54 @@
+@import 'variables';
+@import 'reset';
+@import 'bootstrap';
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+body,html{
+    height:100%;
+    margin:0;
+    font-size:14px;
+    background-color: #111113;
+    color:#fff;
+}
+*{
+    box-sizing:inherit;
+    font-family: 'Oswald', sans-serif !important;
+    font-size:1rem;
+}
+img{
+    height:auto;
+    max-width:100%;
+}
+h1, .h1{
+    font-size:(20/14)rem;
+    text-transform: uppercase;
+}
+
+.h1 {
+    margin: 10px 0;
+    padding: 8px 0;
+    border-bottom: 3px solid #FFF;
+    width: 100%;
+    display: block;
+}
+
+.container{
+    max-width:1900px;
+    width:100%;
+    box-sizing:border-box;
+}
+
+.row{
+    margin:0 !important;
+}
+
+.col-md-1, .col-md-10, .col-md-11, .col-md-12,
+.col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@import 'solene';
+@import 'thibault';
