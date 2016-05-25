@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$art".
-        on line 128 of C:/wamp/www/radioTech/web/bundles/public/sass/solene.scss
+        on line 132 of C:/wamp/www/radioTech/web/bundles/public/sass/solene.scss
 
-123:           width:100%;
-124:         }
-125:         &.art {
-126:           div:first-child {
-127: 
-128:             background-color: $art;
-129:           }
-130:         }
-131:         &.science{
-132:           div:first-child {
-133:             background-color: $science;
+127:           width:100%;
+128:         }
+129:         &.art {
+130:           div:first-child {
+131: 
+132:             background-color: $art;
+133:           }
+134:         }
+135:         &.science{
+136:           div:first-child {
+137:             background-color: $science;
 
 Backtrace:
-C:/wamp/www/radioTech/web/bundles/public/sass/solene.scss:128
+C:/wamp/www/radioTech/web/bundles/public/sass/solene.scss:132
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -111,4 +111,4 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$art\".\A         on line 128 of C:/wamp/www/radioTech/web/bundles/public/sass/solene.scss\A \A 123:           width:100%;\A 124:         }\A 125:         &.art {\A 126:           div:first-child {\A 127: \A 128:             background-color: $art;\A 129:           }\A 130:         }\A 131:         &.science{\A 132:           div:first-child {\A 133:             background-color: $science;"; }
+  content: "Error: Undefined variable: \"$art\".\A         on line 132 of C:/wamp/www/radioTech/web/bundles/public/sass/solene.scss\A \A 127:           width:100%;\A 128:         }\A 129:         &.art {\A 130:           div:first-child {\A 131: \A 132:             background-color: $art;\A 133:           }\A 134:         }\A 135:         &.science{\A 136:           div:first-child {\A 137:             background-color: $science;"; }
