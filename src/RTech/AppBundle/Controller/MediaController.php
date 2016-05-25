@@ -17,13 +17,16 @@ class MediaController extends Controller
 		$media = $em->getRepository('RTechAppBundle:Media');
 
 		$medias = $media->findBy(['user' => $this->getUser()]);
+		$user = $this->getUser();
 
 
 		return $this->render('RTechAppBundle:media:index.html.twig', [
 			'medias' => $medias,
+			'user' =>$user
 		]);
 	}
 
+	
 	public function addMediaAction(Request $request)
 	{
 		$media = new Media();

@@ -2,6 +2,108 @@
 {% extends "RTechAppBundle::layout.html.twig" %}
 
 {% block body %}
+<canvas id="sons"></canvas>
+<div id="titrePrincipal"><div class="titre">Tout l'art <br />est dans le hasard</div></div>
+<div class="contenu row">
+    <div class="radioDirect">
+        <div class="enDirect">
+            En <br />direct
+            <a href="" class="bouton audioSon" data-src="http://hibamp3.com/music/mp3/Music%20Etranger/Eminem-2016/01.%20Session%20One.mp3">
+                écouter en live
+            </a>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel est sed nunc maximus aliquam nec rutrum orci.</p>
+    </div>
+    <div class="chaines">
+        <a href="" class="esport">
+            <div class="mask"></div>
+            <p class="titreC">E-Sport</p>
+        </a>
+        <a href="" class="informatique">
+            <div class="mask"></div>
+            <p class="titreC">informatique</p>
+        </a>
+        <a href="" class="robotique">
+            <div class="mask"></div>
+            <p class="titreC">robotique</p>
+        </a>
+        <a href="" class="art">
+            <div class="mask"></div>
+            <p class="titreC">art</p>
+        </a>
+        <a href="" class="jeux">
+            <div class="mask"></div>
+            <p class="titreC">jeux</p>
+        </a>
+        <a href="" class="science">
+            <div class="mask"></div>
+            <p class="titreC">science</p>
+        </a>
+    </div>
+    <div class="col-sm-7 groupeSonUser">
+        <div class="blocContent">
+            <div class="personnes">
+                <div class="blocUser">
+                    <img src="{{ asset('bundles/public/images/talian.png') }}" />
+                    <div class="over">
+                        <div class="infos">
+                            <div class="h2">
+                                Talian<img src="{{ asset('bundles/public/images/or.png') }}" class="medaille" />
+                            </div>
+                            <div class="podcast">50 podcast</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blocUser">
+                    <img src="{{ asset('bundles/public/images/lorie.png') }}" />
+                    <div class="over">
+                        <div class="infos">
+                            <div class="h2">
+                                LORIAN<img src="{{ asset('bundles/public/images/or.png') }}" class="medaille" />
+                            </div>
+                            <div class="podcast">129 podcast</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blocUser">
+                    <img src="{{ asset('bundles/public/images/solene.png') }}" />
+                    <div class="over">
+                        <div class="infos">
+                            <div class="h2">
+                                solen3<img src="{{ asset('bundles/public/images/or.png') }}" class="medaille" />
+                            </div>
+                            <div class="podcast">20 podcast</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-10 right description">
+                <div class="h1">Les uploaders de la semaine</div>
+                <div class="col-md-10">
+                    <p>Vous devriez les écouter, ça en vaut la peine</p>
+                </div>
+            </div>
+        </div>
+        <div class="blocSon">
 
-
+        </div>
+    </div>
+    <div class="col-sm-5 goupeDecouverte">
+        <div class="h1 decouverte">Notre découverte</div>
+        <div class="col-xs-11 imageUser">
+            <img src="{{ asset('bundles/public/images/lolo.png') }}" alt="notre découverte" class="user"/>
+        </div>
+        <div class="col-xs-11 right description">
+            <h2>LOLO<img src="{{ asset('bundles/public/images/bronze.png') }}" class="medaille" /></h2>
+            <p>LOLO est encore une jeune uploadeuse cependant, dans ses chroniques sur l’art, elle a un franc-parler et une manière de nous faire découvrir de nouveaux artistes ou nouvelles créations tout en nous faisant rêver.</p>
+        </div>
+    </div>
+    <div class="newsletter">
+        <div class="blocNL">
+            <h2>Vous souhaitez recevoir plus d'information ?</h2>
+            <h1>Inscrivez-vous à notre newsletter</h1>
+            <input type="text" placeholder="mail" class="inputMail" />
+        </div>
+    </div>
+</div>
 {% endblock  %}

@@ -13,6 +13,10 @@
         <link rel="stylesheet" href="{{ asset('bundles/public/font-awesome/css/font-awesome.min.css') }}">
         <link rel="stylesheet" href="{{ asset('bundles/public/css/main.css') }}">
         <link rel="stylesheet" href="{{ asset('bundles/public/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('bundles/public/css/owl.carousel.css') }}">
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="{{ asset('bundles/public/js/owl.carousel.min.js') }}"></script>
     {% endblock %}
 </head>
 <body>
@@ -25,12 +29,7 @@
     {# header top #}
     {% block header_top %}
         {% include 'RTechAppBundle:compoments:header_top.html.twig' %}
-    {% endblock %}
-
-    {# header middle#}
-    {% block header_middle %}
-        {% include 'RTechAppBundle:compoments:header_middle.html.twig' %}
-    {% endblock %}
+    {% endblock %}  
 
     {# header bottom#}
     {% block navbar %}
@@ -38,28 +37,28 @@
     {% endblock %}
 {% endblock %}
 
-{% block pylos_store_filariane %}
-    {{ include("RTechAppBundle:Compoments:filariane.html.twig") }}
-{% endblock %}
-
 {% block pylos_store_carousel %}
 {% endblock %}
 
 
 <div class="row">
-    <div style="height: 800px">
+    <div style="min-height: 800px; margin-top:50px;">
         {% block body %}
 
         {% endblock %}
     </div>
-
 </div>
+
+{% block lecteur %}
+    {% include "RTechAppBundle:Compoments:lecteur.html.twig" %}
+{% endblock  %}
 
 {{ include("RTechAppBundle:Compoments:footer.html.twig") }}
 {% block javascripts %}
         {# Ajoutez ces lignes JavaScript si vous comptez vous servir des fonctionnalités du bootstrap Twitter #}
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="{{ asset('bundles/public/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('bundles/public/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('bundles/public/js/points.js') }}"></script>
+    <script src="{{ asset('bundles/public/js/jsperso.js') }}"></script>
 {% endblock %}
 </body>
 </html>

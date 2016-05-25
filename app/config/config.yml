@@ -85,3 +85,29 @@ fos_user:
     profile:
         form:
             type: RTech\UserBundle\Form\Type\ProfileFormType
+
+
+easy_admin:
+    site_name: 'WebRadio<em style="font-size: 80%; color: yellow">::ADMIN</em>'
+    design:
+        color_scheme: 'dark'
+        brand_color: 'rgba(254,152,15,0.85)'
+    list:
+        actions: ['show']
+    entities:
+        Category:
+            class: RTech\AppBundle\Entity\Category
+
+        Media:
+            class: RTech\AppBundle\Entity\Media
+            disabled_actions: ['delete']
+
+        User:
+            class: RTech\UserBundle\Entity\User
+            list:
+                fields: ['id', 'lastname', 'firstname', 'birthday']
+            edit:
+                fields: ['id', 'lastname', 'firstname', 'birthday','username','email','password']
+                roles: [ROLE_AMIN]
+            new:
+                fields: ['id', 'lastname', 'firstname', 'birthday','username','email','password']

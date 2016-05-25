@@ -1,26 +1,4 @@
 
-<div class="fos_user_user_show" xmlns="http://www.w3.org/1999/html">
-    <div class="panel panel-info profile_info">
-        <div class="panel-heading">INFORMATIONS PERSONNELLES</div>
-        <div class="panel-body">
-            <ul class="row">
-                <div class="col-md-4">
-                    <p>{{ 'profile.show.username'|trans }}: {{ user.lastname }}</p>
-                    <p>{{ 'profile.show.email'|trans }}: {{ user.firstname }}</p>
-                    <p>Date naissance: {{ user.birthday|date("m/d/Y", "Europe/Paris") }}</p>
-                </div>
-
-                <audio controls>
-                    <source src="{{ asset('/uploads/media/c813c5129cbe4fb5fb4655029f47a5a2.mpga') }}" type="audio/ogg">
-                    Your browser does not support the audio element.
-                </audio>
-
-                <div class="col-md-4">
-                    <p><i class="fa fa-pencil fa-lg"></i><a href="{{ path('rtech_user_profile_edit') }}" class="btn btn-link">Modifier mes informations personnelles</a></p>
-                </div>
-            </ul>
-        </div>
-    </div>
-
+<div>
     {{ render(controller('RTechAppBundle:Media:index')) }}
 </div>

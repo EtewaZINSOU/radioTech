@@ -1,8 +1,11 @@
 <?php
 
 namespace RTech\AppBundle\Entity;
+<<<<<<< HEAD
 use RTech\UserBundle\Entity\User;
 use Symfony\Component\Validator\Constraints as Assert;
+=======
+>>>>>>> front
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -26,22 +29,31 @@ class Media
     /**
      * @var string
      *
-     * @ORM\Column(name="title", type="string", length=255)
+     * @ORM\Column(name="soundTitle", type="string", length=255)
      */
+<<<<<<< HEAD
     protected $Title;
+=======
+    private $soundTitle;
+>>>>>>> front
 
     /**
      * @var string
      *
-     * @ORM\Column(name="lien", type="string", length=255)
+     * @ORM\Column(name="basePath", type="string", length=255)
      */
+<<<<<<< HEAD
     protected $Emplacement;
+=======
+    private $basePath;
+>>>>>>> front
 
     /**
      * @var string
      *
      * @ORM\Column(name="descrption", type="string", length=255)
      */
+<<<<<<< HEAD
     protected $descrption;
 
 
@@ -57,6 +69,16 @@ class Media
      */
     protected $category;
 
+=======
+    private $descrption;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="extension", type="string", length=255, nullable=true, unique=true)
+     */
+    private $extension;
+>>>>>>> front
 
 
     /**
@@ -166,3 +188,4 @@ class Media
         return $this;
     }
 }
+

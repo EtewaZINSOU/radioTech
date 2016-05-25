@@ -21,9 +21,6 @@ class MediaType extends AbstractType
         $builder
             ->add('Title',TextType::class)
             ->add('Emplacement', FileType::class)
-            ->add('descrption', CKEditorType::class,array(
-                'config' => array('toolbar' => 'full'),
-                ))
             ->add('category', EntityType::class, array(
                 'class' => 'RTechAppBundle:Category',
                 'choice_label' => 'categoryName'

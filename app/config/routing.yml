@@ -5,3 +5,8 @@ r_tech_app:
 r_tech_user:
     resource: "@RTechUserBundle/Resources/config/routing.yml"
     prefix:   /user
+
+easy_admin_bundle:
+    resource: "@EasyAdminBundle/Controller/"
+    type:     annotation
+    prefix:   /admin

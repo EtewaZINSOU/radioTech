@@ -30,7 +30,7 @@ class RegistrationController extends Controller
         /** @var User $user */
         $user = $userManager->createUser();
         $user->setEnabled(true);
-        $user->setUsername($user->getEmail());
+        $user->setUsername($user->getFirstname());
 
         $event = new GetResponseUserEvent($user, $request);
         $dispatcher->dispatch(FOSUserEvents::REGISTRATION_INITIALIZE, $event);

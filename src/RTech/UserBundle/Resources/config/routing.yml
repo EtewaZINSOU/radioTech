@@ -2,7 +2,7 @@
 # SECURITY
 fos_user_security_login:
     path: /login
-    defaults: { _controller: FOSUserBundle:Security:login }
+    defaults: { _controller: RTechUserBundle:Security:login }
 
 fos_user_security_check:
     path: /login/check
@@ -14,7 +14,7 @@ fos_user_security_logout:
 
 
 # REGISTRATION
-fos_user_registration_register:
+rtech_user_registration_register:
     path: /register
     defaults: { _controller: RTechUserBundle:Registration:register }
 

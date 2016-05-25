@@ -16,10 +16,6 @@ class RegistrationFormType extends AbstractType
             ->add('lastname', TextType::class)
             ->add('lastname', TextType::class)
             ->add('firstname', TextType::class)
-           /**->add('birthday', DateType::class, array(
-                'input'  => 'timestamp',
-                'widget' => 'choice',
-            ))**/
             ->add('birthday', DateType::class)
             ->remove('username')
 

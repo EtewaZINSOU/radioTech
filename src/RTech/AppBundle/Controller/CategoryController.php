@@ -21,5 +21,19 @@ class CategoryController extends Controller
                 'categories'=>$categories,
         ));
     }
+
+
+    public function getAllMediaAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $mediaAll = $em->getRepository('RTechAppBundle:Media');
+
+        $mediasAll = $mediaAll->findAll();
+
+
+        return $this->render('RTechAppBundle:Category:category.html.twig', [
+            'mediasAll' => $mediasAll,
+        ]);
+    }
     
 }

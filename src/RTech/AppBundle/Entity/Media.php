@@ -37,14 +37,7 @@ class Media
      * @ORM\Column(name="lien", type="string", length=255)
      */
     protected $Emplacement;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="descrption", type="string", length=255)
-     */
-    protected $descrption;
-
+    
 
     /**
      * @ORM\ManyToOne(targetEntity="RTech\UserBundle\Entity\User", cascade={"persist"}, inversedBy="medias")
@@ -68,31 +61,6 @@ class Media
     public function getId()
     {
         return $this->id;
-    }
-
-    
-    /**
-     * Set descrption
-     *
-     * @param string $descrption
-     *
-     * @return Media
-     */
-    public function setDescrption($descrption)
-    {
-        $this->descrption = $descrption;
-
-        return $this;
-    }
-
-    /**
-     * Get descrption
-     *
-     * @return string
-     */
-    public function getDescrption()
-    {
-        return $this->descrption;
     }
 
     

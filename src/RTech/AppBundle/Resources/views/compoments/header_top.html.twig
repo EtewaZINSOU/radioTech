@@ -1,24 +1,101 @@
 <div class="header_top"><!--header_top-->
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                <div class="contactinfo">
-                    <ul class="nav nav-pills">
-                        <li><a href="#"><i class="fa fa-phone"></i> +33 95 01 88 821</a></li>
-                        <li><a href="#"><i class="fa fa-envelope"></i> contact@radioTech.com</a></li>
-                    </ul>
+            <div class="col-sm-3 col-xs-5" id="menuPrincipal">
+                <div id="menuBurger">
+                    <div class="blocBarres">
+                        <div class="blocCharge blocChargemiddle"></div>
+                        <div class="blocCharge"></div>
+                        <div class="blocCharge blocChargemiddle"></div>
+                    </div>
+                    <nav class="principal">
+                        <ul>
+                            <li><div class="gris fullBackground"></div><a href="{{ path('r_tech_app_homepage') }}">Accueil</a></li>
+                            <li><div class="gris fullBackground"></div><a href="{{ path('r_tech_category') }}">Toutes les catégories</a></li>
+                            <li><div class="e-sport fullBackground"></div><a href="{{ path('r_tech_category') }}">E-sport</a></li>
+                            <li><div class="informatique fullBackground"></div><a href="{{ path('r_tech_category') }}">Informatique</a></li>
+                            <li><div class="jeux fullBackground"></div><a href="{{ path('r_tech_category') }}">Jeux</a></li>
+                            <li><div class="robotique fullBackground"></div><a href="{{ path('r_tech_category') }}">Robotique</a></li>
+                            <li><div class="science  fullBackground"></div><a href="{{ path('r_tech_category') }}">Science</a></li>
+                            <li><div class="art fullBackground"></div><a href="{{ path('r_tech_category') }}">Art</a></li>
+                            <li>
+                                <div class="search_box pull-right">
+                                    <input type="text" placeholder="Search" /><span style="margin-right: 6px;margin-top: -20px;margin-left: -22px; position: relative;z-index: 9" class="fa fa-search"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="logo pull-left pylos-logo">
+                    <a href="{{ path('r_tech_app_homepage') }}">
+                        <img src="{{ asset('bundles/public/images/logo.png') }}" alt="RadioTech" />
+                    </a>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-9 col-xs-7">
                 <div class="social-icons pull-right">
                     <ul class="nav navbar-nav">
-                        <li><a target="_blank" href="https://fr-fr.facebook.com/"><i class="icon-facebook"></i></a></li>
-                        <li><a target="_blank" href="https://twitter.com/?lang=fr"><i class="icon-twitter"></i></a></li>
-                        <li><a target="_blank" href="https://fr.linkedin.com/"><i class="icon-linkedin"></i></a></li>
-                        <li><a target="_blank" href="https://dribbble.com/"><i class="icon-dribbble"></i></a></li>
+                        {% include 'RTechAppBundle:compoments:language.html.twig' %}
+                        <li class="fb"><a target="_blank" href="https://fr-fr.facebook.com/"></a></li>
+                        <li class="twitter"><a target="_blank" href="https://twitter.com/?lang=fr"></a></li>
+                        <li class="linkedin"><a target="_blank" href="https://fr.linkedin.com/"></a></li>
+                        <li class="connexion">
+                            <a href=""></a>
+                            <div class="blocConnect">
+                            {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                                <p>{{ app.user.firstname}}</p>
+                                <a href="{{ path('fos_user_profile_show') }}" title="">Profil</a>
+                                <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a>
+
+                                {#<a href="{{ path('r_tech_media') }}">Ajouter un son</a>#}
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                                   Ajouter
+                                </button>
+
+                                <!-- Modal -->
+
+                            {% else %}
+                                <form>
+                                    <a href="{{ path('fos_user_security_login') }}">Connexion</a>
+                                    <a href="{{ path('rtech_user_registration_register') }}">{{'layout.register'|trans({}, 'FOSUserBundle') }}</a>
+                                </form>
+                                {#{{ render(controller('RTechUserBundle:Security:login')) }}#}
+                                {#{% include 'RTechUserBundle:Security:login.html.twig' %}#}
+                                {#{{ include("RTechUserBundle:Security:login.html.twig") }}#}
+                            {% endif %}
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </div><!--/header_top-->
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade mediaModal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="ajoutSon">
+                        {{ render(controller('RTechAppBundle:Media:addMedia')) }}
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

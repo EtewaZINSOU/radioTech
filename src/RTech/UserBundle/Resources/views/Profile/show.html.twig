@@ -3,3 +3,54 @@
 {% block rtech_user_content %}
         {{ include("RTechUserBundle:Profile:show_content.html.twig") }}
 {% endblock rtech_user_content %}
+
+
+{% block javascripts %}
+    {{ parent() }}
+<script type="text/javascript">
+$(document).ready(function () {
+    var self = $(this);
+    var _glyphicon = self.find('.glyphicon');
+
+    if (_glyphicon.hasClass('glyphicon-ok')) {
+        _glyphicon.removeClass('glyphicon-ok');
+    }
+
+    _glyphicon.toggleClass('glyphicon-refresh glyphicon-refresh-animate');
+
+    $('.ajoutSon').on('submit', '.fn-form-modal-media ', function (e) {
+        e.preventDefault();
+        var $form = $(this);
+        var formdata = (window.FormData) ? new FormData($form[0]) : null;
+        var data = (formdata !== null) ? formdata : $form.serialize();
+
+        $.ajax({
+                url: $form.attr('action'),
+                type: $form.attr('method'),
+                contentType: false, // obligatoire pour de l'upload
+                processData: false, // obligatoire pour de l'upload
+                data: data,
+
+                success: function (response) {
+                    if (response) {
+                    console.log('tet',response);
+                        _glyphicon.fadeOut().toggleClass('glyphicon-refresh glyphicon-refresh-animate');
+                        _glyphicon.fadeIn().addClass('glyphicon-ok');
+                        self.find('.fn-media-submit').addClass('btn-success').removeClass('btn-default');
+
+                        //$('.mediaModal-lg').modal('hide');
+                        $('.mediaModal-lg').fadeOut();
+                        $('body').removeClass('modal-open');
+                        $('.modal-backdrop').remove();
+
+                        $('.ajoutSon').html(response.itemModal);
+                        $('.fn-item>.row').fadeIn().append(response.itemHtml);
+
+                        }
+                }
+        });
+    });
+});
+</script>
+{% endblock %}
+
