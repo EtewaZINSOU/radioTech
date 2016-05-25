@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c737ef-5caf-4994-ae64-2005f6848e48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Controller/ContactController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Contact/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/.sass-cache/6f8a93fe04701cde4f9bde2cfb9bd29bddbb3fd0/solene.scssc" afterPath="$PROJECT_DIR$/web/bundles/public/.sass-cache/6f8a93fe04701cde4f9bde2cfb9bd29bddbb3fd0/solene.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/.sass-cache/6f8a93fe04701cde4f9bde2cfb9bd29bddbb3fd0/style.scssc" afterPath="$PROJECT_DIR$/web/bundles/public/.sass-cache/6f8a93fe04701cde4f9bde2cfb9bd29bddbb3fd0/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/.sass-cache/6f8a93fe04701cde4f9bde2cfb9bd29bddbb3fd0/thibault.scssc" afterPath="$PROJECT_DIR$/web/bundles/public/.sass-cache/6f8a93fe04701cde4f9bde2cfb9bd29bddbb3fd0/thibault.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/.sass-cache/8ce5c5da57e58c159a2dde2f99d4e80e04fbe080/solene.scssc" afterPath="$PROJECT_DIR$/web/bundles/public/.sass-cache/8ce5c5da57e58c159a2dde2f99d4e80e04fbe080/solene.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/.sass-cache/8ce5c5da57e58c159a2dde2f99d4e80e04fbe080/style.scssc" afterPath="$PROJECT_DIR$/web/bundles/public/.sass-cache/8ce5c5da57e58c159a2dde2f99d4e80e04fbe080/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/.sass-cache/8ce5c5da57e58c159a2dde2f99d4e80e04fbe080/thibault.scssc" afterPath="$PROJECT_DIR$/web/bundles/public/.sass-cache/8ce5c5da57e58c159a2dde2f99d4e80e04fbe080/thibault.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/category/category.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/category/category.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/footer.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/footer.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/header_top.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/header_top.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/lecteur.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/lecteur.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/maps.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/maps.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/UserBundle/Form/Type/RegistrationFormType.php" afterPath="$PROJECT_DIR$/src/RTech/UserBundle/Form/Type/RegistrationFormType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/UserBundle/Form/Type/UserType.php" afterPath="$PROJECT_DIR$/src/RTech/UserBundle/Form/Type/UserType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register.html.twig" afterPath="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register_content.html.twig" afterPath="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Registration/register_content.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Security/login.html.twig" afterPath="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Security/login.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/css/solene.css" afterPath="$PROJECT_DIR$/web/bundles/public/css/solene.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/css/style.css" afterPath="$PROJECT_DIR$/web/bundles/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/css/thibault.css" afterPath="$PROJECT_DIR$/web/bundles/public/css/thibault.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/js/jsperso.js" afterPath="$PROJECT_DIR$/web/bundles/public/js/jsperso.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/sass/solene.scss" afterPath="$PROJECT_DIR$/web/bundles/public/sass/solene.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/sass/style.css" afterPath="$PROJECT_DIR$/web/bundles/public/sass/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/sass/style.css.map" afterPath="$PROJECT_DIR$/web/bundles/public/sass/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/sass/style.scss" afterPath="$PROJECT_DIR$/web/bundles/public/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/sass/thibault.scss" afterPath="$PROJECT_DIR$/web/bundles/public/sass/thibault.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Category.php" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Category.php" />
     </list>
     <ignored path="radioTech.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -160,7 +129,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="166">
@@ -172,11 +141,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Profile/show.html.twig">
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+              <folding>
+                <element signature="e#2117#2190#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Media.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1164">
+              <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -199,18 +180,6 @@
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#165#220#0#Twig" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category_list.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/category_list.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-              <folding>
-                <element signature="e#12#44#0#Twig" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -290,7 +259,6 @@
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Controller/ProfileController.php" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Form/Type/ProfileFormType.php" />
-        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Category.php" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Form/MediaType.php" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Profile/show_content.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php" />
@@ -315,6 +283,7 @@
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Form/Type/RegistrationFormType.php" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/category.html.twig" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Category.php" />
       </list>
     </option>
   </component>
@@ -1137,22 +1106,22 @@
       <workItem from="1463732455573" duration="98754000" />
       <workItem from="1464084455013" duration="90000" />
       <workItem from="1464084626141" duration="34771000" />
-      <workItem from="1464189372055" duration="742000" />
+      <workItem from="1464189372055" duration="1380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176774000" />
+    <option name="totallyTimeSpent" value="177412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33661118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4869281" sideWeight="0.38426626" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.014705882" sideWeight="0.38426626" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4869281" sideWeight="0.61573374" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.014705882" sideWeight="0.61573374" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1343,21 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="162" column="39" selection-start-line="162" selection-start-column="39" selection-end-line="162" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="148" column="36" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1595,6 +1549,24 @@
           <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
           <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
           <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+          <folding>
+            <element signature="e#2117#2190#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1164">
+          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
           <folding />
         </state>
       </provider>

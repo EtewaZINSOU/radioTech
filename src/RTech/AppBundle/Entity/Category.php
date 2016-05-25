@@ -82,31 +82,7 @@ class Category
     {
         return $this->categoryName;
     }
-
-    /**
-     * Set description
-     *
-     * @param string $description
-     *
-     * @return Category
-     */
-    public function setDescription($description)
-    {
-        $this->description = $description;
-
-        return $this;
-    }
-
-    /**
-     * Get description
-     *
-     * @return string
-     */
-    public function getDescription()
-    {
-        return $this->description;
-    }
-
+    
     /**
      * Add media
      *
