@@ -146,13 +146,13 @@
             responsive:{
                 0:{
                     items:1,
-                    nav:false,
+                    nav:true,
                     mouseDrag : true,
                     touchDrag : true
                 },
                 600:{
                     items:2,
-                    nav:false,
+                    nav:true,
                     mouseDrag : true,
                     touchDrag : true
                 },

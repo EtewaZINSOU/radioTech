@@ -485,6 +485,7 @@ ul.navbar-nav{
 }
 
 .goupeDecouverte{
+  box-sizing: border-box;
   position:relative;
   .user{
     width:100%;
@@ -530,6 +531,7 @@ ul.navbar-nav{
 }
 
 .groupeSonUser{
+  box-sizing: border-box;
   .personnes{
     position:relative;
     z-index:2;
@@ -618,6 +620,7 @@ ul.navbar-nav{
     }
     .inputMail{
       color:#111113;
+      max-width: 100%;
     }
   }
 }
@@ -786,4 +789,39 @@ img.medaille{
 
 #footerRights{
   position:relative;
+}
+
+@media screen and (max-width:768px){
+  .goupeDecouverte, .groupeSonUser{
+    clear:both;
+    float:none;
+    margin:15px 0;
+    &::before, &::after{
+      content:'';
+      clear:both;
+      display:block;
+    }
+  }
+  .social-icons ul.navbar-nav{
+    margin:0;
+    li{
+      float:left;
+    }
+  }
+  .radioDirect .enDirect, .radioDirect p{
+    width:100%;
+  }
+}
+@media screen and (max-width:550px){
+  .header_top{
+    height:auto;
+  }
+  .social-icons{
+    float:right !important;
+  }
+  .header_top .row > div{
+    float:none;
+    width:100%;
+    clear:both;
+  }
 }
