@@ -1,4 +1,4 @@
-.category {
+#category {
   padding: 15px;
 
   .fixed {
@@ -16,7 +16,7 @@
     font-weight: 300;
     height: 35px;
     width: 100%;
-    margin-top: 25px;
+    margin-top: 22px;
     padding: 0 15px;
     outline: medium none;
     border: 3px solid #FFF;
@@ -38,14 +38,15 @@
 
   select {
     margin: 5px 0;
+    color: #111113;
   }
 
-  .contentCat {
+  #contentCat {
     background-color: #303235;
     height: 100%;
-    padding: 5px;
+    padding: 2px 5px;
 
-    .encartPub {
+    #encartPub {
       background-color: #8959A8;
       width: 90%;
       margin:20px auto;
@@ -54,6 +55,95 @@
       box-sizing: border-box;
       box-shadow: 0 0 10px 3px #090D13;
       line-height: 150px;
+      text-align: center;
+    }
+  }
+
+  #headColCat {
+    background: #D7D7D9;
+    height: 25px;
+    line-height: 25px;
+    color: #111113;
+  }
+  #contentColCat {
+    clear: both;
+
+    > div {
+      min-height: 65px;
+      position: relative;
+      background: #111113;
+      margin: 3px 0;
+      overflow: hidden;
+
+      &.blocSon{
+        .uploaderSon,.dureeSon{
+          line-height: 65px;
+        }
+        .fondCouleur{
+          position: absolute;
+          top:0;
+          left:0;
+          transition:all .4s linear;
+          height: 100%;
+        }
+        .titreSon{
+          display: inline-block;
+          height: 100%;
+          line-height: 60px;
+          padding: 1px 3px;
+          .titreMusique, img{
+            display: inline-block;
+            line-height: 28px;
+            vertical-align: middle;
+          }
+          img {
+            width: 58px;
+            height: 58px;
+          }
+          .titreMusique {
+            padding-left: 2% !important;
+          }
+
+          .col-md-4, .col-md-8, .col-xs-4, .col-xs-8 {
+            padding: 0;
+          }
+        }
+
+      }
+      &.blocSon:hover div.fondCouleur{
+        width:100%;
+      }
+      &.art {
+        div:first-child {
+
+          background-color: $art;
+        }
+      }
+      &.science{
+        div:first-child {
+          background-color: $science;
+        }
+      }
+      &.robotique{
+        div:first-child {
+          background-color: $robotique;
+        }
+       }
+      &.e-sport{
+        div:first-child {
+          background-color: $esport;
+        }
+      }
+      &.jeux{
+        div:first-child {
+          background-color: $jeux;
+        }
+      }
+      &.informatique{
+        div:first-child {
+          background-color: $informatique;
+        }
+      }
     }
   }
 }
@@ -65,5 +155,37 @@
   border-top: 5px  solid #FFF;
   ul li {
     display: inline-block;
+  }
+}
+
+@media (max-width:992px) {
+  #category {
+    .fixed {
+      position: initial;
+      padding-right: 18px;
+      margin-bottom: 15px;
+    }
+
+    #contentColCat {
+      > div {
+        &.blocSon {
+          .fondCouleur {display: none;}
+          .titreSon {
+            width: 100%;
+
+            .col-md-4.col-sx-4 {
+              display: inline-block;
+              padding: 0px 3px 3px;
+            }
+            .col-md-8.col-sx-8 {
+              display: inline-block;
+            }
+          }
+        }
+      }
+
+
+    }
+
   }
 }

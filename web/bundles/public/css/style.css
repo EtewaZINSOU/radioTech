@@ -236,61 +236,62 @@ h1, .h1 {
 }
 
 /* line 1, ../sass/solene.scss */
-.category {
+#category {
   padding: 15px;
 }
 /* line 4, ../sass/solene.scss */
-.category .fixed {
+#category .fixed {
   position: fixed;
 }
 /* line 8, ../sass/solene.scss */
-.category .col-md-3 {
+#category .col-md-3 {
   padding-right: 38px;
 }
 /* line 12, ../sass/solene.scss */
-.category input.searchBox {
+#category input.searchBox {
   background-color: #111113;
   border: medium none;
   color: #FFF;
   font-weight: 300;
   height: 35px;
   width: 100%;
-  margin-top: 25px;
+  margin-top: 22px;
   padding: 0 15px;
   outline: medium none;
   border: 3px solid #FFF;
   color: #FFF;
 }
 /* line 25, ../sass/solene.scss */
-.category input.searchBox::-webkit-input-placeholder {
+#category input.searchBox::-webkit-input-placeholder {
   color: #FFF;
 }
 /* line 28, ../sass/solene.scss */
-.category input.searchBox:-moz-placeholder {
+#category input.searchBox:-moz-placeholder {
   /* Firefox 18- */
   color: #FFF;
 }
 /* line 31, ../sass/solene.scss */
-.category input.searchBox::-moz-placeholder {
+#category input.searchBox::-moz-placeholder {
   /* Firefox 19+ */
   color: #FFF;
 }
 /* line 34, ../sass/solene.scss */
-.category input.searchBox:-ms-input-placeholder {
+#category input.searchBox:-ms-input-placeholder {
   color: #FFF;
 }
 /* line 39, ../sass/solene.scss */
-.category select {
+#category select {
   margin: 5px 0;
+  color: #111113;
 }
-/* line 43, ../sass/solene.scss */
-.category .contentCat {
+/* line 44, ../sass/solene.scss */
+#category #contentCat {
   background-color: #303235;
   height: 100%;
-  padding: 5px;
+  padding: 2px 5px;
 }
-/* line 48, ../sass/solene.scss */
-.category .contentCat .encartPub {
+/* line 49, ../sass/solene.scss */
+#category #contentCat #encartPub {
   background-color: #8959A8;
   width: 90%;
   margin: 20px auto;
@@ -299,19 +300,130 @@ h1, .h1 {
   box-sizing: border-box;
   box-shadow: 0 0 10px 3px #090D13;
   line-height: 150px;
+  text-align: center;
+}
+/* line 62, ../sass/solene.scss */
+#category #headColCat {
+  background: #D7D7D9;
+  height: 25px;
+  line-height: 25px;
+  color: #111113;
+}
+/* line 68, ../sass/solene.scss */
+#category #contentColCat {
+  clear: both;
+}
+/* line 71, ../sass/solene.scss */
+#category #contentColCat > div {
+  min-height: 65px;
+  position: relative;
+  background: #111113;
+  margin: 3px 0;
+  overflow: hidden;
+}
+/* line 79, ../sass/solene.scss */
+#category #contentColCat > div.blocSon .uploaderSon, #category #contentColCat > div.blocSon .dureeSon {
+  line-height: 65px;
+}
+/* line 82, ../sass/solene.scss */
+#category #contentColCat > div.blocSon .fondCouleur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .4s linear;
+  height: 100%;
+}
+/* line 89, ../sass/solene.scss */
+#category #contentColCat > div.blocSon .titreSon {
+  display: inline-block;
+  height: 100%;
+  line-height: 60px;
+  padding: 1px 3px;
+}
+/* line 94, ../sass/solene.scss */
+#category #contentColCat > div.blocSon .titreSon .titreMusique, #category #contentColCat > div.blocSon .titreSon img {
+  display: inline-block;
+  line-height: 28px;
+  vertical-align: middle;
+}
+/* line 99, ../sass/solene.scss */
+#category #contentColCat > div.blocSon .titreSon img {
+  width: 58px;
+  height: 58px;
+}
+/* line 103, ../sass/solene.scss */
+#category #contentColCat > div.blocSon .titreSon .titreMusique {
+  padding-left: 2% !important;
+}
+/* line 107, ../sass/solene.scss */
+#category #contentColCat > div.blocSon .titreSon .col-md-4, #category #contentColCat > div.blocSon .titreSon .col-md-8, #category #contentColCat > div.blocSon .titreSon .col-xs-4, #category #contentColCat > div.blocSon .titreSon .col-xs-8 {
+  padding: 0;
+}
+/* line 113, ../sass/solene.scss */
+#category #contentColCat > div.blocSon:hover div.fondCouleur {
+  width: 100%;
+}
+/* line 117, ../sass/solene.scss */
+#category #contentColCat > div.art div:first-child {
+  background-color: #c12aad;
+}
+/* line 123, ../sass/solene.scss */
+#category #contentColCat > div.science div:first-child {
+  background-color: #039313;
+}
+/* line 128, ../sass/solene.scss */
+#category #contentColCat > div.robotique div:first-child {
+  background-color: #6f30bf;
+}
+/* line 133, ../sass/solene.scss */
+#category #contentColCat > div.e-sport div:first-child {
+  background-color: #2e3192;
+}
+/* line 138, ../sass/solene.scss */
+#category #contentColCat > div.jeux div:first-child {
+  background-color: #c53605;
+}
+/* line 143, ../sass/solene.scss */
+#category #contentColCat > div.informatique div:first-child {
+  background-color: #fc7e14;
 }
 
-/* line 62, ../sass/solene.scss */
+/* line 152, ../sass/solene.scss */
 #footerRights {
   background-color: #111113;
   color: white;
   border-top: 5px  solid #FFF;
 }
-/* line 66, ../sass/solene.scss */
+/* line 156, ../sass/solene.scss */
 #footerRights ul li {
   display: inline-block;
 }
 
+@media (max-width: 992px) {
+  /* line 163, ../sass/solene.scss */
+  #category .fixed {
+    position: initial;
+    padding-right: 18px;
+    margin-bottom: 15px;
+  }
+  /* line 172, ../sass/solene.scss */
+  #category #contentColCat > div.blocSon .fondCouleur {
+    display: none;
+  }
+  /* line 173, ../sass/solene.scss */
+  #category #contentColCat > div.blocSon .titreSon {
+    width: 100%;
+  }
+  /* line 176, ../sass/solene.scss */
+  #category #contentColCat > div.blocSon .titreSon .col-md-4.col-sx-4 {
+    display: inline-block;
+    padding: 0px 3px 3px;
+  }
+  /* line 180, ../sass/solene.scss */
+  #category #contentColCat > div.blocSon .titreSon .col-md-8.col-sx-8 {
+    display: inline-block;
+  }
+}
 /*************************************************************/
 /************************** MENU ***************************/
 /*************************************************************/
