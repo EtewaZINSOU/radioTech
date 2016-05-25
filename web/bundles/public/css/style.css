@@ -1359,12 +1359,14 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   color: #111113;
   max-width: 100%;
   text-align: center;
+  padding: 10px;
+  height: 60px;
 }
 
 /*************************************************************/
 /*************************** AUDIO ***************************/
 /*************************************************************/
-/* line 683, ../sass/thibault.scss */
+/* line 685, ../sass/thibault.scss */
 .lecteur {
   width: 100%;
   height: 70px;
@@ -1376,7 +1378,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   box-sizing: border-box;
   display: none;
 }
-/* line 693, ../sass/thibault.scss */
+/* line 695, ../sass/thibault.scss */
 .lecteur .fermer {
   width: 25px;
   height: 25px;
@@ -1389,21 +1391,21 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   background: #fff;
   color: #111113;
 }
-/* line 705, ../sass/thibault.scss */
+/* line 707, ../sass/thibault.scss */
 .lecteur .pp, .lecteur .volume {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 710, ../sass/thibault.scss */
+/* line 712, ../sass/thibault.scss */
 .lecteur #play {
   background-image: url("../images/lecture.png");
 }
-/* line 713, ../sass/thibault.scss */
+/* line 715, ../sass/thibault.scss */
 .lecteur #pause {
   background-image: url("../images/pause.png");
 }
-/* line 716, ../sass/thibault.scss */
+/* line 718, ../sass/thibault.scss */
 .lecteur .pp, .lecteur .audioDebut, .lecteur .audioFin, .lecteur .coeur, .lecteur .volume {
   width: 10%;
   float: left;
@@ -1411,50 +1413,50 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   line-height: 70px;
   display: block;
 }
-/* line 722, ../sass/thibault.scss */
+/* line 724, ../sass/thibault.scss */
 .lecteur .pp img, .lecteur .audioDebut img, .lecteur .audioFin img, .lecteur .coeur img, .lecteur .volume img {
   max-width: 40px;
   width: 100%;
   display: inline;
 }
-/* line 728, ../sass/thibault.scss */
+/* line 730, ../sass/thibault.scss */
 .lecteur .pp, .lecteur .volume, .lecteur .coeur {
   max-width: 30px;
   width: 4%;
 }
-/* line 732, ../sass/thibault.scss */
+/* line 734, ../sass/thibault.scss */
 .lecteur .audioDebut, .lecteur .audioFin {
   max-width: 60px;
   width: 7%;
 }
-/* line 736, ../sass/thibault.scss */
+/* line 738, ../sass/thibault.scss */
 .lecteur .volume {
   background-size: 20px auto;
   position: relative;
   background-image: url("../images/volume.png");
 }
-/* line 741, ../sass/thibault.scss */
+/* line 743, ../sass/thibault.scss */
 .lecteur .volume:hover #seek {
   display: block;
 }
-/* line 746, ../sass/thibault.scss */
+/* line 748, ../sass/thibault.scss */
 .lecteur .audioDebut {
   text-align: right;
   padding-right: 5px;
   box-sizing: border-box;
 }
-/* line 751, ../sass/thibault.scss */
+/* line 753, ../sass/thibault.scss */
 .lecteur .audioFin {
   text-align: left;
   padding-left: 5px;
   box-sizing: border-box;
 }
-/* line 756, ../sass/thibault.scss */
+/* line 758, ../sass/thibault.scss */
 .lecteur .coeur {
   padding-right: 5px;
   line-height: 80px;
 }
-/* line 760, ../sass/thibault.scss */
+/* line 762, ../sass/thibault.scss */
 .lecteur #seek {
   display: none;
   position: absolute;
@@ -1463,7 +1465,7 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   width: 50px;
   transform: rotate(-90deg);
 }
-/* line 768, ../sass/thibault.scss */
+/* line 770, ../sass/thibault.scss */
 .lecteur #ecoulement {
   width: 70%;
   margin-top: 33px;
@@ -1472,76 +1474,76 @@ ul.navbar-nav li.connexion > a.menuOuvert + .blocConnect {
   background-color: #111113;
   transition: all .1s linear;
 }
-/* line 775, ../sass/thibault.scss */
+/* line 777, ../sass/thibault.scss */
 .lecteur #ecoulement:hover {
   margin-top: 30px;
   height: 9px;
 }
-/* line 780, ../sass/thibault.scss */
+/* line 782, ../sass/thibault.scss */
 .lecteur .progress {
   background: #fff;
   width: 0;
   height: 100%;
   border-radius: 0;
 }
-/* line 786, ../sass/thibault.scss */
+/* line 788, ../sass/thibault.scss */
 .lecteur .infos {
   display: table;
   table-layout: fixed;
   height: 70px;
 }
-/* line 790, ../sass/thibault.scss */
+/* line 792, ../sass/thibault.scss */
 .lecteur .infos .blocIMG {
   width: 65px;
   height: 65px;
   display: table-cell;
   vertical-align: middle;
 }
-/* line 796, ../sass/thibault.scss */
+/* line 798, ../sass/thibault.scss */
 .lecteur .infos img {
   width: 65px;
   height: 65px;
   margin-top: 2px;
   display: inline-block;
 }
-/* line 802, ../sass/thibault.scss */
+/* line 804, ../sass/thibault.scss */
 .lecteur .infos .titreNom {
   padding-left: 10px;
   box-sizing: border-box;
   display: table-cell;
   vertical-align: middle;
 }
-/* line 813, ../sass/thibault.scss */
+/* line 815, ../sass/thibault.scss */
 .lecteur.art .progress, .lecteur.art .infos {
   background: #c12aad;
 }
-/* line 818, ../sass/thibault.scss */
+/* line 820, ../sass/thibault.scss */
 .lecteur.esport .progress, .lecteur.esport .infos {
   background: #2e3192;
 }
-/* line 823, ../sass/thibault.scss */
+/* line 825, ../sass/thibault.scss */
 .lecteur.jeux .progress, .lecteur.jeux .infos {
   background: #c53605;
 }
-/* line 828, ../sass/thibault.scss */
+/* line 830, ../sass/thibault.scss */
 .lecteur.science .progress, .lecteur.science .infos {
   background: #039313;
 }
-/* line 833, ../sass/thibault.scss */
+/* line 835, ../sass/thibault.scss */
 .lecteur.robotique .progress, .lecteur.robotique .infos {
   background: #6f30bf;
 }
-/* line 838, ../sass/thibault.scss */
+/* line 840, ../sass/thibault.scss */
 .lecteur.informatique .progress, .lecteur.informatique .infos {
   background: #fc7e14;
 }
 
-/* line 844, ../sass/thibault.scss */
+/* line 846, ../sass/thibault.scss */
 .right {
   float: right;
 }
 
-/* line 848, ../sass/thibault.scss */
+/* line 850, ../sass/thibault.scss */
 h2, .h2 {
   font-size: 25px;
   font-weight: bold;
@@ -1549,7 +1551,7 @@ h2, .h2 {
   display: inline-block;
 }
 
-/* line 855, ../sass/thibault.scss */
+/* line 857, ../sass/thibault.scss */
 img.medaille {
   position: absolute;
   top: 1px;
@@ -1558,51 +1560,51 @@ img.medaille {
   height: 15px;
 }
 
-/* line 863, ../sass/thibault.scss */
+/* line 865, ../sass/thibault.scss */
 #footerRights {
   position: relative;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 868, ../sass/thibault.scss */
+  /* line 870, ../sass/thibault.scss */
   .goupeDecouverte, .groupeSonUser {
     clear: both;
     float: none;
     margin: 15px 0;
   }
-  /* line 872, ../sass/thibault.scss */
+  /* line 874, ../sass/thibault.scss */
   .goupeDecouverte::before, .goupeDecouverte::after, .groupeSonUser::before, .groupeSonUser::after {
     content: '';
     clear: both;
     display: block;
   }
 
-  /* line 878, ../sass/thibault.scss */
+  /* line 880, ../sass/thibault.scss */
   .social-icons ul.navbar-nav {
     margin: 0;
   }
-  /* line 880, ../sass/thibault.scss */
+  /* line 882, ../sass/thibault.scss */
   .social-icons ul.navbar-nav li {
     float: left;
   }
 
-  /* line 884, ../sass/thibault.scss */
+  /* line 886, ../sass/thibault.scss */
   .radioDirect .enDirect, .radioDirect p {
     width: 100%;
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 889, ../sass/thibault.scss */
+  /* line 891, ../sass/thibault.scss */
   .header_top {
     height: auto;
   }
 
-  /* line 892, ../sass/thibault.scss */
+  /* line 894, ../sass/thibault.scss */
   .social-icons {
     float: right !important;
   }
 
-  /* line 895, ../sass/thibault.scss */
+  /* line 897, ../sass/thibault.scss */
   .header_top .row > div {
     float: none;
     width: 100%;

@@ -30,7 +30,7 @@
 
         //Centrer le logo
         $('.titre').css('top',(($('#titrePrincipal').height()/2)-($('.titre').height()))+'px');
-        $('.blocNL').css('top',(($('.newsletter').height()/2)-($('.blocNL').height()))+'px');
+        $('.blocNL').css('top',(($('.newsletter').height()/2)-($('.blocNL').height()/2))+'px');
 
 
         /***********************************************************/
