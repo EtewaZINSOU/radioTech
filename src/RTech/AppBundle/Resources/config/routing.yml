@@ -10,3 +10,9 @@ r_tech_media:
 r_tech_category:
     path: /category
     defaults: { _controller: RTechAppBundle:Category:index }
+
+
+# CONTACT
+r_tech_contact:
+    path: /contact
+    defaults: { _controller: RTechAppBundle:Contact:index }

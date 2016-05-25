@@ -47,12 +47,8 @@
                                 <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a>
                                 <a href="{{ path('fos_user_profile_show') }}" title="">account_circle</a>
                             {% else %}
-                                <form>
-                                    <input type="text" placeholder="pseudo"/>
-                                    <input type="password" placeholder="Mot de passe"/>
-                                    <input type="button" value="Se connecter" />
-                                </form>
-                                <a href="{{ path('fos_user_registration_register') }}">{{ 'layout.register'|trans({}, 'FOSUserBundle') }}</a>
+                                <a class="button" href="{{ path("fos_user_security_login") }}">Connexion</a>
+                                <a class="button" href="{{ path('fos_user_registration_register') }}">{{ 'layout.register'|trans({}, 'FOSUserBundle') }}</a>
                             {% endif %}
                             </div>
                         </li>

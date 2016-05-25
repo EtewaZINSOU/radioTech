@@ -11,6 +11,8 @@
   height:50px;
   width:100%;
   z-index: 10;
+  top:0;
+  left:0;
   .blocBarres{
     width:50px;
     position:relative;
@@ -248,8 +250,7 @@ ul.navbar-nav{
   position:absolute;
   top:100%;
   right:0;
-  width:335px;
-  padding:10px;
+  padding:3px;
   background:#fff;
   color:#111113;
   display:none;
@@ -292,6 +293,19 @@ ul.navbar-nav{
     font-size:14px;
     text-transform:uppercase;
     padding:5px;
+  }
+  a{
+    display:block;
+    padding:5px;
+    margin:5px;
+    text-transform:uppercase;
+    font-weight:300;
+    width:100px !important;
+    height:auto !important;
+    border:1px solid #000 !important;
+    text-align:center;
+    height:40px;
+    line-height:40px;
   }
 }
 
@@ -591,9 +605,43 @@ ul.navbar-nav{
       display:inline-block;
       width:auto;
       padding:10px;
+      padding:0;
       border:0;
       margin-left:-15%;
       font-weight:bold;
+    }
+  }
+
+  .blocContent::after{
+    content:'';
+    clear:both;
+    display:block;
+  }
+  .blocContentSon{
+    float:none;
+    width:100%;
+    clear:both;
+    margin:20px 0;
+    #category{
+      padding:0;
+      position:relative;
+      z-index: 2;
+      background:#fff;
+      padding:1px 3px;
+    }
+    .blocSon{
+      width:100%;
+      padding-right:5px;
+      box-sizing:border-box;
+      margin:2px 0 2px !important;
+    }
+    .uploadSon{
+      .h1{
+        width:100%;
+        display:block;
+        text-align:right;
+        margin-left:15%;
+      }
     }
   }
 }
@@ -622,6 +670,8 @@ ul.navbar-nav{
       color:#111113;
       max-width: 100%;
       text-align: center;
+      padding:10px;
+      height:60px;
     }
   }
 }
@@ -734,6 +784,30 @@ ul.navbar-nav{
     width:0;
     height:100%;
     border-radius:0;
+  }
+  .infos{
+    display:table;
+    table-layout: fixed;
+    height:70px;
+    .blocIMG{
+      width:65px;
+      height:65px;
+      display: table-cell;
+      vertical-align: middle;
+    }
+    img{
+      width:65px;
+      height:65px;
+      margin-top:2px;
+      display: inline-block;
+    }
+    .titreNom{
+      //width:calc(100% - 65px);
+      padding-left:10px;
+      box-sizing:border-box;
+      display: table-cell;
+      vertical-align: middle;
+    }
   }
 
   //Couleurs
