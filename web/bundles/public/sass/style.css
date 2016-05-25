@@ -163,6 +163,10 @@ h1, .h1 {
 .row {
   margin: 0 !important; }
 
+#content {
+  min-height: calc(100vh - 120px);
+  margin-top: 50px; }
+
 .col-md-1, .col-md-10, .col-md-11, .col-md-12,
 .col-md-2, .col-md-3, .col-md-4, .col-md-5,
 .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
@@ -230,6 +234,8 @@ h1, .h1 {
       overflow: hidden; }
       #category #contentColCat > div.blocSon .uploaderSon, #category #contentColCat > div.blocSon .dureeSon {
         line-height: 65px; }
+      #category #contentColCat > div.blocSon .dureeSon {
+        text-align: right; }
       #category #contentColCat > div.blocSon .fondCouleur {
         position: absolute;
         top: 0;
@@ -237,19 +243,25 @@ h1, .h1 {
         transition: all .4s linear;
         height: 100%; }
       #category #contentColCat > div.blocSon .titreSon {
-        display: inline-block;
-        height: 100%;
-        line-height: 60px;
-        padding: 1px 3px; }
-        #category #contentColCat > div.blocSon .titreSon .titreMusique, #category #contentColCat > div.blocSon .titreSon img {
-          display: inline-block;
-          line-height: 28px;
+        display: table;
+        height: 65px; }
+        #category #contentColCat > div.blocSon .titreSon .blocIMG {
+          width: 47px;
+          height: 60px;
+          display: table-cell;
           vertical-align: middle; }
-        #category #contentColCat > div.blocSon .titreSon img {
-          width: 58px;
-          height: 58px; }
+          #category #contentColCat > div.blocSon .titreSon .blocIMG img {
+            display: inline-block;
+            margin-top: 2px;
+            width: 60px;
+            height: 60px;
+            max-width: 60px;
+            margin-left: -13px; }
         #category #contentColCat > div.blocSon .titreSon .titreMusique {
-          padding-left: 2% !important; }
+          display: table-cell;
+          padding-left: 10px;
+          box-sizing: border-box;
+          vertical-align: middle; }
         #category #contentColCat > div.blocSon .titreSon .col-md-4, #category #contentColCat > div.blocSon .titreSon .col-md-8, #category #contentColCat > div.blocSon .titreSon .col-xs-4, #category #contentColCat > div.blocSon .titreSon .col-xs-8 {
           padding: 0; }
       #category #contentColCat > div.blocSon:hover div.fondCouleur {
@@ -260,12 +272,108 @@ h1, .h1 {
         background-color: #039313; }
       #category #contentColCat > div.robotique div:first-child {
         background-color: #6f30bf; }
-      #category #contentColCat > div.e-sport div:first-child {
+      #category #contentColCat > div.esport div:first-child {
         background-color: #2e3192; }
       #category #contentColCat > div.jeux div:first-child {
         background-color: #c53605; }
       #category #contentColCat > div.informatique div:first-child {
         background-color: #fc7e14; }
+
+#registerPage .fos_user_registration_register {
+  margin-top: 25px; }
+  #registerPage .fos_user_registration_register div {
+    text-align: center; }
+  #registerPage .fos_user_registration_register label {
+    display: none; }
+  #registerPage .fos_user_registration_register select {
+    width: calc(100% / 3.3);
+    display: inline-block;
+    margin: 0 3px 15px 0; }
+#registerPage input[type="text"],
+#registerPage input[type="password"],
+#registerPage input[type="email"] {
+  width: 92%;
+  margin: 0 0 15px -5px;
+  padding: 0px 5px; }
+#registerPage input[type="text"],
+#registerPage input[type="password"],
+#registerPage input[type="email"],
+#registerPage select {
+  background: #F0F0E9;
+  border: none;
+  color: #111113;
+  height: 40px; }
+
+#loginPage form {
+  text-align: center; }
+  #loginPage form input[type="text"],
+  #loginPage form input[type="password"] {
+    width: 40%;
+    margin: 0 auto 15px;
+    padding: 0px 5px;
+    background: #F0F0E9;
+    border: none;
+    border-radius: 0;
+    color: #111113;
+    height: 40px; }
+#loginPage [type="checkbox"]:not(:checked),
+#loginPage [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px; }
+#loginPage [type="checkbox"]:not(:checked) + label,
+#loginPage [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  line-height: 23px; }
+#loginPage [type="checkbox"]:not(:checked) + label:before,
+#loginPage [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #FFF;
+  background: #111113; }
+#loginPage [type="checkbox"]:not(:checked) + label:after,
+#loginPage [type="checkbox"]:checked + label:after {
+  font-family: 'FontAwesome';
+  content: "\f00c";
+  position: absolute;
+  top: 1px;
+  left: 3px;
+  font-size: 14px;
+  color: #FFF;
+  transition: all .2s; }
+#loginPage [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0); }
+#loginPage [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1); }
+#loginPage [type="checkbox"]:disabled:checked + label:after {
+  color: #999; }
+
+#registerPage .btn-success, #registerPage #_submit, #loginPage .btn-success, #loginPage #_submit {
+  display: inline-block;
+  height: 9vh;
+  min-width: 30%;
+  line-height: 5vh;
+  box-sizing: border-box;
+  border: 5px solid #fff;
+  margin-top: 2vh;
+  font-size: 3vh;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+  transition: all .2s linear;
+  border-radius: 0; }
+  #registerPage .btn-success:hover, #registerPage #_submit:hover, #loginPage .btn-success:hover, #loginPage #_submit:hover {
+    border-width: 1px;
+    line-height: 6vh; }
 
 #footerRights {
   background-color: #111113;
@@ -278,16 +386,7 @@ h1, .h1 {
   #category .fixed {
     position: initial;
     padding-right: 18px;
-    margin-bottom: 15px; }
-  #category #contentColCat > div.blocSon .fondCouleur {
-    display: none; }
-  #category #contentColCat > div.blocSon .titreSon {
-    width: 100%; }
-    #category #contentColCat > div.blocSon .titreSon .col-md-4.col-sx-4 {
-      display: inline-block;
-      padding: 0px 3px 3px; }
-    #category #contentColCat > div.blocSon .titreSon .col-md-8.col-sx-8 {
-      display: inline-block; } }
+    margin-bottom: 15px; } }
 /*************************************************************/
 /************************** MENU ***************************/
 /*************************************************************/
@@ -299,7 +398,9 @@ h1, .h1 {
   position: fixed;
   height: 50px;
   width: 100%;
-  z-index: 10; }
+  z-index: 10;
+  top: 0;
+  left: 0; }
   .header_top .blocBarres {
     width: 50px;
     position: relative;
@@ -767,9 +868,35 @@ ul.navbar-nav {
       display: inline-block;
       width: auto;
       padding: 10px;
+      padding: 0;
       border: 0;
       margin-left: -15%;
       font-weight: bold; }
+  .groupeSonUser .blocContent::after {
+    content: '';
+    clear: both;
+    display: block; }
+  .groupeSonUser .blocContentSon {
+    float: none;
+    width: 100%;
+    clear: both;
+    margin: 20px 0; }
+    .groupeSonUser .blocContentSon #category {
+      padding: 0;
+      position: relative;
+      z-index: 2;
+      background: #fff;
+      padding: 1px 3px; }
+    .groupeSonUser .blocContentSon .blocSon {
+      width: 100%;
+      padding-right: 5px;
+      box-sizing: border-box;
+      margin: 2px 0 2px !important; }
+    .groupeSonUser .blocContentSon .uploadSon .h1 {
+      width: 100%;
+      display: block;
+      text-align: right;
+      margin-left: 15%; }
 
 .newsletter {
   clear: both;
@@ -792,7 +919,8 @@ ul.navbar-nav {
       margin: 15px 0; }
     .newsletter .blocNL .inputMail {
       color: #111113;
-      max-width: 100%; }
+      max-width: 100%;
+      text-align: center; }
 
 /*************************************************************/
 /*************************** AUDIO ***************************/
@@ -881,6 +1009,25 @@ ul.navbar-nav {
     width: 0;
     height: 100%;
     border-radius: 0; }
+  .lecteur .infos {
+    display: table;
+    table-layout: fixed;
+    height: 70px; }
+    .lecteur .infos .blocIMG {
+      width: 65px;
+      height: 65px;
+      display: table-cell;
+      vertical-align: middle; }
+    .lecteur .infos img {
+      width: 65px;
+      height: 65px;
+      margin-top: 2px;
+      display: inline-block; }
+    .lecteur .infos .titreNom {
+      padding-left: 10px;
+      box-sizing: border-box;
+      display: table-cell;
+      vertical-align: middle; }
   .lecteur.art .progress, .lecteur.art .infos {
     background: #c12aad; }
   .lecteur.esport .progress, .lecteur.esport .infos {

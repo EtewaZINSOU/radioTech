@@ -1,7 +1,10 @@
 {% extends "RTechUserBundle::layout.html.twig" %}
 
  {% block rtech_user_content %}
-{% include "RTechUserBundle:Registration:register_content.html.twig" %}
+  <div id="registerPage">
+    <span class="h1">Inscription</span>
+    {% include "RTechUserBundle:Registration:register_content.html.twig" %}
+  </div>
 {% endblock rtech_user_content %}
 {% block javascripts %}
  {{ parent() }}

@@ -226,7 +226,13 @@ h1, .h1 {
   margin: 0 !important;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
+#content {
+  min-height: calc(100vh - 120px);
+  margin-top: 50px;
+}
+
+/* line 51, ../sass/style.scss */
 .col-md-1, .col-md-10, .col-md-11, .col-md-12,
 .col-md-2, .col-md-3, .col-md-4, .col-md-5,
 .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
@@ -326,6 +332,10 @@ h1, .h1 {
   line-height: 65px;
 }
 /* line 82, ../sass/solene.scss */
+#category #contentColCat > div.blocSon .dureeSon {
+  text-align: right;
+}
+/* line 85, ../sass/solene.scss */
 #category #contentColCat > div.blocSon .fondCouleur {
   position: absolute;
   top: 0;
@@ -333,95 +343,214 @@ h1, .h1 {
   transition: all .4s linear;
   height: 100%;
 }
-/* line 89, ../sass/solene.scss */
+/* line 92, ../sass/solene.scss */
 #category #contentColCat > div.blocSon .titreSon {
-  display: inline-block;
-  height: 100%;
-  line-height: 60px;
-  padding: 1px 3px;
+  display: table;
+  height: 65px;
 }
-/* line 94, ../sass/solene.scss */
-#category #contentColCat > div.blocSon .titreSon .titreMusique, #category #contentColCat > div.blocSon .titreSon img {
-  display: inline-block;
-  line-height: 28px;
+/* line 95, ../sass/solene.scss */
+#category #contentColCat > div.blocSon .titreSon .blocIMG {
+  width: 47px;
+  height: 60px;
+  display: table-cell;
   vertical-align: middle;
 }
-/* line 99, ../sass/solene.scss */
-#category #contentColCat > div.blocSon .titreSon img {
-  width: 58px;
-  height: 58px;
+/* line 100, ../sass/solene.scss */
+#category #contentColCat > div.blocSon .titreSon .blocIMG img {
+  display: inline-block;
+  margin-top: 2px;
+  width: 60px;
+  height: 60px;
+  max-width: 60px;
+  margin-left: -13px;
 }
-/* line 103, ../sass/solene.scss */
+/* line 109, ../sass/solene.scss */
 #category #contentColCat > div.blocSon .titreSon .titreMusique {
-  padding-left: 2% !important;
+  display: table-cell;
+  padding-left: 10px;
+  box-sizing: border-box;
+  vertical-align: middle;
 }
-/* line 107, ../sass/solene.scss */
+/* line 116, ../sass/solene.scss */
 #category #contentColCat > div.blocSon .titreSon .col-md-4, #category #contentColCat > div.blocSon .titreSon .col-md-8, #category #contentColCat > div.blocSon .titreSon .col-xs-4, #category #contentColCat > div.blocSon .titreSon .col-xs-8 {
   padding: 0;
 }
-/* line 113, ../sass/solene.scss */
+/* line 122, ../sass/solene.scss */
 #category #contentColCat > div.blocSon:hover div.fondCouleur {
   width: 100%;
 }
-/* line 117, ../sass/solene.scss */
+/* line 126, ../sass/solene.scss */
 #category #contentColCat > div.art div:first-child {
   background-color: #c12aad;
 }
-/* line 123, ../sass/solene.scss */
+/* line 132, ../sass/solene.scss */
 #category #contentColCat > div.science div:first-child {
   background-color: #039313;
 }
-/* line 128, ../sass/solene.scss */
+/* line 137, ../sass/solene.scss */
 #category #contentColCat > div.robotique div:first-child {
   background-color: #6f30bf;
 }
-/* line 133, ../sass/solene.scss */
-#category #contentColCat > div.e-sport div:first-child {
+/* line 142, ../sass/solene.scss */
+#category #contentColCat > div.esport div:first-child {
   background-color: #2e3192;
 }
-/* line 138, ../sass/solene.scss */
+/* line 147, ../sass/solene.scss */
 #category #contentColCat > div.jeux div:first-child {
   background-color: #c53605;
 }
-/* line 143, ../sass/solene.scss */
+/* line 152, ../sass/solene.scss */
 #category #contentColCat > div.informatique div:first-child {
   background-color: #fc7e14;
 }
 
-/* line 152, ../sass/solene.scss */
+/* line 161, ../sass/solene.scss */
+#registerPage .fos_user_registration_register {
+  margin-top: 25px;
+}
+/* line 163, ../sass/solene.scss */
+#registerPage .fos_user_registration_register div {
+  text-align: center;
+}
+/* line 166, ../sass/solene.scss */
+#registerPage .fos_user_registration_register label {
+  display: none;
+}
+/* line 170, ../sass/solene.scss */
+#registerPage .fos_user_registration_register select {
+  width: calc(100% / 3.3);
+  display: inline-block;
+  margin: 0 3px 15px 0;
+}
+/* line 177, ../sass/solene.scss */
+#registerPage input[type="text"],
+#registerPage input[type="password"],
+#registerPage input[type="email"] {
+  width: 92%;
+  margin: 0 0 15px -5px;
+  padding: 0px 5px;
+}
+/* line 185, ../sass/solene.scss */
+#registerPage input[type="text"],
+#registerPage input[type="password"],
+#registerPage input[type="email"],
+#registerPage select {
+  background: #F0F0E9;
+  border: none;
+  color: #111113;
+  height: 40px;
+}
+
+/* line 197, ../sass/solene.scss */
+#loginPage form {
+  text-align: center;
+}
+/* line 199, ../sass/solene.scss */
+#loginPage form input[type="text"],
+#loginPage form input[type="password"] {
+  width: 40%;
+  margin: 0 auto 15px;
+  padding: 0px 5px;
+  background: #F0F0E9;
+  border: none;
+  border-radius: 0;
+  color: #111113;
+  height: 40px;
+}
+/* line 212, ../sass/solene.scss */
+#loginPage [type="checkbox"]:not(:checked),
+#loginPage [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+/* line 218, ../sass/solene.scss */
+#loginPage [type="checkbox"]:not(:checked) + label,
+#loginPage [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  line-height: 23px;
+}
+/* line 226, ../sass/solene.scss */
+#loginPage [type="checkbox"]:not(:checked) + label:before,
+#loginPage [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #FFF;
+  background: #111113;
+}
+/* line 238, ../sass/solene.scss */
+#loginPage [type="checkbox"]:not(:checked) + label:after,
+#loginPage [type="checkbox"]:checked + label:after {
+  font-family: 'FontAwesome';
+  content: "\f00c";
+  position: absolute;
+  top: 1px;
+  left: 3px;
+  font-size: 14px;
+  color: #FFF;
+  transition: all .2s;
+}
+/* line 250, ../sass/solene.scss */
+#loginPage [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+/* line 256, ../sass/solene.scss */
+#loginPage [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* line 261, ../sass/solene.scss */
+#loginPage [type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+
+/* line 267, ../sass/solene.scss */
+#registerPage .btn-success, #registerPage #_submit, #loginPage .btn-success, #loginPage #_submit {
+  display: inline-block;
+  height: 9vh;
+  min-width: 30%;
+  line-height: 5vh;
+  box-sizing: border-box;
+  border: 5px solid #fff;
+  margin-top: 2vh;
+  font-size: 3vh;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+  transition: all .2s linear;
+  border-radius: 0;
+}
+/* line 284, ../sass/solene.scss */
+#registerPage .btn-success:hover, #registerPage #_submit:hover, #loginPage .btn-success:hover, #loginPage #_submit:hover {
+  border-width: 1px;
+  line-height: 6vh;
+}
+
+/* line 291, ../sass/solene.scss */
 #footerRights {
   background-color: #111113;
   color: white;
   border-top: 5px  solid #FFF;
 }
-/* line 156, ../sass/solene.scss */
+/* line 295, ../sass/solene.scss */
 #footerRights ul li {
   display: inline-block;
 }
 
 @media (max-width: 992px) {
-  /* line 163, ../sass/solene.scss */
+  /* line 302, ../sass/solene.scss */
   #category .fixed {
     position: initial;
     padding-right: 18px;
     margin-bottom: 15px;
-  }
-  /* line 172, ../sass/solene.scss */
-  #category #contentColCat > div.blocSon .fondCouleur {
-    display: none;
-  }
-  /* line 173, ../sass/solene.scss */
-  #category #contentColCat > div.blocSon .titreSon {
-    width: 100%;
-  }
-  /* line 176, ../sass/solene.scss */
-  #category #contentColCat > div.blocSon .titreSon .col-md-4.col-sx-4 {
-    display: inline-block;
-    padding: 0px 3px 3px;
-  }
-  /* line 180, ../sass/solene.scss */
-  #category #contentColCat > div.blocSon .titreSon .col-md-8.col-sx-8 {
-    display: inline-block;
   }
 }
 /*************************************************************/
@@ -1438,9 +1567,4 @@ img.medaille {
     width: 100%;
     clear: both;
   }
-}
-/* line 890, ../sass/thibault.scss */
-#content {
-  min-width: calc(100vh - 120px);
-  margin-top: 50px;
 }
