@@ -1,0 +1,27 @@
+form:
+    current_password: form.current_password
+    group_name: form.group_name
+    nom: form.nom
+    prenom: form.prenom
+
+profile:
+    edit:
+        submit: profile.edit.submit
+
+registration:
+    back: registration.back
+    check_email: registration.check_email
+    confirmed: registration.confirmed
+
+    email:
+        message: registration.email.message
+        subject: registration.email.subject
+
+    submit: registration.submit
+
+security:
+    login:
+        password: security.login.password
+        remember_me: security.login.remember_me
+        submit: security.login.submit
+        username: security.login.username

@@ -1,0 +1,6 @@
+form:
+    welcome: form.welcome   # FIXME
+
+layout:
+    logout: layout.logout   # FIXME
+    register: layout.register   # FIXME

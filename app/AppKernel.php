@@ -23,6 +23,7 @@ class AppKernel extends Kernel
             new JavierEguiluz\Bundle\EasyAdminBundle\EasyAdminBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
+            new JMS\TranslationBundle\JMSTranslationBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
