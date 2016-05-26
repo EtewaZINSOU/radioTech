@@ -25,7 +25,9 @@
         "symfony/var-dumper": "^3.0",
         "fzaninotto/faker": "^1.6",
         "javiereguiluz/easyadmin-bundle": "^1.13",
-        "stof/doctrine-extensions-bundle": "^1.2"
+        "stof/doctrine-extensions-bundle": "^1.2",
+        "jms/i18n-routing-bundle": "^2.0",
+        "jms/translation-bundle": "^1.2"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",

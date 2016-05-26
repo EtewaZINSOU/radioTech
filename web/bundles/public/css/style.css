@@ -313,7 +313,7 @@ textarea {
   border-radius: 0;
 }
 /* line 41, ../sass/solene.scss */
-.btn-success:hover, .btn-success:focus, .btn-success:active {
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success:active:focus {
   border-width: 1px;
   line-height: 6vh;
   background: none;
@@ -528,8 +528,10 @@ textarea {
 }
 /* line 248, ../sass/solene.scss */
 #loginPage form input[type="text"],
-#loginPage form input[type="password"], #modification form input[type="text"],
-#modification form input[type="password"] {
+#loginPage form input[type="password"],
+#loginPage form input[type="email"], #modification form input[type="text"],
+#modification form input[type="password"],
+#modification form input[type="email"] {
   width: 40%;
   margin: 0 auto 15px;
   padding: 0px 5px;
@@ -539,14 +541,14 @@ textarea {
   color: #111113;
   height: 40px;
 }
-/* line 261, ../sass/solene.scss */
+/* line 262, ../sass/solene.scss */
 #loginPage [type="checkbox"]:not(:checked),
 #loginPage [type="checkbox"]:checked, #modification [type="checkbox"]:not(:checked),
 #modification [type="checkbox"]:checked {
   position: absolute;
   left: -9999px;
 }
-/* line 267, ../sass/solene.scss */
+/* line 268, ../sass/solene.scss */
 #loginPage [type="checkbox"]:not(:checked) + label,
 #loginPage [type="checkbox"]:checked + label, #modification [type="checkbox"]:not(:checked) + label,
 #modification [type="checkbox"]:checked + label {
@@ -555,7 +557,7 @@ textarea {
   cursor: pointer;
   line-height: 23px;
 }
-/* line 275, ../sass/solene.scss */
+/* line 276, ../sass/solene.scss */
 #loginPage [type="checkbox"]:not(:checked) + label:before,
 #loginPage [type="checkbox"]:checked + label:before, #modification [type="checkbox"]:not(:checked) + label:before,
 #modification [type="checkbox"]:checked + label:before {
@@ -568,7 +570,7 @@ textarea {
   border: 3px solid #FFF;
   background: #111113;
 }
-/* line 287, ../sass/solene.scss */
+/* line 288, ../sass/solene.scss */
 #loginPage [type="checkbox"]:not(:checked) + label:after,
 #loginPage [type="checkbox"]:checked + label:after, #modification [type="checkbox"]:not(:checked) + label:after,
 #modification [type="checkbox"]:checked + label:after {
@@ -581,34 +583,34 @@ textarea {
   color: #FFF;
   transition: all .2s;
 }
-/* line 299, ../sass/solene.scss */
+/* line 300, ../sass/solene.scss */
 #loginPage [type="checkbox"]:not(:checked) + label:after, #modification [type="checkbox"]:not(:checked) + label:after {
   opacity: 0;
   transform: scale(0);
 }
-/* line 305, ../sass/solene.scss */
+/* line 306, ../sass/solene.scss */
 #loginPage [type="checkbox"]:checked + label:after, #modification [type="checkbox"]:checked + label:after {
   opacity: 1;
   transform: scale(1);
 }
-/* line 310, ../sass/solene.scss */
+/* line 311, ../sass/solene.scss */
 #loginPage [type="checkbox"]:disabled:checked + label:after, #modification [type="checkbox"]:disabled:checked + label:after {
   color: #999;
 }
 
-/* line 315, ../sass/solene.scss */
+/* line 316, ../sass/solene.scss */
 #footerRights {
   background-color: #111113;
   color: white;
   border-top: 5px  solid #FFF;
 }
-/* line 319, ../sass/solene.scss */
+/* line 320, ../sass/solene.scss */
 #footerRights ul li {
   display: inline-block;
 }
 
 @media (max-width: 992px) {
-  /* line 326, ../sass/solene.scss */
+  /* line 327, ../sass/solene.scss */
   #category .fixed {
     position: initial;
     padding-right: 18px;
@@ -1622,37 +1624,38 @@ img.medaille {
   height: 0 !important;
   overflow: hidden !important;
   padding: 0 !important;
+  display: none;
 }
 
-/* line 891, ../sass/thibault.scss */
+/* line 892, ../sass/thibault.scss */
 #myModal, #myModalInfo {
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 893, ../sass/thibault.scss */
+/* line 894, ../sass/thibault.scss */
 #myModal .modal-content, #myModalInfo .modal-content {
   border-radius: 0;
 }
-/* line 896, ../sass/thibault.scss */
+/* line 897, ../sass/thibault.scss */
 #myModal .modal-header, #myModalInfo .modal-header {
   border-radius: 0;
   background: #111113;
   border: 0;
 }
-/* line 900, ../sass/thibault.scss */
+/* line 901, ../sass/thibault.scss */
 #myModal .modal-header .close, #myModalInfo .modal-header .close {
   color: #fff;
 }
-/* line 905, ../sass/thibault.scss */
+/* line 906, ../sass/thibault.scss */
 #myModal .modal-body form input[type='text'], #myModal .modal-body select, #myModalInfo .modal-body form input[type='text'], #myModalInfo .modal-body select {
   background: #111113 !important;
   color: #fff;
 }
-/* line 909, ../sass/thibault.scss */
+/* line 910, ../sass/thibault.scss */
 #myModal .modal-body input[type="file"], #myModalInfo .modal-body input[type="file"] {
   color: #111113;
 }
 
-/* line 916, ../sass/thibault.scss */
+/* line 917, ../sass/thibault.scss */
 #blocUser {
   width: 100%;
   background: #D7D7D9;
@@ -1664,49 +1667,49 @@ img.medaille {
   clear: both;
   margin: 3px 0;
 }
-/* line 926, ../sass/thibault.scss */
+/* line 927, ../sass/thibault.scss */
 #blocUser::after {
   content: '';
   display: block;
   clear: both;
   width: 100%;
 }
-/* line 932, ../sass/thibault.scss */
+/* line 933, ../sass/thibault.scss */
 #blocUser .h1 {
   border: none;
   text-align: center;
 }
-/* line 935, ../sass/thibault.scss */
+/* line 936, ../sass/thibault.scss */
 #blocUser .h1 .nombre {
   font-size: 45px;
 }
-/* line 939, ../sass/thibault.scss */
+/* line 940, ../sass/thibault.scss */
 #blocUser .bouton {
   display: block;
   margin: 10px;
   margin-left: 0;
 }
 
-/* line 945, ../sass/thibault.scss */
+/* line 946, ../sass/thibault.scss */
 .lastObject {
   overflow: hidden;
   position: relative;
 }
-/* line 948, ../sass/thibault.scss */
+/* line 949, ../sass/thibault.scss */
 .lastObject::after {
   content: '';
   display: block;
   clear: both;
   width: 100%;
 }
-/* line 954, ../sass/thibault.scss */
+/* line 955, ../sass/thibault.scss */
 .lastObject .infoLast {
   padding: 30px 10px;
   height: 100%;
   position: relative;
   z-index: 2;
 }
-/* line 959, ../sass/thibault.scss */
+/* line 960, ../sass/thibault.scss */
 .lastObject .infoLast .mask {
   position: absolute;
   top: 0;
@@ -1716,95 +1719,95 @@ img.medaille {
   z-index: 1;
   opacity: .6;
 }
-/* line 968, ../sass/thibault.scss */
+/* line 969, ../sass/thibault.scss */
 .lastObject .infoLast.art .mask {
   background: #c12aad;
 }
-/* line 971, ../sass/thibault.scss */
+/* line 972, ../sass/thibault.scss */
 .lastObject .infoLast.science .mask {
   background: #039313;
 }
-/* line 974, ../sass/thibault.scss */
+/* line 975, ../sass/thibault.scss */
 .lastObject .infoLast.informatique .mask {
   background: #fc7e14;
 }
-/* line 977, ../sass/thibault.scss */
+/* line 978, ../sass/thibault.scss */
 .lastObject .infoLast.jeux .mask {
   background: #c53605;
 }
-/* line 980, ../sass/thibault.scss */
+/* line 981, ../sass/thibault.scss */
 .lastObject .infoLast.esport .mask {
   background: #2e3192;
 }
-/* line 983, ../sass/thibault.scss */
+/* line 984, ../sass/thibault.scss */
 .lastObject .infoLast.robotique .mask {
   background: #6f30bf;
 }
-/* line 986, ../sass/thibault.scss */
+/* line 987, ../sass/thibault.scss */
 .lastObject .infoLast .textContent {
   position: relative;
   z-index: 2;
 }
-/* line 991, ../sass/thibault.scss */
+/* line 992, ../sass/thibault.scss */
 .lastObject .bouton {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 1001, ../sass/thibault.scss */
+/* line 1002, ../sass/thibault.scss */
 #modification .required {
   display: none;
 }
-/* line 1004, ../sass/thibault.scss */
+/* line 1005, ../sass/thibault.scss */
 #modification input {
   text-align: center;
   color: #111113;
 }
-/* line 1007, ../sass/thibault.scss */
+/* line 1008, ../sass/thibault.scss */
 #modification input[type="submit"] {
   color: #fff;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 1014, ../sass/thibault.scss */
+  /* line 1015, ../sass/thibault.scss */
   .goupeDecouverte, .groupeSonUser {
     clear: both;
     float: none;
     margin: 15px 0;
   }
-  /* line 1018, ../sass/thibault.scss */
+  /* line 1019, ../sass/thibault.scss */
   .goupeDecouverte::before, .goupeDecouverte::after, .groupeSonUser::before, .groupeSonUser::after {
     content: '';
     clear: both;
     display: block;
   }
 
-  /* line 1024, ../sass/thibault.scss */
+  /* line 1025, ../sass/thibault.scss */
   .social-icons ul.navbar-nav {
     margin: 0;
   }
-  /* line 1026, ../sass/thibault.scss */
+  /* line 1027, ../sass/thibault.scss */
   .social-icons ul.navbar-nav li {
     float: left;
   }
 
-  /* line 1030, ../sass/thibault.scss */
+  /* line 1031, ../sass/thibault.scss */
   .radioDirect .enDirect, .radioDirect p {
     width: 100%;
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 1035, ../sass/thibault.scss */
+  /* line 1036, ../sass/thibault.scss */
   .header_top {
     height: auto;
   }
 
-  /* line 1038, ../sass/thibault.scss */
+  /* line 1039, ../sass/thibault.scss */
   .social-icons {
     float: right !important;
   }
 
-  /* line 1041, ../sass/thibault.scss */
+  /* line 1042, ../sass/thibault.scss */
   .header_top .row > div {
     float: none;
     width: 100%;

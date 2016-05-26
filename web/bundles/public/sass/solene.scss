@@ -38,7 +38,7 @@ textarea {
   transition:all .2s linear;
   border-radius: 0;
 
-  &:hover,&:focus,&:active {
+  &:hover,&:focus,&:active,&:active:focus {
     border-width:1px;
     line-height:6vh;
     background: none;
@@ -246,7 +246,8 @@ textarea {
   form {
     text-align: center;
     input[type="text"],
-    input[type="password"] {
+    input[type="password"],
+    input[type="email"]{
       width: 40%;
       margin: 0 auto 15px;
       padding: 0px 5px;

@@ -34,6 +34,7 @@ security:
                 check_path: fos_user_security_check
                 post_only: true
                 default_target_path: r_tech_app_homepage
+                failure_path: /user/login
 
 
             logout:
@@ -51,8 +52,10 @@ security:
 
 
     access_control:
-        - { path: ^/user/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
-        - { path: ^/user/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
-        - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
-        - { path: ^/admin/, role: ROLE_USER }
-        - { path: ^/add-media, role: IS_AUTHENTICATED_REMEMBERED }
+        - { path: ^/[^/]+/, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/[^/]+/user/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/[^/]+/user/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/[^/]+/user/profile, role: IS_AUTHENTICATED_FULLY }
+        - { path: ^/[^/]+/user/logout$, role: IS_AUTHENTICATED_FULLY }
+        - { path: ^/[^/]+/admin$, role: IS_AUTHENTICATED_FULLY }
+        - { path: ^/[^/]+/addMedia, role: IS_AUTHENTICATED_REMEMBERED }
