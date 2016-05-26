@@ -2,9 +2,12 @@
 
 namespace RTech\AppBundle\Entity;
 
+
+
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use RTech\AppBundle\Entity\Media;
+use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  * Category
@@ -29,13 +32,7 @@ class Category
      * @ORM\Column(name="nom", type="string", length=255)
      */
     protected $categoryName;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="description", type="string", length=255)
-     */
-    protected $description;
+    
 
     /**
      * @var ArrayCollection $user
@@ -44,6 +41,14 @@ class Category
      */
     protected $medias;
 
+
+    /**
+     * @Gedmo\Slug(fields={"categoryName"})
+     * @ORM\Column(length=128, unique=true)
+     */
+    protected $slug;
+
+    
     public function  __construct()
     {
         $this->medias = new ArrayCollection();
@@ -123,5 +128,29 @@ class Category
     function __toString()
     {
        return $this->getCategoryName();
+    }
+
+    /**
+     * Set slug
+     *
+     * @param string $slug
+     *
+     * @return Category
+     */
+    public function setSlug($slug)
+    {
+        $this->slug = $slug;
+
+        return $this;
+    }
+
+    /**
+     * Get slug
+     *
+     * @return string
+     */
+    public function getSlug()
+    {
+        return $this->slug;
     }
 }

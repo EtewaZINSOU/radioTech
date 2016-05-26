@@ -1,0 +1,85 @@
+
+{% extends 'RTechAppBundle::layout.html.twig' %}
+{% block body %}
+      {% block rtech_user_content %}
+          <div id="category">
+              <div class="col-md-3 fixed">
+                  <input type="text" class="searchBox" placeholder="Rechercher" />
+                  <span class="h1">Trier par</span>
+                  <select>
+                      <option value="" disabled selected>Categorie</option>
+                      <option>E-sport</option>
+                      <option>Informatique</option>
+                      <option>Jeux</option>
+                      <option>Robotique</option>
+                      <option>Science</option>
+                      <option>Art</option>
+                  </select>
+                  <select>
+                      <option value="" disabled selected>Date</option>
+                      <option value="dateRecent">Récent</option>
+                      <option value="dateAncien">Ancien</option>
+                  </select>
+                  <select>
+                      <option value="" disabled selected>Vue</option>
+                      <option value="vuePlus">Plus de vue</option>
+                      <option value="vueMoins">Moins de vue</option>
+                  </select>
+                  <select>
+                      <option value="" disabled selected>Like</option>
+                      <option value="likePlus">Plus de like</option>
+                      <option value="likeMoins">Moins de like</option>
+                  </select>
+              </div>
+
+              <div class="col-md-9 col-md-offset-3" id="contentCat">
+                  <div id="encartPub">
+                      Votre pub ici !
+                  </div>
+                  <div id="headColCat">
+                      <div class="col-md-3 col-sx-4">
+                          Titre
+                      </div>
+                      <div class="col-md-5 col-sx-6">
+                          Uploader
+                      </div>
+                      <div class="col-md-3 col-sx-2">
+                          Date de creation
+                      </div>
+                      <div class="col-md-1 col-sx-1">
+                          Durée
+                      </div>
+                  </div>
+                  <div id="contentColCat">
+
+                      {% for mediabycategorie in category.medias %}
+                          <div class="{{ mediabycategorie.category.categoryName|lower }} blocSon">
+                              <div class="col-md-3 col-xs-5 fondCouleur">
+                              </div>
+                              <div class="col-md-3 col-xs-5 titreSon audioSon" data-src="{{ asset('/uploads/media/'~ mediabycategorie.Emplacement )  }}">
+                                  <div class="row">
+                                      <div class="blocIMG">
+                                          <img src="{{ asset('bundles/public/images/60x60_Sound.jpg') }}" title="Guild Wars 2"/>
+                                      </div>
+                                      <div class="titreMusique">
+                                          {{ mediabycategorie.Title }}
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-1 col-xs-1">
+                                 {{ mediabycategorie.publishedDate | date("m/d/Y", "Europe/Paris") }}
+                              </div>
+
+                              <div class="col-md-1 col-xs-1 dureeSon">
+
+                              </div>
+                          </div>
+                      {% endfor %}
+
+
+                  </div>
+              </div>
+          </div>
+      {% endblock rtech_user_content %}
+{% endblock %}
+

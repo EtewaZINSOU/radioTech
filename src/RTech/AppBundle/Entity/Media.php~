@@ -52,10 +52,21 @@ class Media
     protected $category;
 
     /**
+<<<<<<< HEAD
      * @ORM\Column(name="publisheDate", type="datetime")
      */
     protected $publisheDate;
+=======
+     * @ORM\Column(name="publishedDate", type="datetime")
+     */
+    protected $publishedDate;
+    
+>>>>>>> 9c8d746a5bd1a52f8086eff01b4759d46a7d1e05
 
+    public function __construct()
+    {
+        $this->publishedDate = new \Datetime();
+    }
 
     /**
      * Get id
@@ -162,6 +173,7 @@ class Media
     {
         return $this->category;
     }
+<<<<<<< HEAD
     
     public function __construct()
     {
@@ -192,4 +204,6 @@ class Media
     {
         return $this->publisheDate;
     }
+=======
+>>>>>>> 9c8d746a5bd1a52f8086eff01b4759d46a7d1e05
 }
