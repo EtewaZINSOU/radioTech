@@ -22,6 +22,7 @@ class AppKernel extends Kernel
             new RTech\AppBundle\RTechAppBundle(),
             new JavierEguiluz\Bundle\EasyAdminBundle\EasyAdminBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
+            new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
