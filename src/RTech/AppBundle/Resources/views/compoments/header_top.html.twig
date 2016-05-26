@@ -20,7 +20,7 @@
                             <li><div class="art fullBackground"></div><a href="{{ path('r_tech_category') }}">Art</a></li>
                             <li>
                                 <div class="search_box pull-right">
-                                    <input type="text" placeholder="Search" /><span style="margin-right: 6px;margin-top: -20px;margin-left: -22px; position: relative;z-index: 9" class="fa fa-search"></span>
+                                    <input type="text" placeholder="Rechercher" /><span style="margin-right: 6px;margin-top: -20px;margin-left: -22px; position: relative;z-index: 9" class="fa fa-search"></span>
                                 </div>
                             </li>
                         </ul>
@@ -43,7 +43,7 @@
                             <a href=""></a>
                             <div class="blocConnect">
                             {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
-                                <p>{{ app.user.firstname}}</p>
+                                <p>Bonjour {{ app.user.firstname}}</p>
                                 <a href="{{ path('fos_user_profile_show') }}" title="">Profil</a>
                                 <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a>
 
@@ -70,9 +70,9 @@
 
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+<!--<button type="button" class="btn btn-primary btn-lg modalButton" data-toggle="modal" data-target="#myModal">
     Launch demo modal
-</button>
+</button>-->
 
 <!-- Modal -->
 <div class="modal fade mediaModal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">

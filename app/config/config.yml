@@ -88,11 +88,13 @@ fos_user:
 
 
 easy_admin:
-    site_name: 'WebRadio<em style="font-size: 80%; color: yellow">::ADMIN</em>'
+    site_name: '<img src="/bundles/public/images/logo.png" />'
     design:
-        brand_color: 'red'
-        brand_color: 'rgba(26, 188, 156, 0.85)'
-        brand_color: 'hsl(0, 100%, 50%);'
+        brand_color: 'rgba(17, 17, 19, 1)'
+        assets:
+            favicon:
+                path: '/assets/backend/favicon.ico'
+                mime_type: 'image/ico'
     list:
         actions: ['show']
     entities:

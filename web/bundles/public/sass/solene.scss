@@ -38,7 +38,7 @@ textarea {
   transition:all .2s linear;
   border-radius: 0;
 
-  &:hover {
+  &:hover,&:focus {
     border-width:1px;
     line-height:6vh;
     background: none;
@@ -63,9 +63,7 @@ textarea {
   }
 
   input.searchBox{
-    background-color: #111113;
-    border: medium none;
-    color: #FFF;
+    background-color: #111113 !important;
     font-weight: 300;
     height: 35px;
     width: 100%;
@@ -73,7 +71,7 @@ textarea {
     padding: 0 15px;
     outline: medium none;
     border: 3px solid #FFF;
-    color: #FFF;
+    color: #fff !important;
 
     &::-webkit-input-placeholder {
       color: #FFF;
@@ -89,6 +87,9 @@ textarea {
     }
   }
 
+  form{
+    overflow:hidden;
+  }
   select {
     margin: 5px 0;
     color: #111113;
@@ -241,7 +242,7 @@ textarea {
   }
 }
 
-#loginPage {
+#loginPage, #modification {
   form {
     text-align: center;
     input[type="text"],

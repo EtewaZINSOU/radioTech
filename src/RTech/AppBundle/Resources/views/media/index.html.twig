@@ -32,15 +32,46 @@
                   </div>
 
                   <div class="col-md-9 col-md-offset-3" id="contentCat">
-                        <div id="encartPub">
-                              Nom : {{ user.lastname }}
-                              Prénoms: {{ user.firstname }}
-                              Date naissance: {{ user.birthday|date("m/d/Y", "Europe/Paris") }}
-
-                              <div class="col-md-4">
-                                    <p><i class="fa fa-pencil fa-lg"></i><a href="{{ path('rtech_user_profile_edit') }}" class="btn btn-link">Modifier mes informations personnelles</a></p>
+                        <div id="blocUser">
+                              <div class="col-sm-9">
+                                    <div class="col-xs-5">
+                                          <img src="{{ asset('bundles/public/images/profil.jpg') }}" />
+                                    </div>
+                                    <div class="col-xs-7">
+                                          <h2>{{ user.firstname }} {{ user.lastname }}</h2>
+                                          <p>Email : {{ user.email }}</p>
+                                          <p>Mot de pass : *********</p>
+                                          Date naissance: {{ user.birthday|date("m/d/Y", "Europe/Paris") }}
+                                          <p><a href="{{ path('rtech_user_profile_edit') }}" class="btn btn-link bouton">Modifier</a></p>
+                                    </div>
+                              </div>
+                              <div class="col-sm-3">
+                                    <div class="h1">
+                                          <span class="nombre">{{ medias|length }}</span><br />
+                                          {% if medias|length > 1 %}
+                                                podcasts
+                                          {% else %}
+                                                podcast
+                                          {% endif %}
+                                    </div>
                               </div>
                         </div>
+                        {% if medias|last is not empty %}
+                              <div class="lastObject" style="background-image:url('{{ asset('bundles/public/images/principal.png') }}');background-size:cover;background-position:center center;">
+                                    <div class="col-sm-3 col-xs-12 {{ medias|last.category.categoryName|lower }} infoLast">
+                                          <div class="mask"></div>
+                                          <div class="textContent">
+                                                <div class="h2 lastPodcast">Dernier <br />podcast</div>
+                                                <h2>{{ medias|last.Title }}</h2>
+                                                <p>par {{ medias|last.user.firstname }}</p>
+                                                <p>le {{ medias|last.publisheDate|date("d/m/Y", "Europe/Paris") }}</p>
+                                                <p class="duree"></p>
+                                                <div class="bouton audioSonLast" data-src="{{ asset('/uploads/media/'~ medias|last.Emplacement )  }}">Ecouter</div>
+                                          </div>
+                                    </div>
+                              </div>
+                        {% endif %}
+                        <div class="h1">Mes podcast</div>
                         <div id="headColCat">
                               <div class="col-md-3 col-sx-5">
                                     Titre
