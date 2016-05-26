@@ -43,7 +43,7 @@
                                           <p>Mot de pass : *********</p>
                                           Date naissance: {{ user.birthday|date("m/d/Y", "Europe/Paris") }}
                                           <button type="button" class="btn btn-primary btn-lg bouton" data-toggle="modal" data-target="#myModalInfo">
-                                                Modifier mes informations personnelles
+                                                Modifier
                                           </button>
                                     </div>
                               </div>
@@ -66,7 +66,7 @@
                                                 <div class="h2 lastPodcast">Dernier <br />podcast</div>
                                                 <h2>{{ medias|last.Title }}</h2>
                                                 <p>par {{ medias|last.user.firstname }}</p>
-                                                <p>le {{ medias|last.publisheDate|date("d/m/Y", "Europe/Paris") }}</p>
+                                                <p>le {{ medias|last.publishedDate|date("d/m/Y", "Europe/Paris") }}</p>
                                                 <p class="duree"></p>
                                                 <div class="bouton audioSonLast" data-src="{{ asset('/uploads/media/'~ medias|last.Emplacement )  }}">Ecouter</div>
                                           </div>

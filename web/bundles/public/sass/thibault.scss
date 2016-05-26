@@ -888,7 +888,7 @@ img.medaille{
   overflow: hidden !important;
   padding: 0 !important;
 }
-#myModal{
+#myModal, #myModalInfo{
   background:rgba(0,0,0,.5);
   .modal-content{
     border-radius:0;
@@ -935,6 +935,11 @@ img.medaille{
     .nombre{
       font-size:45px;
     }
+  }
+  .bouton{
+    display: block;
+    margin:10px;
+    margin-left:0;
   }
 }
 .lastObject{
@@ -986,6 +991,9 @@ img.medaille{
   .bouton{
     margin-top:20px;
     margin-bottom:20px;
+  }
+  a{
+
   }
 }
 

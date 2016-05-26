@@ -199,11 +199,6 @@ img {
   max-width: 100%;
 }
 
-/* line 23, ../sass/style.scss */
-p {
-  margin: 10px 0;
-}
-
 /* line 26, ../sass/style.scss */
 h1, .h1 {
   font-size: 2.4rem;
@@ -318,7 +313,7 @@ textarea {
   border-radius: 0;
 }
 /* line 41, ../sass/solene.scss */
-.btn-success:hover, .btn-success:focus {
+.btn-success:hover, .btn-success:focus, .btn-success:active {
   border-width: 1px;
   line-height: 6vh;
   background: none;
@@ -1630,30 +1625,30 @@ img.medaille {
 }
 
 /* line 891, ../sass/thibault.scss */
-#myModal {
+#myModal, #myModalInfo {
   background: rgba(0, 0, 0, 0.5);
 }
 /* line 893, ../sass/thibault.scss */
-#myModal .modal-content {
+#myModal .modal-content, #myModalInfo .modal-content {
   border-radius: 0;
 }
 /* line 896, ../sass/thibault.scss */
-#myModal .modal-header {
+#myModal .modal-header, #myModalInfo .modal-header {
   border-radius: 0;
   background: #111113;
   border: 0;
 }
 /* line 900, ../sass/thibault.scss */
-#myModal .modal-header .close {
+#myModal .modal-header .close, #myModalInfo .modal-header .close {
   color: #fff;
 }
 /* line 905, ../sass/thibault.scss */
-#myModal .modal-body form input[type='text'], #myModal .modal-body select {
+#myModal .modal-body form input[type='text'], #myModal .modal-body select, #myModalInfo .modal-body form input[type='text'], #myModalInfo .modal-body select {
   background: #111113 !important;
   color: #fff;
 }
 /* line 909, ../sass/thibault.scss */
-#myModal .modal-body input[type="file"] {
+#myModal .modal-body input[type="file"], #myModalInfo .modal-body input[type="file"] {
   color: #111113;
 }
 
@@ -1685,27 +1680,33 @@ img.medaille {
 #blocUser .h1 .nombre {
   font-size: 45px;
 }
+/* line 939, ../sass/thibault.scss */
+#blocUser .bouton {
+  display: block;
+  margin: 10px;
+  margin-left: 0;
+}
 
-/* line 940, ../sass/thibault.scss */
+/* line 945, ../sass/thibault.scss */
 .lastObject {
   overflow: hidden;
   position: relative;
 }
-/* line 943, ../sass/thibault.scss */
+/* line 948, ../sass/thibault.scss */
 .lastObject::after {
   content: '';
   display: block;
   clear: both;
   width: 100%;
 }
-/* line 949, ../sass/thibault.scss */
+/* line 954, ../sass/thibault.scss */
 .lastObject .infoLast {
   padding: 30px 10px;
   height: 100%;
   position: relative;
   z-index: 2;
 }
-/* line 954, ../sass/thibault.scss */
+/* line 959, ../sass/thibault.scss */
 .lastObject .infoLast .mask {
   position: absolute;
   top: 0;
@@ -1715,95 +1716,95 @@ img.medaille {
   z-index: 1;
   opacity: .6;
 }
-/* line 963, ../sass/thibault.scss */
+/* line 968, ../sass/thibault.scss */
 .lastObject .infoLast.art .mask {
   background: #c12aad;
 }
-/* line 966, ../sass/thibault.scss */
+/* line 971, ../sass/thibault.scss */
 .lastObject .infoLast.science .mask {
   background: #039313;
 }
-/* line 969, ../sass/thibault.scss */
+/* line 974, ../sass/thibault.scss */
 .lastObject .infoLast.informatique .mask {
   background: #fc7e14;
 }
-/* line 972, ../sass/thibault.scss */
+/* line 977, ../sass/thibault.scss */
 .lastObject .infoLast.jeux .mask {
   background: #c53605;
 }
-/* line 975, ../sass/thibault.scss */
+/* line 980, ../sass/thibault.scss */
 .lastObject .infoLast.esport .mask {
   background: #2e3192;
 }
-/* line 978, ../sass/thibault.scss */
+/* line 983, ../sass/thibault.scss */
 .lastObject .infoLast.robotique .mask {
   background: #6f30bf;
 }
-/* line 981, ../sass/thibault.scss */
+/* line 986, ../sass/thibault.scss */
 .lastObject .infoLast .textContent {
   position: relative;
   z-index: 2;
 }
-/* line 986, ../sass/thibault.scss */
+/* line 991, ../sass/thibault.scss */
 .lastObject .bouton {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 993, ../sass/thibault.scss */
+/* line 1001, ../sass/thibault.scss */
 #modification .required {
   display: none;
 }
-/* line 996, ../sass/thibault.scss */
+/* line 1004, ../sass/thibault.scss */
 #modification input {
   text-align: center;
   color: #111113;
 }
-/* line 999, ../sass/thibault.scss */
+/* line 1007, ../sass/thibault.scss */
 #modification input[type="submit"] {
   color: #fff;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 1006, ../sass/thibault.scss */
+  /* line 1014, ../sass/thibault.scss */
   .goupeDecouverte, .groupeSonUser {
     clear: both;
     float: none;
     margin: 15px 0;
   }
-  /* line 1010, ../sass/thibault.scss */
+  /* line 1018, ../sass/thibault.scss */
   .goupeDecouverte::before, .goupeDecouverte::after, .groupeSonUser::before, .groupeSonUser::after {
     content: '';
     clear: both;
     display: block;
   }
 
-  /* line 1016, ../sass/thibault.scss */
+  /* line 1024, ../sass/thibault.scss */
   .social-icons ul.navbar-nav {
     margin: 0;
   }
-  /* line 1018, ../sass/thibault.scss */
+  /* line 1026, ../sass/thibault.scss */
   .social-icons ul.navbar-nav li {
     float: left;
   }
 
-  /* line 1022, ../sass/thibault.scss */
+  /* line 1030, ../sass/thibault.scss */
   .radioDirect .enDirect, .radioDirect p {
     width: 100%;
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 1027, ../sass/thibault.scss */
+  /* line 1035, ../sass/thibault.scss */
   .header_top {
     height: auto;
   }
 
-  /* line 1030, ../sass/thibault.scss */
+  /* line 1038, ../sass/thibault.scss */
   .social-icons {
     float: right !important;
   }
 
-  /* line 1033, ../sass/thibault.scss */
+  /* line 1041, ../sass/thibault.scss */
   .header_top .row > div {
     float: none;
     width: 100%;
