@@ -57,5 +57,5 @@ security:
         - { path: ^/[^/]+/user/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/[^/]+/user/profile, role: IS_AUTHENTICATED_FULLY }
         - { path: ^/[^/]+/user/logout$, role: IS_AUTHENTICATED_FULLY }
-        - { path: ^/[^/]+/admin$, role: IS_AUTHENTICATED_FULLY }
+        - { path: ^/admin, role: IS_AUTHENTICATED_FULLY }
         - { path: ^/[^/]+/addMedia, role: IS_AUTHENTICATED_REMEMBERED }
