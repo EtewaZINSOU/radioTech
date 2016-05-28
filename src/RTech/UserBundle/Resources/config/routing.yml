@@ -2,36 +2,28 @@
 # SECURITY
 fos_user_security_login:
     path: /login
-    defaults: { _controller: RTechUserBundle:Security:login }
+    defaults: { _controller: "RTechUserBundle:Security:login" }
 
 fos_user_security_check:
     path: /login/check
-    defaults: { _controller: FOSUserBundle:Security:check }
+    defaults: { _controller: "FOSUserBundle:Security:check" }
 
 fos_user_security_logout:
     path: /logout
-    defaults: { _controller: FOSUserBundle:Security:logout }
+    defaults: { _controller: "FOSUserBundle:Security:logout" }
 
 
 # REGISTRATION
 rtech_user_registration_register:
     path: /register
-    defaults: { _controller: RTechUserBundle:Registration:register }
+    defaults: { _controller: "RTechUserBundle:Registration:register" }
 
-fos_user_registration_check_email:
-    path: /register/e-mail
-    defaults: { _controller: RTechUserBundle:Registration:checkEmail }
 
 # PROFILE
 fos_user_profile_show:
     path: /profile
-    defaults: { _controller: RTechUserBundle:Profile:show }
+    defaults: { _controller: "RTechUserBundle:Profile:show" }
 
 rtech_user_profile_edit:
     path: /profile/edit
-    defaults: { _controller: RTechUserBundle:Profile:edit }
-
-# CONTACT
-rtech_user_contact:
-    path: /contact
-    defaults: { _controller: RTechUserBundle:Contact:index }
+    defaults: { _controller: "RTechUserBundle:Profile:edit" }

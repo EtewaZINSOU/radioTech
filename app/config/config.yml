@@ -13,7 +13,7 @@ parameters:
 jms_i18n_routing:
     default_locale: "%locale%"
     locales: [fr, en, es]
-    strategy: prefix
+    strategy: prefix_except_default
 
 framework:
     #esi:             ~
@@ -101,7 +101,7 @@ stof_doctrine_extensions:
 
 
 easy_admin:
-    site_name: '<img src="/bundles/public/images/logo.png" />'
+    site_name: '<img src="/radioTech/web/bundles/public/images/logo.png" alt="RadioTech">'
     design:
         brand_color: 'rgba(17, 17, 19, 1)'
         assets:

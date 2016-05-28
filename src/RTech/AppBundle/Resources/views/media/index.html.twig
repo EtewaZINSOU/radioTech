@@ -41,7 +41,7 @@
                                           <h2>{{ user.firstname }} {{ user.lastname }}</h2>
                                           <p>Email : {{ user.email }}</p>
                                           <p>Mot de pass : *********</p>
-                                          Date naissance: {{ user.birthday|date("m/d/Y", "Europe/Paris") }}
+                                          Date naissance: {{ user.birthday|date("d/m/Y", "Europe/Paris") }}
                                           <button type="button" class="btn btn-primary btn-lg bouton" data-toggle="modal" data-target="#myModalInfo">
                                                 Modifier
                                           </button>
@@ -78,11 +78,14 @@
                               <div class="col-md-3 col-sx-5">
                                     Titre
                               </div>
-                              <div class="col-md-8 col-sx-6">
+                              <div class="col-md-7 col-sx-5">
                                     Uploader
                               </div>
                               <div class="col-md-1 col-sx-1">
                                     Durée
+                              </div>
+                              <div class="col-md-1 col-sx-1">
+                                    Action
                               </div>
                         </div>
                         <div id="contentColCat">
@@ -100,11 +103,18 @@
                                                       </div>
                                                 </div>
                                           </div>
-                                          <div class="col-md-8 col-xs-6 uploaderSon">
+                                          <div class="col-md-7 col-xs-5 uploaderSon">
                                                 {{ media.user.firstname }}
                                           </div>
                                           <div class="col-md-1 col-xs-1 dureeSon">
 
+                                          </div>
+
+                                          <div class="col-md-1 col-xs-1 actionSon">
+                                                <a href="{{ path('r_tech_media_delete',{'id': media.id}) }}"
+                                                   class="btn btn-danger btn-xs fn-delete-media">
+                                                    Delete
+                                                </a>
                                           </div>
                                     </div>
                               {% endfor %}

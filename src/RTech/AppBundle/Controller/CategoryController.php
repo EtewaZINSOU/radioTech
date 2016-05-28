@@ -22,6 +22,12 @@ class CategoryController extends Controller
         ));
     }
 
+
+    /***
+     * Affiche une categorie donnée en fonction du slug
+     * @param $slug
+     * @return Response
+     */
     public function showAction($slug)
     {
         $em = $this->getDoctrine()->getManager();
@@ -38,6 +44,10 @@ class CategoryController extends Controller
     }
 
 
+    /**
+     * Affiche tous les medias toutes categories confondues
+     * @return Response
+     */
     public function getAllMediaAction()
     {
         $em = $this->getDoctrine()->getManager();

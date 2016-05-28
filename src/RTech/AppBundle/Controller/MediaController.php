@@ -5,12 +5,17 @@ namespace RTech\AppBundle\Controller;
 use RTech\AppBundle\Form\MediaType;
 use RTech\AppBundle\Entity\Media;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class MediaController extends Controller
 {
+	/**
+	 * Permet d'afficher les medias ou son en fonction de l'utilisateur
+	 * @return \Symfony\Component\HttpFoundation\Response
+	 */
 	public function indexAction()
 	{
 		$em = $this->getDoctrine()->getManager();
@@ -26,41 +31,47 @@ class MediaController extends Controller
 		]);
 	}
 
-	
+	/**
+	 * Permet d'ajouter un son par upload de fichier
+	 * @param Request $request
+	 * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response
+	 */
 	public function addMediaAction(Request $request)
 	{
 		$media = new Media();
 		$form = $this->createForm(MediaType::class, $media);
 
-		if ($form->handleRequest($request)->isValid()) {
+		if($request->isXmlHttpRequest()){
 
-			// $file stores the uploaded PDF file
-			/** @var UploadedFile $file */
-			$file = $media->getEmplacement();
+			if ($form->handleRequest($request)->isValid()) {
+
+				// $file stores the uploaded PDF file
+				/** @var UploadedFile $file */
+				$file = $media->getEmplacement();
 
 
-			// Generate a unique name for the file before saving it
-			$fileName = md5(uniqid()).'.'.$file->guessExtension();
+				// Generate a unique name for the file before saving it
+				$fileName = md5(uniqid()).'.'.$file->guessExtension();
 
-			// Move the file to the directory where brochures are stored
-			$brochuresDir = $this->container->getParameter('kernel.root_dir').'/../web/uploads/media';
+				// Move the file to the directory where brochures are stored
+				$brochuresDir = $this->container->getParameter('kernel.root_dir').'/../web/uploads/media';
 
-			$file->move($brochuresDir, $fileName);
+				$file->move($brochuresDir, $fileName);
 
-			// Update the 'brochure' property to store the PDF file name
-			// instead of its contents
-			$media->setEmplacement($fileName);
-			
-			$media->setUser($this->getUser());
-			$media->setPublishedDate(new \DateTime());
+				// Update the 'brochure' property to store the PDF file name
+				// instead of its contents
+				$media->setEmplacement($fileName);
 
-			$em = $this->getDoctrine()->getManager();
-			$em->persist($media);
-			$em->flush();
+				$media->setUser($this->getUser());
+				$media->setPublishedDate(new \DateTime());
 
-			$request->getSession()->getFlashBag()->add('notice', 'Media bien enregistrée.');
+				$em = $this->getDoctrine()->getManager();
+				$em->persist($media);
+				$em->flush();
+				
 
-			return $this->redirectToRoute('fos_user_profile_show');
+				return $this->redirectToRoute('fos_user_profile_show');
+			}
 		}
 
 		return $this->render(
@@ -69,5 +80,30 @@ class MediaController extends Controller
 				'form' => $form->createView(),
 			]
 		);
+	}
+
+
+
+	/**
+	 * @param Request $request
+	 * @param $id
+	 * @return JsonResponse
+	 */
+	public function deleteAction(Request $request, $id)
+	{
+
+			if (!$id) {
+				return new JsonResponse(array('data' => 'id not found'));
+			}
+
+			$em = $this->getDoctrine()->getManager();
+			$media = $em->getRepository('RTechAppBundle:Media')->find($id);
+			$em->remove($media);
+			$em->flush();
+
+			return $this->redirectToRoute('fos_user_profile_show');
+		
+		
+
 	}
 }

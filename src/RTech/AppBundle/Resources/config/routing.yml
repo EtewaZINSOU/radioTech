@@ -1,24 +1,31 @@
+
+#MEDIA
 r_tech_app_homepage:
     path: /
-    defaults: { _controller: RTechAppBundle:Default:index }
+    defaults: { _controller: "RTechAppBundle:Default:index" }
 
 r_tech_media:
     path: /addMedia
-    defaults: { _controller: RTechAppBundle:Media:addMedia }
+    defaults: { _controller: "RTechAppBundle:Media:addMedia" }
+
+
+r_tech_media_delete:
+    path: /delete/{id}
+    defaults: { _controller: "RTechAppBundle:Media:delete" }
 
 
 # CATEGORY
 rtechByCategory:
     path:  /category/{slug}
-    defaults: { _controller: RTechAppBundle:Category:show }
+    defaults: { _controller: "RTechAppBundle:Category:show" }
 
 r_tech_category:
     path: /category
-    defaults: { _controller: RTechAppBundle:Category:getAllMedia }
+    defaults: { _controller: "RTechAppBundle:Category:getAllMedia" }
 
 
 
 # CONTACT
 r_tech_contact:
     path: /contact
-    defaults: { _controller: RTechAppBundle:Contact:index }
+    defaults: { _controller: "RTechAppBundle:Contact:index" }

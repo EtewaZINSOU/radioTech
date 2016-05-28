@@ -11,6 +11,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class ContactController extends Controller
 {
 
+    /**
+     * Formulaire de contact
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
     public function indexAction()
     {
         return $this->render('RTechAppBundle:Contact:index.html.twig');

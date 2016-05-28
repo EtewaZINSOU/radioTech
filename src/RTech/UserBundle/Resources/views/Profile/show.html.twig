@@ -7,60 +7,60 @@
 
 {% block javascripts %}
     {{ parent() }}
-<script type="text/javascript">
-$(document).ready(function () {
-    var self = $(this);
-    var _glyphicon = self.find('.glyphicon');
+    <script type="text/javascript">
+        $(document).ready(function () {
 
-    if (_glyphicon.hasClass('glyphicon-ok')) {
-        _glyphicon.removeClass('glyphicon-ok');
-    }
+            $('.ajoutSon').on('submit','.fn-form-modal-media', function (e) {
+                e.preventDefault();
+                var $form = $(this);
+                var formdata = (window.FormData) ? new FormData($form[0]) : null;
+                var data = (formdata !== null) ? formdata : $form.serialize();
 
-    _glyphicon.toggleClass('glyphicon-refresh glyphicon-refresh-animate');
+                $.ajax({
+                    url: $form.attr('action'),
+                    type: $form.attr('method'),
+                    contentType: false, // obligatoire pour de l'upload
+                    processData: false, // obligatoire pour de l'upload
+                    data: data,
 
-    $('.ajoutSon').on('submit', '.fn-form-modal-media ', function (e) {
-        e.preventDefault();
-        var $form = $(this);
-        var formdata = (window.FormData) ? new FormData($form[0]) : null;
-        var data = (formdata !== null) ? formdata : $form.serialize();
+                    success: function (response) {
+                        if (response) {
 
-        $.ajax({
-            url: $form.attr('action'),
-            type: $form.attr('method'),
-            contentType: false, // obligatoire pour de l'upload
-            processData: false, // obligatoire pour de l'upload
-            data: data,
+                            //$('.mediaModal-lg').modal('hide');
+                            $('.mediaModal-lg').fadeOut('fast');
+                            $('body').removeClass('modal-open');
+                            $('.modal-backdrop').remove();
+                            location.reload();
+                        }
+                    }
+                });
+            });
 
-            success: function (response) {
-                if (response) {
-                    console.log('tet', response);
-                    _glyphicon.fadeOut().toggleClass('glyphicon-refresh glyphicon-refresh-animate');
-                    _glyphicon.fadeIn().addClass('glyphicon-ok');
-                    self.find('.fn-media-submit').addClass('btn-success').removeClass('btn-default');
 
-                    //$('.mediaModal-lg').modal('hide');
-                    $('.mediaModal-lg').fadeOut();
-                    $('body').removeClass('modal-open');
-                    $('.modal-backdrop').remove();
+            $('.actionSon').on('submit', '.fn-delete-media ', function (e) {
+                e.preventDefault();
+                var _href = self.attr('href');
+                var _confirm = confirm('Voulez-vous vraiment supprimer cette Item ?');
+                var _glyphicon = self.find('.glyphicon');
 
-                    $('.ajoutSon').html(response.itemModal);
-                    $('.fn-item>.row').fadeIn().append(response.itemHtml);
+                if (_confirm) {
+                    var jqxhr = $.get(_href);
+                    _glyphicon.toggleClass('glyphicon-trash glyphicon-refresh glyphicon-refresh-animate');
 
+                    jqxhr.success(function (response) {
+                        if (response) {
+                            div.fadeOut();
+                            location.reload();
+                        }
+                    });
                 }
-            }
-        });
-    });
+            })
 
-});
+        });
+
+
         $(document).ready(function () {
             var self = $(this);
-            var _glyphicon = self.find('.glyphicon');
-
-            if (_glyphicon.hasClass('glyphicon-ok')) {
-                _glyphicon.removeClass('glyphicon-ok');
-            }
-
-            _glyphicon.toggleClass('glyphicon-refresh glyphicon-refresh-animate');
 
             $('.modifierInfo').on('submit', '.fos_user_profile_edit', function (e) {
                 e.preventDefault();
@@ -77,11 +77,6 @@ $(document).ready(function () {
 
                     success: function (response) {
                         if (response) {
-                            console.log('tet', response);
-                            _glyphicon.fadeOut().toggleClass('glyphicon-refresh glyphicon-refresh-animate');
-                            _glyphicon.fadeIn().addClass('glyphicon-ok');
-                            self.find('.fn-info-submit').addClass('btn-success').removeClass('btn-default');
-
                             //$('.mediaModal-lg').modal('hide');
                             $('.mediaModal-lg').fadeOut();
                             $('body').removeClass('modal-open');

@@ -55,9 +55,35 @@
     </div>
 </div>
 
-{% block lecteur %}
-    {% include "RTechAppBundle:Compoments:lecteur.html.twig" %}
-{% endblock  %}
+<div class="lecteur">
+    <div class="row">
+        <div class="fermer">X</div>
+        <div class="col-xs-4 infos">
+            <div class="blocIMG">
+                <img src="" />
+            </div>
+            <div class="titreNom"></div>
+        </div>
+        <div class="col-xs-8">
+            <div class="lecteurAudio">
+                <div class="coeur">
+                    <img src="{{ asset('bundles/public/images/coeur.png') }}" />
+                </div>
+                <a class="pp" id="play" href="">
+                </a>
+                <p class="audioDebut">0</p>
+                <div id="ecoulement">
+                    <div class="progress"></div>
+                </div>
+                <p class="audioFin"></p>
+                <p class="volume">
+                    <input type="range" id="seek" value="0.5" min="0" max="1" step="0.01"/>
+                </p>
+            </div>
+            <audio src="" id="audio"></audio>
+        </div>
+    </div>
+</div>
 
 {{ include("RTechAppBundle:Compoments:footer.html.twig") }}
 {% block javascripts %}

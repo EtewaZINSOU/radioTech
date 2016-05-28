@@ -38,21 +38,20 @@
                             <a href=""></a>
                             <div class="blocConnect">
                             {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
-                                <p>Bonjour {{ app.user.firstname}}</p>
-                                <a href="{{ path('fos_user_profile_show') }}" title="">Profil</a>
-                                <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a>
+                                <p>{{'layout.bonjour'|trans }} {{ app.user.firstname}}</p>
+                                <a href="{{ path('fos_user_profile_show') }}" title="">{{ 'layout.profil'|trans }}</a>
+                                <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans }}</a>
 
-                                {#<a href="{{ path('r_tech_media') }}">Ajouter un son</a>#}
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                                   Ajouter
+                                <button type="button" class="btn btn-primary btn-lg fn-media-modal" data-toggle="modal" data-target="#myModal">
+                                    {{ 'layout.add'|trans }}
                                 </button>
-
-                                <!-- Modal -->
+                                {% if is_granted('ROLE_ADMIN') %}
+                                    <a href="{{ path('admin') }}?entity=Category&action=list" target="_blank">Admin</a>
+                                {% endif %}
 
                             {% else %}
                                 <a class="button" href="{{ path("fos_user_security_login") }}">Connexion</a>
-                                <a class="button" href="{{ path('rtech_user_registration_register') }}">{{ 'layout.register'|trans({}, 'FOSUserBundle') }}</a>
+                                <a class="button" href="{{ path('rtech_user_registration_register') }}">{{ 'layout.register'|trans }}</a>
                             {% endif %}
                             </div>
                         </li>
@@ -65,9 +64,9 @@
 
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg modalButton" data-toggle="modal" data-target="#myModal">
-    Launch demo modal
-</button>
+{#<button type="button" class="btn btn-primary btn-lg modalButton" data-toggle="modal" data-target="#myModal">#}
+    {#Launch demo modal#}
+{#</button>#}
 
 <!-- Modal -->
 <div class="modal fade mediaModal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -75,7 +74,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                <h4 class="modal-title" id="myModalLabel">Ajouter un son</h4>
             </div>
             <div class="modal-body">
                 <div class="container">
