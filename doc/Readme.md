@@ -26,7 +26,7 @@ javiereguiluz/easyadmin-bundle: Pour la gestion de BackOffice
                                 # Les commandes neccessaires pour installer le projet
 ---------------------------------------------------------------------------------------------------------------
 
-    php composer.phar install : Pour installer toutes les dépendances de composer.json et composer.lock
+    php composer.phar install :   Pour installer toutes les dépendances de composer.json et composer.lock
     php bin/console doctrine:database:create : Pour creer la base de donnees
     php app/console doctrine:schema:update --force
     

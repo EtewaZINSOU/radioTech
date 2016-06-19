@@ -7,12 +7,12 @@ use Symfony\Component\HttpFoundation\Response;
 class CategoryController extends Controller
 {
     /**
-     * Affiche tous les categories 
+     * Affiche la liste de toutes les categories
      * @return Response
      */
     public function listAction()
     {
-        $em = $this->getDoctrine()->getEntityManager();
+        $em = $this->getDoctrine()->getManager();
 
         $categories = $em->getRepository('RTechAppBundle:Category')->findAll();
 

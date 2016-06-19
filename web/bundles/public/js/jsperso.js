@@ -1,7 +1,7 @@
 (function($) {
     'use strict';
     $(document).ready(function(){
-        var hauteur=$(window).height();
+        var hauteur= $(window).height();
 
         $('.blocUser .over').height($('.blocUser').height());
 
@@ -42,7 +42,7 @@
             $('.blocSon').each(function(){
                 var audioCharge = new Audio($(this).find('.audioSon').attr('data-src'));
                 var tempsDec;
-                var el=$(this);
+                var el= $(this);
                 audioCharge.addEventListener("loadedmetadata", function(_event) {
                     var duree = Math.ceil(audioCharge.duration);
                     var temps=new Date();
@@ -84,7 +84,7 @@
         var duration=1;
         var tempsEcoule=0;
         var interval;
-        var son=new Audio;
+        var son = new Audio;
 
         $('.audioSon, .audioSonLast').click(function(e){
             son.pause();
@@ -109,7 +109,7 @@
 
             e.preventDefault();
             $('.pp').attr('id','pause');
-            tempsEcoule=0;
+            tempsEcoule = 0;
             clearInterval(interval);
             interval='';
             son = new Audio($(this).attr('data-src'));
@@ -130,7 +130,7 @@
                 if(duration>60){
                     tempsDec = ((temps.getMinutes()<10) ? ('0'+temps.getMinutes()) : temps.getMinutes())+":"+((temps.getSeconds()<10) ? ('0'+temps.getSeconds()) : temps.getSeconds());
                 }
-                if(duration>3600){
+                if(duration > 3600){
                     tempsDec = (((temps.getHours()-1)<10) ? ('0'+(temps.getHours()-1)) : (temps.getHours()-1))+":"+((temps.getMinutes()<10) ? ('0'+temps.getMinutes()) : temps.getMinutes())+":"+((temps.getSeconds()<10) ? ('0'+temps.getSeconds()) : temps.getSeconds());
                 }
 

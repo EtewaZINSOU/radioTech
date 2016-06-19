@@ -1,5 +1,4 @@
 <?php
-
 namespace RTech\AppBundle\Controller;
 
 use RTech\AppBundle\Form\MediaType;
@@ -38,17 +37,24 @@ class MediaController extends Controller
 	 */
 	public function addMediaAction(Request $request)
 	{
+		// 1) build the form
 		$media = new Media();
 		$form = $this->createForm(MediaType::class, $media);
 
-		if($request->isXmlHttpRequest()){
+		//dump($form->getErrors());
 
-			if ($form->handleRequest($request)->isValid()) {
+		// 2) handle the submit (will only happen on POST)
+		$form->handleRequest($request);
+
+		//dump($request->isXmlHttpRequest());
+
+		//if($request->isXmlHttpRequest()){
+			dump($form->isSubmitted(),$form);
+			if ($form->isSubmitted() && $form->isValid()) {
 
 				// $file stores the uploaded PDF file
 				/** @var UploadedFile $file */
 				$file = $media->getEmplacement();
-
 
 				// Generate a unique name for the file before saving it
 				$fileName = md5(uniqid()).'.'.$file->guessExtension();
@@ -68,11 +74,17 @@ class MediaController extends Controller
 				$em = $this->getDoctrine()->getManager();
 				$em->persist($media);
 				$em->flush();
-				
 
-				return $this->redirectToRoute('fos_user_profile_show');
+				$response = new JsonResponse();
+				$response->setStatusCode(200);
+				//ajout de données éventuelles
+				$response->setData(array(
+					'successMessage' => "Votre message a bien été envoyé pommmm"));
+				return $response;
+
+				//return $this->redirectToRoute('fos_user_profile_show');
 			}
-		}
+		//}
 
 		return $this->render(
 			'RTechAppBundle:media:addMedia.html.twig',
