@@ -1,0 +1,6 @@
+
+{% for categorie in categories %}
+    <li><div class="{{ categorie.slug }} fullBackground"></div>
+        <a href="{{ path('rtechByCategory',{'slug': categorie.slug}) }}">{{ categorie.categoryName |upper}}</a>
+    </li>
+{% endfor %}

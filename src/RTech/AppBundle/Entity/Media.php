@@ -1,6 +1,8 @@
 <?php
 
 namespace RTech\AppBundle\Entity;
+use RTech\AppBundle\Entity\Category;
+use RTech\UserBundle\Entity\User;
 use Symfony\Component\Validator\Constraints as Assert;
 
 use Doctrine\ORM\Mapping as ORM;
@@ -20,36 +22,70 @@ class Media
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="soundTitle", type="string", length=255)
+     * @ORM\Column(name="title", type="string", length=255)
      */
-    private $soundTitle;
+    protected $Title;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="basePath", type="string", length=255)
+     * @ORM\Column(name="lien", type="string", length=255)
      */
-    private $basePath;
+    protected $Emplacement;
+    
 
     /**
-     * @var string
-     *
-     * @ORM\Column(name="descrption", type="string", length=255)
+     * @ORM\ManyToOne(targetEntity="RTech\UserBundle\Entity\User", cascade={"persist"}, inversedBy="medias")
+     * @ORM\JoinColumn(nullable=false, onDelete="CASCADE")
      */
-    private $descrption;
+    protected $user;
 
     /**
-     * @var string
-     *
-     * @ORM\Column(name="extension", type="string", length=255, nullable=true, unique=true)
+     * @ORM\ManyToOne(targetEntity="RTech\AppBundle\Entity\Category", cascade={"persist"}, inversedBy="medias")
+     * @ORM\JoinColumn(nullable=false, onDelete="CASCADE")
      */
-    private $extension;
+    protected $category;
 
+    /**
+     * @ORM\Column(name="publishedDate", type="datetime")
+     */
+    protected $publishedDate;
+    
+
+    public function __construct()
+    {
+        $this->publishedDate = new \Datetime();
+    }
+
+
+    /**
+     * Set publishedDate
+     *
+     * @param \DateTime $publishedDate
+     *
+     * @return Media
+     */
+    public function setPublishedDate($publishedDate)
+    {
+        $this->publishedDate = $publishedDate;
+
+        return $this;
+    }
+
+    /**
+     * Get publishedDate
+     *
+     * @return \DateTime
+     */
+    public function getPublishedDate()
+    {
+        return $this->publishedDate;
+    }
 
     /**
      * Get id
@@ -61,99 +97,101 @@ class Media
         return $this->id;
     }
 
+    
     /**
-     * Set soundTitle
+     * Set title
      *
-     * @param string $soundTitle
+     * @param string $title
      *
      * @return Media
      */
-    public function setSoundTitle($soundTitle)
+    public function setTitle($title)
     {
-        $this->soundTitle = $soundTitle;
+        $this->Title = $title;
 
         return $this;
     }
 
     /**
-     * Get soundTitle
+     * Get title
      *
      * @return string
      */
-    public function getSoundTitle()
+    public function getTitle()
     {
-        return $this->soundTitle;
+        return $this->Title;
     }
 
     /**
-     * Set basePath
+     * Set emplacement
      *
-     * @param string $basePath
+     * @param string $emplacement
      *
      * @return Media
      */
-    public function setBasePath($basePath)
+    public function setEmplacement($emplacement)
     {
-        $this->basePath = $basePath;
+        $this->Emplacement = $emplacement;
 
         return $this;
     }
 
     /**
-     * Get basePath
+     * Get emplacement
      *
      * @return string
      */
-    public function getBasePath()
+    public function getEmplacement()
     {
-        return $this->basePath;
+        return $this->Emplacement;
+    }
+
+    
+
+    /**
+     * Get user
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getUser()
+    {
+        return $this->user;
     }
 
     /**
-     * Set descrption
-     *
-     * @param string $descrption
-     *
-     * @return Media
+     * @param User $user
+     * @return $this
      */
-    public function setDescrption($descrption)
+    public function setUser(User $user)
     {
-        $this->descrption = $descrption;
+        $this->user = $user;
 
         return $this;
     }
 
     /**
-     * Get descrption
+     * Set category
      *
-     * @return string
-     */
-    public function getDescrption()
-    {
-        return $this->descrption;
-    }
-
-    /**
-     * Set extension
-     *
-     * @param string $extension
+     * @param Category $category
      *
      * @return Media
      */
-    public function setExtension($extension)
+    public function setCategory(Category $category)
     {
-        $this->extension = $extension;
+        $this->category = $category;
 
         return $this;
     }
 
     /**
-     * Get extension
+     * Get category
      *
-     * @return string
+     * @return Category
      */
-    public function getExtension()
+    public function getCategory()
     {
-        return $this->extension;
+        return $this->category;
     }
+
+    
 }

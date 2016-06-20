@@ -10,4 +10,7 @@ namespace RTech\AppBundle\Repository;
  */
 class MediaRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function test(){
+        die('eric');
+    }
 }

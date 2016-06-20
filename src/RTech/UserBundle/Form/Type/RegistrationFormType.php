@@ -3,6 +3,7 @@
 namespace RTech\UserBundle\Form\Type;
 
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\BirthdayType;
 use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -13,14 +14,15 @@ class RegistrationFormType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('lastname', TextType::class)
-            ->add('lastname', TextType::class)
-            ->add('firstname', TextType::class)
+            ->add('lastname', TextType::class, array('label' => false))
+            ->add('lastname', TextType::class, array('label' => false))
+            ->add('firstname', TextType::class, array('label' => false))
+            
            /**->add('birthday', DateType::class, array(
                 'input'  => 'timestamp',
                 'widget' => 'choice',
             ))**/
-            ->add('birthday', DateType::class)
+            ->add('birthday', BirthdayType::class, array('label' => false))
             ->remove('username')
 
     ;

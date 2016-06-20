@@ -1,0 +1,69 @@
+{% extends "RTechUserBundle::layout.html.twig" %}
+
+{% block rtech_user_content %}
+        {{ include("RTechUserBundle:Profile:show_content.html.twig") }}
+{% endblock rtech_user_content %}
+
+
+{% block javascripts %}
+    {{ parent() }}
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.actionSon').on('submit', '.fn-delete-media ', function (event) {
+                event.preventDefault();
+                var _href = self.attr('href');
+                var _confirm = confirm('Voulez-vous vraiment supprimer cette Item ?');
+                var _glyphicon = self.find('.glyphicon');
+
+                if (_confirm) {
+                    var jqxhr = $.get(_href);
+                    _glyphicon.toggleClass('glyphicon-trash glyphicon-refresh glyphicon-refresh-animate');
+
+                    jqxhr.success(function (response) {
+                        if (response) {
+                            div.fadeOut();
+                            location.reload();
+                        }
+                    });
+                }
+            })
+
+        });
+
+
+        $(document).ready(function () {
+            var self = $(this);
+
+            $('.modifierInfo').on('submit', '.fos_user_profile_edit', function (e) {
+                e.preventDefault();
+                var $form = $(this);
+                var formdata = (window.FormData) ? new FormData($form[0]) : null;
+                var data = (formdata !== null) ? formdata : $form.serialize();
+
+                $.ajax({
+                    url: $form.attr('action'),
+                    type: $form.attr('method'),
+                    contentType: false, // obligatoire pour de l'upload
+                    processData: false, // obligatoire pour de l'upload
+                    data: data,
+
+                    success: function (response) {
+                        if (response) {
+                            //$('.mediaModal-lg').modal('hide');
+                            $('.mediaModal-lg').fadeOut();
+                            $('body').removeClass('modal-open');
+                            $('.modal-backdrop').remove();
+
+                            $('.ajoutSon').html(response.itemModal);
+                            $('.fn-item>.row').fadeIn().append(response.itemHtml);
+
+                        }
+                    }
+                });
+            })
+        });
+
+    </script>
+{% endblock %}
+
+

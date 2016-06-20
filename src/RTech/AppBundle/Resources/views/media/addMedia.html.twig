@@ -1,1 +1,19 @@
-{{ dump(form) }}
+{{ form_start(form, {'method': 'post', 'action': path('r_tech_media'),'attr': {'class': 'fn-form-modal-media', 'data-target': '#rating-modal'}}) }}
+        {{ form_row(form.Title, {'attr': {'placeholder': 'Nom du son'} }) }}
+        {{ form_row(form.Emplacement, {'attr': {'placeholder': 'Fichier', 'class':'envoiFichier'} }) }}
+        {{ form_row(form.category) }}
+
+    {{ form_row(form._token) }}
+
+    <div class="modal-footer">
+        <div class="row">
+            <div class="text-center">
+                <button type="submit" value="Ajouter un son"  class="btn btn-default fn-media-submit bouton">
+                    Ajouter
+                </button>
+            </div>
+        </div>
+    </div>
+
+{{ form_end(form,{'render_rest': false}) }}
+

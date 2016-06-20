@@ -3,13 +3,13 @@
 
 {% block body %}
 <canvas id="sons"></canvas>
-<div id="titrePrincipal"><div class="titre">Tout l'art <br />est dans le hasard</div></div>
+<div id="titrePrincipal"><div class="titre">{{ 'accueil.slogan1'|trans }}<br />{{ 'accueil.slogan2'|trans }}</div></div>
 <div class="contenu row">
     <div class="radioDirect">
         <div class="enDirect">
-            En <br />direct
+            {{'accueil.live2' |trans }} <br />{{'accueil.live3' |trans }}
             <a href="" class="bouton audioSon" data-src="http://hibamp3.com/music/mp3/Music%20Etranger/Eminem-2016/01.%20Session%20One.mp3">
-                écouter en live
+               {{'accueil.live'|trans }}
             </a>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel est sed nunc maximus aliquam nec rutrum orci.</p>
@@ -17,27 +17,27 @@
     <div class="chaines">
         <a href="" class="esport">
             <div class="mask"></div>
-            <p class="titreC">E-Sport</p>
+            <p class="titreC">{{'accueil.esport' |trans }}</p>
         </a>
         <a href="" class="informatique">
             <div class="mask"></div>
-            <p class="titreC">informatique</p>
+            <p class="titreC">{{ 'accueil.informatique' |trans }}</p>
         </a>
         <a href="" class="robotique">
             <div class="mask"></div>
-            <p class="titreC">robotique</p>
+            <p class="titreC">{{ 'accueil.robotique'|trans }}</p>
         </a>
         <a href="" class="art">
             <div class="mask"></div>
-            <p class="titreC">art</p>
+            <p class="titreC">{{'accueil.art' |trans }}</p>
         </a>
         <a href="" class="jeux">
             <div class="mask"></div>
-            <p class="titreC">jeux</p>
+            <p class="titreC">{{ 'accueil.jeux' |trans }}</p>
         </a>
         <a href="" class="science">
             <div class="mask"></div>
-            <p class="titreC">science</p>
+            <p class="titreC">{{ 'accueil.science' |trans }}</p>
         </a>
     </div>
     <div class="col-sm-7 groupeSonUser">
@@ -78,14 +78,60 @@
                 </div>
             </div>
             <div class="col-xs-10 right description">
-                <div class="h1">Les uploaders de la semaine</div>
+                <div class="h1">{{ 'accueil.uploader' |trans }}</div>
                 <div class="col-md-10">
-                    <p>Vous devriez les écouter, ça en vaut la peine</p>
+                    <p>{{ 'accueil.slogan3'|trans }}</p>
                 </div>
             </div>
         </div>
-        <div class="blocSon">
-
+        <div class="blocContentSon">
+            <div id="category">
+                <div id="contentColCat">
+                    <div class="art blocSon">
+                        <div class="col-md-5 col-xs-5 fondCouleur">
+                        </div>
+                        <div class="col-md-5 col-xs-5 titreSon audioSon" data-src="http://hibamp3.com/music/mp3/Music%20Etranger/Eminem-2016/01.%20Session%20One.mp3">
+                            <div class="row">
+                                <div class="blocIMG">
+                                    <img src="{{ asset('bundles/public/images/60x60_Sound.jpg') }}" title="Guild Wars 2"/>
+                                </div>
+                                <div class="titreMusique">
+                                    PVP Guild Wars 2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-5 uploaderSon">
+                            Talian
+                        </div>
+                        <div class="col-md-1 col-xs-1 dureeSon">
+                            15:54
+                        </div>
+                    </div>
+                    <div class="esport blocSon">
+                        <div class="col-md-5 col-xs-5 fondCouleur">
+                        </div>
+                        <div class="col-md-5 col-xs-5 titreSon audioSon" data-src="http://hibamp3.com/music/mp3/Music%20Etranger/Eminem-2016/01.%20Session%20One.mp3">
+                            <div class="row">
+                                <div class="blocIMG">
+                                    <img src="{{ asset('bundles/public/images/60x60_Sound.jpg') }}" title="Guild Wars 2"/>
+                                </div>
+                                <div class="titreMusique">
+                                    PVP Guild Wars 2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-5 uploaderSon">
+                            Talian
+                        </div>
+                        <div class="col-md-1 col-xs-1 dureeSon">
+                            15:54
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-10 description uploadSon">
+                <div class="h1">{{ 'accueil.uploader'|trans }}</div>
+            </div>
         </div>
     </div>
     <div class="col-sm-5 goupeDecouverte">
@@ -95,15 +141,26 @@
         </div>
         <div class="col-xs-11 right description">
             <h2>LOLO<img src="{{ asset('bundles/public/images/bronze.png') }}" class="medaille" /></h2>
-            <p>LOLO est encore une jeune uploadeuse cependant, dans ses chroniques sur l’art, elle a un franc-parler et une manière de nous faire découvrir de nouveaux artistes ou nouvelles créations tout en nous faisant rêver.</p>
+            <p>{{ 'accueil.lolo'|trans }}</p>
         </div>
     </div>
     <div class="newsletter">
         <div class="blocNL">
-            <h2>Vous souhaitez recevoir plus d'information ?</h2>
-            <h1>Inscrivez-vous à notre newsletter</h1>
-            <input type="text" placeholder="mail" class="inputMail" />
+            <h2>{{ 'newsletter.info1' |trans }}</h2>
+            <h1>{{ 'newsletter.info2'|trans }}</h1>
+            <form>
+                <input type="text" placeholder="mail" class="inputMail" />
+                <button type="submit" value="Créer un compte" class="btn btn-success">
+                    {{ 'newsletter.infos3' |trans }}
+                </button>
+            </form>
+
         </div>
     </div>
 </div>
 {% endblock  %}
+
+
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}
