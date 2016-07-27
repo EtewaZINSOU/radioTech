@@ -2,95 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c737ef-5caf-4994-ae64-2005f6848e48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/04d2580f5748e5b419f6e31544e299e6.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/167eda48373f81f17b0723bf33d285f3.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/189bea426e7aa884dbccb9e0ab2812e5.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/1ed3c21004a9d5d3b3cb99775714b474.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/210f0e9edc1a59603ec698a489af6d58.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/254cdd4d157c745b329a2cab1ef1e11b.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/280abac24368689cbc175d14567995e0.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/298f008a30b2ab405dfc0740b165bbe4.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/3d197de3a691164aeb44ebad9f72f94c.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/471b6ec924c28957555f529f6dc8289c.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/476b976c5cd38e90ab90ea757ab133e2.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/4dae5e622a658ffda63bf15582783d5d.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/5747e2a0854111a49a05e3e62a53dd76.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/64d2f62bb05f00b6d173da390afb908e.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/67fb132baaa5c5d6b674c5b364ad98ce.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/6dee1b55c1eaff4f3cc8fc6585992191.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/7189f55dcec6f3806ad4af68a09c25ad.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/755aae42aa41f5d75c76c35d0b18af3e.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/7786c29cdb74f1e2f90866c91399fb2b.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/83f46d53766ecae1c7b6fc743572bb51.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/86cb2413d903239243685cc7b002f753.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/885c573d841224064ee34cbd4a78e811.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/8b38e2a3e2020b50840e540d8d71dcc6.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/8bf9afdf8a0ffe1d6cc2669853f864ed.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/8ea05e67344d94461471d38522217f42.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/8ec1387861fdb1dc2e7803b8dc21bb4e.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/8f04065ef6c4d559e542c191c9c7d74d.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/9c9e27122385b15c6cb1ee5eb4c995f1.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/9f7ded3cff3b81f336f7b3e457186bea.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/aa368a9750304b840d8e545a377910a6.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/b1e848963fd2143a6b1638427c4e096d.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/b4a5b58c62f757308e704284d91babd8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/b6748374d8fcb351c0bc9f5c8c2d4615.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/c253037fa0bd7fb58c93aba350de3412.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/c44ecf3fc95755eca5ff8f01f2a9c949.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/c51c7e722c199c77f3f89e0d2f6f72eb.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/c7f2999ababec0055e34a54a36dbe4c8.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/c813c5129cbe4fb5fb4655029f47a5a2.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/cc6bc5a6f38fa7fbecdc23b6e9ccf9db.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/d1ce65a488844f2f72af1007192bce6a.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/daad7d6d98b67ff22c404fa748ee161d.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/dba487f89fd77a710f647b8923baeeae.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/e3f365a683e0516d9524207768d3413f.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/e6134174bcb3a9a2a8b6cc7f95a61178.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/ed97b865e25f874a559b3d5ccaa4300f.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/fae8f1646bf8bbcb98f974b8630069bf.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/fd4ef42e543c6908e92bc27f7affd24c.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/fdcb6c00df3f3965c34660bdc6e9d5e3.mpga" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/BDD/radiotech.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/public/js/radiotech.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/50e937c3a310a25837bc1c3f994ac60c.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/5d73cee8a8451ae064247c7b3f79869f.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/67316049cc745396c9d17a08a9168fb4.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/media/f804e4e26090c6cfb83ec2388bd6c3c6.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bundles/jmstranslation/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bundles/jmstranslation/css/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bundles/jmstranslation/js/jms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bundles/jmstranslation/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bundles/jmstranslation/js/trunk8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/uploads/media/0b57aed38fdb656b8125951d03dd0c1b.mpga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/uploads/media/29e1c2e9e17ab9b7f0816e6012920916.mpga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/uploads/media/2d92a552bb393502ebcc9b796836f781.mpga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/uploads/media/9d6746083c06803d7044b2346b508b72.mpga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/uploads/media/9da73e09c823393a556016e90485d4aa.mpga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/uploads/media/bc35086e78c1d7d03c35ffea3cc93c2b.mpga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/uploads/media/d523d051daf439f44e1c0358669956f1.mpga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/uploads/media/e3adffd0fb3056409d1c1f91df1290f6.mpga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/uploads/media/ed0225b7f333bb239453d3e3818b7a4e.mpga" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/uploads/media/f14c6fb5ccd4d75f80532474124388b6.mpga" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Controller/HomeController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/var/logs/.gitkeep" afterPath="$PROJECT_DIR$/web/uploads/media/0143f6e7bbf2360396bce3e0fb9dfaa4.mpga" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/uploads/media/0c0def12e390ffba173a6968677d700f.txt" afterPath="$PROJECT_DIR$/web/uploads/media/1e7bd437d5d436bcb94c73881a5d72da.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/bin/elasticsearch-service-mgr.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/bin/elasticsearch-service-x64.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/bin/elasticsearch-service-x86.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/_state/global-0.st" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/0/index/_0.cfe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/0/index/_0.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/0/index/_0.si" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/0/index/_1.cfe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/0/index/_1.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/0/index/_1.si" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/1/index/_0.cfe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/1/index/_0.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/1/index/_0.si" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/2/index/_0.cfe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/2/index/_0.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/2/index/_0.si" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/3/index/_0.cfe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/3/index/_0.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/3/index/_0.si" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/3/index/_1.cfe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/3/index/_1.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/3/index/_1.si" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/4/index/_0.cfe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/4/index/_0.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/4/index/_0.si" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/4/index/_1.cfe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/4/index/_1.cfs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/indices/rtech/4/index/_1.si" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/data/elasticsearch/nodes/0/node.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/antlr-runtime-3.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/apache-log4j-extras-1.2.17.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/asm-4.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/asm-commons-4.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/elasticsearch-1.7.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/groovy-all-2.4.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/jna-4.1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/jts-1.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/log4j-1.2.17.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/lucene-analyzers-common-4.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/lucene-core-4.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/lucene-expressions-4.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/lucene-grouping-4.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/lucene-highlighter-4.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/lucene-join-4.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/lucene-memory-4.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/lucene-misc-4.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/lucene-queries-4.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/lucene-queryparser-4.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/lucene-sandbox-4.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/lucene-spatial-4.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/lucene-suggest-4.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/libsigar-amd64-freebsd-6.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/libsigar-amd64-linux.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/libsigar-amd64-solaris.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/libsigar-ia64-linux.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/libsigar-sparc-solaris.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/libsigar-sparc64-solaris.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/libsigar-universal-macosx.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/libsigar-universal64-macosx.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/libsigar-x86-freebsd-5.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/libsigar-x86-freebsd-6.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/libsigar-x86-linux.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/libsigar-x86-solaris.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/sigar-1.6.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/sigar-amd64-winnt.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/sigar-x86-winnt.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/sigar/sigar-x86-winnt.lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/lib/spatial4j-0.4.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error504.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/fos_elastica.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/NOTICE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/README.textile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/bin/elasticsearch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/bin/elasticsearch.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/bin/elasticsearch.in.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/bin/elasticsearch.in.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/bin/plugin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/bin/plugin.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/bin/service.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/config/elasticsearch.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/config/logging.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/logs/elasticsearch.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/logs/elasticsearch_index_indexing_slowlog.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-1.7.3/logs/elasticsearch_index_search_slowlog.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/search.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.lock" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Alexis_2.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Alexis_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/radioTech.iml" afterPath="$PROJECT_DIR$/.idea/radioTech.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Readme.md" afterPath="$PROJECT_DIR$/doc/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Controller/CategoryController.php" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Controller/CategoryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/category/category.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/category/category.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/header_top.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/header_top.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/UserBundle/Controller/RegistrationController.php" afterPath="$PROJECT_DIR$/src/RTech/UserBundle/Controller/RegistrationController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Profile/show.html.twig" afterPath="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Profile/show.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/css/style.css" afterPath="$PROJECT_DIR$/web/bundles/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/js/jsperso.js" afterPath="$PROJECT_DIR$/web/bundles/public/js/jsperso.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/index.html.twig" afterPath="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/easyadmin/javascript/easyadmin-all.min.js" afterPath="$PROJECT_DIR$/web/bundles/easyadmin/javascript/easyadmin-all.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/easyadmin/javascript/easyadmin.js" afterPath="$PROJECT_DIR$/web/bundles/easyadmin/javascript/easyadmin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/easyadmin/javascript/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/web/bundles/easyadmin/javascript/jquery.slimscroll.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/easyadmin/stylesheet/easyadmin-all.min.css" afterPath="$PROJECT_DIR$/web/bundles/easyadmin/stylesheet/easyadmin-all.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/easyadmin/stylesheet/select2-bootstrap.min.css" afterPath="$PROJECT_DIR$/web/bundles/easyadmin/stylesheet/select2-bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/public/js/radiotech.js" afterPath="$PROJECT_DIR$/web/bundles/public/js/radiotech.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.php" afterPath="$PROJECT_DIR$/web/config.php" />
     </list>
     <ignored path="radioTech.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -157,84 +177,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MediaController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php">
+      <file leaf-file-name="category_list.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/category_list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
-              <folding>
-                <element signature="e#45#80#0#PHP" expanded="true" />
-                <element signature="e#506#842#0#PHP" expanded="true" />
-                <element signature="e#613#635#1#PHP" expanded="true" />
-                <element signature="e#750#788#0#PHP" expanded="true" />
-                <element signature="e#2565#2606#0#PHP" expanded="true" />
-                <element signature="e#2743#3104#0#PHP" expanded="true" />
-                <element signature="e#2958#2980#1#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediaType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Form/MediaType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-              <folding>
-                <element signature="e#531#910#0#PHP" expanded="true" />
-                <element signature="e#976#1156#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addMedia.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Profile/show.html.twig">
+      <file leaf-file-name="media.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Default/media.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="radiotech.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/bundles/public/js/radiotech.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/CategoryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-55">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-              <folding>
-                <element signature="e#290#617#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -243,11 +200,69 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1526">
-              <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-              <folding>
-                <element signature="e#13#45#0#Twig" expanded="true" />
-              </folding>
+            <state relative-caret-position="1479">
+              <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addMedia.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2448">
+              <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/category.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show_content.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Profile/show_content.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Profile/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -255,8 +270,8 @@
       <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+            <state relative-caret-position="697">
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -274,18 +289,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="s doctrine:generate:entities RTechAppBundle:Media" />
-      <command text="c install " />
-      <command text="s doctrine:schema:update --force" />
-      <command text="s doctrine:database:drop --force" />
-      <command text="s doctrine:database:create" />
-      <command text="s doctrine:schema:create" />
-      <command text="s doctrine:schema:update --force" />
-      <command text="c install " />
-      <command text="s cache:clear" />
-      <command text="s assets:install " />
-      <command text="s cache:clear" />
-      <command text="s cache:clear --env=prod" />
       <command text="s cache:clear  --env=prod" />
       <command text="c global require fabpot/php-cs-fixer" />
       <command text="c require friendsofphp/php-cs-fixer" />
@@ -299,6 +302,18 @@
       <command text="s doctrine:schema:update" />
       <command text="s doctrine:schema:update --dump-sql " />
       <command text="s doctrine:schema:update --force " />
+      <command text="c require friendsofsymfony/elastica-bundle" />
+      <command text="c require friendsofsymfony/elastica-bundle  dev-master" />
+      <command text="c require friendsofsymfony/elastica-bundle  @dev-master" />
+      <command text="c require friendsofsymfony/elastica-bundle :dev-master" />
+      <command text="c require friendsofsymfony/elastica-bundle  &quot;dev-master&quot;" />
+      <command text="c install " />
+      <command text="s " />
+      <command text="s lint:yaml app/config/config.yml" />
+      <command text="s " />
+      <command text="s fos:elastica:populate" />
+      <command text="s lint:yaml app/config/fos_elastica.yml" />
+      <command text="s fos:elastica:populate" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -307,23 +322,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/RTech/AppBundle/DataFixtures/ORM/LoadMediaData.php" />
-        <option value="$PROJECT_DIR$/src/RTech/UserBundle/Form/Type/UserType.php" />
-        <option value="$PROJECT_DIR$/src/RTech/UserBundle/Controller/ProfileController.php" />
-        <option value="$PROJECT_DIR$/src/RTech/UserBundle/Form/Type/ProfileFormType.php" />
-        <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Profile/show_content.html.twig" />
-        <option value="$PROJECT_DIR$/src/RTech/UserBundle/Controller/ContactController.php" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Contact/index.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/header_middle.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/category_list.html.twig" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/category.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Category.php" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/footer.html.twig" />
-        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php" />
         <option value="$PROJECT_DIR$/web/bundles/public/js/points.js" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Profile/edit.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Profile/edit_content.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Form/Type/RegistrationFormType.php" />
@@ -335,28 +341,37 @@
         <option value="$PROJECT_DIR$/web/bundles/public/css/style.css" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/config/services.yml" />
-        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/index.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/translations/messages.es.yml" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/translations/FOSUserBundle.es.yml" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/show.html.twig" />
         <option value="$PROJECT_DIR$/doc/Readme.md" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Controller/RegistrationController.php" />
-        <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/public/js/jsperso.js" />
-        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/header_top.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Form/MediaType.php" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Controller/CategoryController.php" />
-        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Profile/show.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
+        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/header_top.html.twig" />
+        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/category.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/public/js/radiotech.js" />
+        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php" />
+        <option value="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error.html.twig" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml.dist" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/app/config/fos_elastica.yml" />
+        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/search.html.twig" />
         <option value="$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php" />
       </list>
     </option>
@@ -369,7 +384,7 @@
   </component>
   <component name="PhpServers">
     <servers>
-      <server host="localhost/radioTech/web" id="ec49e772-a952-41cc-950a-e47ccb14bceb" name="Localhost" use_path_mappings="true">
+      <server host="127.0.0.1" id="ec49e772-a952-41cc-950a-e47ccb14bceb" name="Localhost" use_path_mappings="true">
         <path_mappings>
           <mapping local-root="$PROJECT_DIR$" remote-root="C:/wamp/www/radioTech" />
           <mapping local-root="$PROJECT_DIR$/web" remote-root="C:/wamp/www/radioTech/web" />
@@ -413,8 +428,6 @@
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
       <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
-      <path value="$PROJECT_DIR$/vendor/egeloen/ckeditor-bundle" />
-      <path value="$PROJECT_DIR$/vendor/egeloen/json-builder" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
@@ -427,13 +440,14 @@
       <path value="$PROJECT_DIR$/vendor/jms/i18n-routing-bundle" />
       <path value="$PROJECT_DIR$/vendor/jms/translation-bundle" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/ruflin/elastica" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/elastica-bundle" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -481,7 +495,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1022,6 +1035,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="radioTech" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="radioTech" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTech" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Form" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -1088,7 +1127,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
+              <option name="myItemId" value="elasticsearch-5.0.0" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1099,6 +1138,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="radioTech" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-5.0.0" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1140,25 +1183,26 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pylos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="php.override.implement.member.chooser.php.doc" value="DEFAULT" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\radioTech\app\Resources\TwigBundle\views\Exception" />
       <recent name="C:\wamp\www\radioTech\web\bundles\public\js" />
       <recent name="C:\wamp\www\radioTech\doc\BDD" />
       <recent name="C:\wamp\www\radioTech\doc" />
       <recent name="C:\wamp\www\radioTech\src\RTech\AppBundle\Controller" />
-      <recent name="C:\wamp\www\radioTech\src\RTech\UserBundle\Resources\views\Contact" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\radioTech\web\bundles\public" />
@@ -1203,15 +1247,11 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="PHP  Remote Debug" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="Localhost" session_id="PHPSTORM">
+    <configuration default="false" name="PHP  Remote Debug" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" activateToolWindowBeforeRun="false" server_name="Localhost" session_id="PHPSTORM">
       <method />
     </configuration>
-    <configuration default="false" name="XDEBUG" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Localhost">
-      <method />
-    </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="PHP Remote Debug.PHP  Remote Debug" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Web Application.XDEBUG" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -1241,12 +1281,17 @@
       <workItem from="1464420498669" duration="17481000" />
       <workItem from="1465888782639" duration="134000" />
       <workItem from="1466003121004" duration="19856000" />
-      <workItem from="1466322475466" duration="19803000" />
+      <workItem from="1466322475466" duration="82179000" />
+      <workItem from="1468829507806" duration="192000" />
+      <workItem from="1468829853485" duration="659000" />
+      <workItem from="1468831819497" duration="378000" />
+      <workItem from="1468992035662" duration="4343000" />
+      <workItem from="1469598209965" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278951000" />
+    <option name="totallyTimeSpent" value="346913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1258,27 +1303,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25945538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30152673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992566" sideWeight="0.5086114" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992566" sideWeight="0.4913886" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992566" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0016366612" sideWeight="0.54628634" order="10" side_tool="false" content_ui="tabs" x="-23" y="493" width="1858" height="362" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5826514" sideWeight="0.54628634" order="10" side_tool="false" content_ui="tabs" x="-23" y="493" width="1858" height="362" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992566" sideWeight="0.4913886" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1294,266 +1339,65 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php</url>
-          <line>40</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Controller/AdminController.php">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/JsonResponse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3740">
-          <caret line="262" column="34" selection-start-line="262" selection-start-column="34" selection-end-line="262" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/data_collector/easyadmin.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/translations/messages.fr.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/translations/messages.es.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/translations/FOSUserBundle.es.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/BDD/radiotech.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="37" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/ContactController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/category.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#44#0#Twig" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/category_list.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="107" column="48" selection-start-line="105" selection-start-column="42" selection-end-line="107" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-          <folding>
-            <element signature="e#13#45#0#Twig" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Default/media.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="-204">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="377">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Controller/SecurityController.php">
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/header_top.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#635#2473#0#PHP" expanded="false" />
-            <element signature="e#2762#2898#0#PHP" expanded="false" />
-            <element signature="e#2841#2883#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="149">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/HomeController.php">
+    <entry file="file://$PROJECT_DIR$/web/bundles/public/js/radiotech.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="e#247#360#0#PHP" expanded="true" />
-            <element signature="e#312#352#1#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="-114">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Controller/RegistrationController.php">
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/SecurityController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-          <folding>
-            <element signature="e#47#80#0#PHP" expanded="false" />
-            <element signature="e#2298#2347#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="625">
+          <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Category.php">
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/ProfileController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="13">
+          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Contact/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#45#0#Twig" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php">
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/RegistrationController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="e#327#3374#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#106#271#0#PHP" expanded="false" />
-            <element signature="e#155#269#0#PHP" expanded="false" />
-          </folding>
+          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/Readme.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="527">
+          <first_editor relative-caret-position="494">
             <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1562,50 +1406,297 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/public/sass/solene.scss">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.atom.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/public/sass/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/public/sass/style.css">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.atom.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/public/sass/bootstrap.scss">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.xml.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/footer.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/public/js/jsperso.js">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/jms/i18n-routing-bundle/JMS/I18nRoutingBundle/Tests/Router/Fixture/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error504.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="369" column="6" selection-start-line="369" selection-start-column="6" selection-end-line="369" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/elastica-bundle/Elastica/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ruflin/elastica/lib/Elastica/Query/AbstractQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ruflin/elastica/lib/Elastica/Param.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ruflin/elastica/lib/Elastica/ArrayableInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1576">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ruflin/elastica/lib/Elastica/Query/MatchAll.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/fos_elastica.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="105" selection-start-line="26" selection-start-column="105" selection-end-line="26" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ruflin/elastica/lib/Elastica/Query/Match.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Entity/Media.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Repository/CategoryRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="153" column="50" selection-start-line="153" selection-start-column="50" selection-end-line="153" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/search.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Contact/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-970">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/category_list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Default/media.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Category/category.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1613,133 +1704,16 @@
     <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Profile/show_content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/compoments/header_top.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
-          <folding>
-            <element signature="e#1811#1855#0#Twig" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3283">
-          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
-          <folding>
-            <element signature="e#22866#23096#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Controller/ProfileController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#959#999#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Form/MediaType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-          <folding>
-            <element signature="e#531#910#0#PHP" expanded="true" />
-            <element signature="e#976#1156#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1526">
-          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#45#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <element signature="e#290#617#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RTech/UserBundle/Resources/views/Profile/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="391">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Resources/views/media/addMedia.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bin/php/php5.5.12/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="1940" column="7" selection-start-line="1940" selection-start-column="2" selection-end-line="1940" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/public/js/radiotech.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTech/AppBundle/Controller/MediaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
-          <folding>
-            <element signature="e#45#80#0#PHP" expanded="true" />
-            <element signature="e#506#842#0#PHP" expanded="true" />
-            <element signature="e#613#635#1#PHP" expanded="true" />
-            <element signature="e#750#788#0#PHP" expanded="true" />
-            <element signature="e#2565#2606#0#PHP" expanded="true" />
-            <element signature="e#2743#3104#0#PHP" expanded="true" />
-            <element signature="e#2958#2980#1#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

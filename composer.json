@@ -27,7 +27,10 @@
         "javiereguiluz/easyadmin-bundle": "^1.13",
         "stof/doctrine-extensions-bundle": "^1.2",
         "jms/i18n-routing-bundle": "^2.0",
-        "jms/translation-bundle": "^1.2"
+        "jms/translation-bundle": "^1.2",
+
+        "friendsofsymfony/elastica-bundle":"dev-master",
+        "pagerfanta/pagerfanta": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",

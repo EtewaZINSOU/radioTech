@@ -193,5 +193,13 @@ class Media
         return $this->category;
     }
 
-    
+    /**
+     *
+     */
+    function __toString()
+    {
+       return $this->getTitle();
+    }
+
+
 }

@@ -9,6 +9,10 @@ r_tech_media:
     defaults: { _controller: "RTechAppBundle:Media:addMedia" }
 
 
+r_tech_search:
+    path: /search/{querystring}
+    defaults: { _controller: "RTechAppBundle:Media:searchMedia" }
+
 r_tech_media_delete:
     path: /delete/{id}
     defaults: { _controller: "RTechAppBundle:Media:delete" }

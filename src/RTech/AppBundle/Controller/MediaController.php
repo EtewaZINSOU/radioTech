@@ -1,6 +1,10 @@
 <?php
 namespace RTech\AppBundle\Controller;
 
+use Elastica\Query;
+use Elastica\Query\BoolQuery;
+use Elastica\Query\Match;
+use Elastica\Query\MatchAll;
 use RTech\AppBundle\Form\MediaType;
 use RTech\AppBundle\Entity\Media;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
@@ -21,13 +25,46 @@ class MediaController extends Controller
 		$media = $em->getRepository('RTechAppBundle:Media');
 
 		$medias = $media->findBy(['user' => $this->getUser()]);
-		$user = $this->getUser();
 
 
 		return $this->render('RTechAppBundle:media:index.html.twig', [
 			'medias' => $medias,
-			'user' =>$user
+			'user' => $this->getUser()
 		]);
+	}
+
+	/**
+	 * @param $querystring
+	 * @return \Symfony\Component\HttpFoundation\Response
+	 */
+	public function searchMediaAction($querystring)
+	{
+		$finder = $this->container->get('fos_elastica.finder.rtech.media');
+
+		if (!empty($querystring)) {
+			$boolQuery = new BoolQuery();
+			$fieldQuery = new Match();
+			dump($fieldQuery);
+			$fieldQuery->setFieldQuery('name', $querystring);
+			$boolQuery->addShould($fieldQuery);
+		}
+		else {
+			$boolQuery = new MatchAll();
+		}
+
+
+		$data = $finder->find($boolQuery);
+
+		//$result = $data->getResults();
+dump($data);
+
+
+		return $this->render('RTechAppBundle:media:search.html.twig', [
+			'querystring' => $querystring,
+			'data' => $data,
+			//'resultat' => $result
+		]);
+
 	}
 
 	/**
@@ -41,15 +78,11 @@ class MediaController extends Controller
 		$media = new Media();
 		$form = $this->createForm(MediaType::class, $media);
 
-		//dump($form->getErrors());
-
 		// 2) handle the submit (will only happen on POST)
 		$form->handleRequest($request);
 
-		//dump($request->isXmlHttpRequest());
+		if($request->isXmlHttpRequest()){
 
-		//if($request->isXmlHttpRequest()){
-			dump($form->isSubmitted(),$form);
 			if ($form->isSubmitted() && $form->isValid()) {
 
 				// $file stores the uploaded PDF file
@@ -75,16 +108,30 @@ class MediaController extends Controller
 				$em->persist($media);
 				$em->flush();
 
-				$response = new JsonResponse();
-				$response->setStatusCode(200);
-				//ajout de données éventuelles
-				$response->setData(array(
-					'successMessage' => "Votre message a bien été envoyé pommmm"));
-				return $response;
+				$mediaModal = $this->render('RTechAppBundle:media:addMedia.html.twig', [
+						'form' => $form->createView(),
+					])->getContent();
 
-				//return $this->redirectToRoute('fos_user_profile_show');
+				// add flash messages
+
+				$this->addFlash(
+					'successMessage',
+					'Votre message a bien été envoyé'
+				);
+
+				$response = new JsonResponse();
+
+				$response->setStatusCode(200);
+
+
+				$response->setData([
+					'data'=> 'Votre son a bien été ajouté',
+					'media' => $mediaModal
+				]);
+
+				return $response;
 			}
-		//}
+		}
 
 		return $this->render(
 			'RTechAppBundle:media:addMedia.html.twig',
@@ -95,27 +142,28 @@ class MediaController extends Controller
 	}
 
 
-
 	/**
-	 * @param Request $request
-	 * @param $id
-	 * @return JsonResponse
+	 * @param Media $media
+	 * @return \Symfony\Component\HttpFoundation\RedirectResponse
 	 */
-	public function deleteAction(Request $request, $id)
+	public function deleteAction(Media $media)
 	{
+		$this->denyAccessUnlessGranted('ROLE_USER', null, 'Unable to access this page!');
 
-			if (!$id) {
-				return new JsonResponse(array('data' => 'id not found'));
+
+		if($this->getUser() != $media->getUser()){
+			throw $this->createNotFoundException("You don't authorized to delete this media");
+		}else{
+			if (!$media) {
+				throw $this->createNotFoundException('No media found for id '.$media );
 			}
 
 			$em = $this->getDoctrine()->getManager();
-			$media = $em->getRepository('RTechAppBundle:Media')->find($id);
 			$em->remove($media);
 			$em->flush();
 
 			return $this->redirectToRoute('fos_user_profile_show');
-		
-		
+		}
 
 	}
 }

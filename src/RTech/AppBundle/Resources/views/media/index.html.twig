@@ -32,6 +32,13 @@
                   </div>
 
                   <div class="col-md-9 col-md-offset-3" id="contentCat">
+                        <div class="row">
+                              {% for flash_message in app.session.flashBag.get('successMessage') %}
+                                    <div class="col-md-9" style="color: white">
+                                          {{ flash_message }}
+                                    </div>
+                              {% endfor %}
+                        </div>
                         <div id="blocUser">
                               <div class="col-sm-9">
                                     <div class="col-xs-5">

@@ -1,0 +1,44 @@
+fos_elastica:
+    clients:
+        default: { host: "%elastic_host%", port: "%elastic_port%" }
+    indexes:
+        rtech:
+            client: default
+            settings:
+                index:
+                    analysis:
+                        analyzer:
+                            custom_french_analyzer:
+                                type: custom
+                                tokenizer: keyword
+                                filter: ["asciifolding", "lowercase", "french_stem", "stop_fr"]
+                        filter:
+                            stop_fr:
+                                type: "stop"
+                                stopwords: ["l", "m", "t", "qu", "n", "s", "j", "d"]
+            types:
+                media:
+                    mappings:
+                        category:
+                            type: object
+                            properties:
+                                id:
+                                    type: integer
+                                categoryName: { type: "string",analyzer: custom_french_analyzer, boost: 2}
+                                medias:
+                                    type: object
+                                    properties:
+                                        id:
+                                            type: integer
+                                            Title: { type: "string",analyzer: custom_french_analyzer, boost: 4}
+
+                    persistence:
+                         # the driver can be orm, mongodb, phpcr or propel
+                         # listener and finder are not supported by
+                         # propel and should be removed
+                         driver: orm
+                         model: RTech\AppBundle\Entity\Media
+                         provider: ~
+                         listener:
+                             immediate: ~
+                         finder: ~
